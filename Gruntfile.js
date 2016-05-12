@@ -114,7 +114,7 @@ module.exports = function (grunt) {
         files: [{
           dot: true,
           src: [
-            '<%= yeoman.dist %>/*'          
+            '<%= yeoman.dist %>/*'
           ]
         }]
       },
@@ -509,8 +509,8 @@ module.exports = function (grunt) {
     'connect:serve',
     'jshint:all',
     'jscs',
-    'link-checker',
-    'htmllint'
+    'link-checker'
+    // 'htmllint'
   ]);
 
   //grunt.registerTask('check', [
