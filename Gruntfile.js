@@ -16,8 +16,8 @@ module.exports = function (grunt) {
   var BRANCH_KEY = 'local_branch';
   var TEST_PORT = grunt.option('testPort') || 8000;
   var CONFIG = {
-    owner: 'maidsafe',
-    repo: 'maidsafe.gitlab.io',
+    owner: 'krishna90919',
+    repo: 'krishna90919.gitlab.io',
     baseBranch: 'master',
     deployBranch: 'master'
   };
@@ -114,11 +114,7 @@ module.exports = function (grunt) {
         files: [{
           dot: true,
           src: [
-            '<%= yeoman.dist %>/*',
-            // Running Jekyll also cleans the target directory.  Exclude any
-            // non-standard `keep_files` here (e.g., the generated files
-            // directory from Jekyll Picture Tag).
-            '!<%= yeoman.dist %>/.git*'
+            '<%= yeoman.dist %>/*'          
           ]
         }]
       },
@@ -267,6 +263,16 @@ module.exports = function (grunt) {
             // Copy css imports from _bower_components.
             // 'Open Sans fonts to dist/css folder'
             'fonts/**/*'
+          ],
+          dest: '<%= yeoman.dist %>/'
+        },
+        {
+          expand: true,
+          dot: true,
+          src: [
+            // Copy css imports from _bower_components.
+            // 'Open Sans fonts to dist/css folder'
+            '.gitlab-ci.yml'
           ],
           dest: '<%= yeoman.dist %>/'
         }]

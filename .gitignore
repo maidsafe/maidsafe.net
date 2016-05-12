@@ -34,3 +34,4 @@ node_modules
 /.jekyll
 /.tmp
 app/_bower_components
+/dist
