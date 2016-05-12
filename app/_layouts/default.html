@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="icon" property='stylesheet' type="image/ico" href="../img/favicon.ico" />
+
+    {% include vendor.html %}
+    {% include app_css.html %}
+</head>
+<body>
+{{ content }}
+{% include google_analytics.html %}
+</body>
+</html>

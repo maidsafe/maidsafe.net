@@ -1,6 +1,7 @@
-# maidsafe.net
+maidsafe.github.io [![Build Status](https://travis-ci.org/maidsafe/maidsafe.github.io.svg?branch=next)](https://travis-ci.org/maidsafe/maidsafe.github.io)
+==================
 
-Repository for [Maidsafe.net](http://maidsafe.net/) website.
+Repository for [Maidsafe.net](http://maidsafe.net/) website. 
 
 ## Update Instructions
 
