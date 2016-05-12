@@ -2,11 +2,16 @@
 
 var INTRO_VIDEO_SRC = 'https://www.youtube.com/embed/bXOaxjvefGc';
 var updateHeader = function() {
-  if (window.scrollY > 0) {
+  var supportPageOffset = window.pageXOffset !== undefined;
+  var isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
+  var y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop :
+    document.body.scrollTop;
+  if (y > 0) {
     $('header').addClass('invert onScroll');
     $('#site-logo').addClass('invert');
     $('#secNav').addClass('invert');
     $('#secNavButton').addClass('invert');
+    $('#alphaBtn').addClass('invert');
     return;
   }
   $('header').removeClass('onScroll');
@@ -18,28 +23,38 @@ var updateHeader = function() {
 
   $('#secNav').removeClass('invert');
   $('#secNavButton').removeClass('invert');
+  $('#alphaBtn').removeClass('invert');
+};
+
+var setActiveNav = function() {
+  var pNav = $('.primary-nav');
+  var pNavChildren = pNav.children();
+  pNavChildren.removeClass('active');
+  for (var i = 0; i < pNavChildren.length; i++) {
+    var hash = $(pNavChildren[i]).children('a').attr('href');
+    if (!hash) {
+      return;
+    }
+    hash = hash.split('/');
+    hash = hash[hash.length - 1];
+    var path = window.location.pathname.split('/');
+    path = path[path.length - 1];
+    if (path === 'alpha_release.html') {
+      $('#alphaBtn').removeClass();
+    }
+    if (hash && hash === path) {
+      return $(pNavChildren[i]).addClass('active');
+    }
+  }
 };
 
 var showMobPrimaryNav = function() {
-  $('#secNavButton').on('click', function() {
-    var target = $('#secNav');
-    var temp = window.location.pathname.split('/');
-    temp = temp[temp.length - 1];
-    if (window.invertedHeader) {
-      $(this).addClass('invert');
-      target.addClass('invert');
-    }
-    if ($(this).hasClass('selected')) {
-      $(this).removeClass('selected');
-    } else {
-      $(this).addClass('selected');
-    }
-
-    if (target.hasClass('show')) {
-      target.removeClass('show');
-      return;
-    }
-    target.addClass('show');
+  $('#navDropdown > a').on('click', function(e) {
+    e.preventDefault();
+    $(this).parent().toggleClass('open');
+  });
+  $('#navDropdown .nav-dropdown-b > li a').on('click', function(e) {
+    $('#navDropdown').toggleClass('open');
   });
 };
 
@@ -93,7 +108,7 @@ var loadTeamBanner = function() {
   for (var key in teamArr) {
     if (teamArr[key]) {
       teamImgItem = '<div class="team-img-i"><img height="' + teamImgItemHg + '" src="' +
-          teamArr[key] + '" alt="' + key + '" title="' + key + '"></div>';
+        teamArr[key] + '" alt="' + key + '" title="' + key + '"></div>';
       teamImg.append(teamImgItem);
     }
   }
@@ -119,8 +134,8 @@ var accordian = function() {
  * Typing effecting
  */
 var typingEffect = function() {
-  var typeString = [ 'a secure', 'a free' ];
-  var  i = 0;
+  var typeString = ['a secure', 'a free'];
+  var i = 0;
   var count = 0;
   var selectedText = '';
   var text = '';
@@ -165,6 +180,7 @@ $(function() {
   typingEffect();
   accordian();
   showMobPrimaryNav();
+  setActiveNav();
   loadTeamBanner();
 
   // Intro video
