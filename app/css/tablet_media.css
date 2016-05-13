@@ -1,5 +1,18 @@
 /* Media Less than 830px  */
 @media screen and (min-width: 512px) and (max-width: 829px) {
+  .media-lnks {
+    width: 480px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .media-lnks .media-lnks-b .media-lnks-i {
+    width: 50%;
+  }
+
+  .media-lnks .media-lnks-b .media-lnks-i a {
+    display: block;
+    margin: 0 auto;
+  }
   /* primary nav */
   .primary-nav .primary-nav-b > li:not(.nav-dropdown) {
     display: none;

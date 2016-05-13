@@ -5,6 +5,20 @@
     padding: 0;
   }
   /* #Common */
+  .media-lnks {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .media-lnks .media-lnks-b .media-lnks-i {
+    width: 50%;
+  }
+
+  .media-lnks .media-lnks-b .media-lnks-i a {
+    display: block;
+    margin: 0 auto;
+  }
+  
   /* primary nav */
   .primary-nav .primary-nav-b > li:not(.nav-dropdown) {
     display: none;
@@ -430,7 +444,7 @@
     padding: 0 16px;
     border-color: transparent;
   }
-  
+
   .al-banner-cont {
     width: 100%;
     padding: 0 16px;
