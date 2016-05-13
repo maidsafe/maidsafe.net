@@ -15,10 +15,12 @@
   }
 
   .media-lnks .media-lnks-b .media-lnks-i a {
+    width: 100%;
     display: block;
     margin: 0 auto;
+    background-size: 1000px;
   }
-  
+
   /* primary nav */
   .primary-nav .primary-nav-b > li:not(.nav-dropdown) {
     display: none;

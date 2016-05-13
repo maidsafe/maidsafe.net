@@ -10,6 +10,9 @@
   .post-1 {
     width: 1170px;
   }
+  .post-1 .media {
+    width: 585px;
+  }
   .post-1 .media img  {
     width: 80%;
     margin: 0 auto;
@@ -18,18 +21,9 @@
     width: 585px;
     text-align: left;
   }
-  .post-1 .content .title {
-    margin-top: 80px;
-    font-size: 44px;
-    line-height: 59px;
-  }
   .post-1 .content .p {
     font-size: 20px;
     line-height: 27px;
-  }
-
-  .post-1 .foot {
-    margin-bottom: 40px;
   }
 
   .post-1.spacing-top {
@@ -122,12 +116,6 @@
   .layout-1 .rsec {
     width: 240px;
   }
-
-  /* Post 2 */
-  .post-2:last-child {
-    padding-bottom: 120px;
-  }
-  /* /Post 2 */
 
   #main-wrapper {
     position: static;

@@ -77,7 +77,7 @@ a, a:hover {
 }
 
 .al-btn.invert:hover {
-  background-color: #FFF !important;
+  background-color: transparent !important;
   color: #5592d7 !important;
 }
 
@@ -107,6 +107,7 @@ a, a:hover {
 
 /* Media links */
 .media-lnks {
+  display: none;
   width: 960px;
   margin: 0 auto;
   padding-top: 50px;
@@ -585,7 +586,7 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
   z-index: 99;
 }
 
@@ -611,16 +612,6 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 }
 
 .home-bnr .home-bnr-b .video-lnk a {
-  padding: 5px 12px;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 30px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  background-color: #5593d7;
-  border-radius: 5px;
   display: inline-block;
 }
 
@@ -629,10 +620,11 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 }
 
 .home-bnr .home-bnr-b .video-lnk a .icon {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   display: inline-block;
   margin-left: 8px;
+  margin-top: 2.5px;
   float: left;
 }
 
@@ -660,6 +652,10 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
   line-height: 27px;
   text-align: left;
 }
+
+.home-bnr .lnk-btn {
+  margin-top: 30px;
+}
 /* #Home Banner */
 
 /* Post 1 */
@@ -670,10 +666,6 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
   display: table;
   position: relative;
   margin-top: 100px;
-}
-
-.post-1.first-post {
-  margin-top: 50px;
 }
 
 .post-1 .media {
@@ -687,6 +679,8 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 
 .post-1 .media img {
   height: 360px;
+  padding-left: 50px;
+  padding-right: 0;
 }
 
 .post-1 .content {
@@ -723,12 +717,13 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 }
 
 .post-1 .foot {
-  margin: 40px 0 0;
+  margin: 30px 0 0;
   text-align: center;
 }
 
 .post-1.flip .media {
-  text-align: right;
+  padding-left: 0;
+  padding-right: 50px;
 }
 /* #Post 1 */
 
@@ -827,12 +822,12 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 
 .banner-gradian:after {
   content: "";
-  z-index: 1;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: 100%;
+  max-height: 600px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
   background: -moz-linear-gradient(bottom, rgba(33,57,87, 0.9) 0%, rgba(33,57,87, 0)  100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(33,57,87, 0.9)), color-stop(100%,rgba(33,57,87, 0))); /* Chrome,Safari4+ */
@@ -841,6 +836,7 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
   background: -ms-linear-gradient(top, rgba(33,57,87, 0.9) 0%, rgba(33,57,87, 0) 100%); /* IE10+ */
   background: linear-gradient(to top, rgba(33,57,87, 0.9) 0%, rgba(33,57,87, 0) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */
+  z-index: 1;
 }
 /* #Banner Gradient */
 
@@ -1439,7 +1435,7 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 .post-2 .post-2-content {
   width: 480px;
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
   color: #606060;
 }
 
