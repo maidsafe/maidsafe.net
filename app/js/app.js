@@ -27,7 +27,7 @@ var updateHeader = function() {
 };
 
 var setActiveNav = function() {
-  var pNav = $('.primary-nav');
+  var pNav = $('.primary-nav .primary-nav-b');
   var pNavChildren = pNav.children();
   pNavChildren.removeClass('active');
   for (var i = 0; i < pNavChildren.length; i++) {
@@ -88,21 +88,21 @@ var loadTeamBanner = function() {
   }
   var teamArr = {
     'Adam': './img/team/adam.JPG',
+    'Andreas': './img/team/Andreas.jpg',
     'Andrew': './img/team/andrew.jpg',
     'David': './img/team/david.jpg',
-    'Viv': './img/team/viv.jpg',
-    'Andreas': './img/team/Andreas.jpg',
-    'Ross': './img/team/ross.jpg',
     'Fraser': './img/team/fraser.jpg',
+    'Krishna': './img/team/krishna.jpg',
     'Nick': './img/team/nick.jpg',
     'Paige': './img/team/paige.jpg',
-    'Shona': './img/team/shona.jpg',
-    'Vinicius': './img/team/vinicius.jpg',
-    'Spandan': './img/team/spandan.jpg',
-    'Scott': './img/team/scott.jpg',
     'Qi': './img/team/qi.jpg',
-    'Krishna': './img/team/krishna.jpg',
-    'Shankar': './img/team/Shankar.jpg'
+    'Ross': './img/team/ross.jpg',
+    'Scott': './img/team/scott.jpg',
+    'Shankar': './img/team/Shankar.jpg',
+    'Shona': './img/team/shona.jpg',
+    'Spandan': './img/team/spandan.jpg',
+    'Vinicius': './img/team/vinicius.jpg',
+    'Viv': './img/team/viv.jpg'
   };
   var teamImgItemHg = parseFloat(teamImgWidth / itemCount);
   for (var key in teamArr) {
@@ -112,7 +112,6 @@ var loadTeamBanner = function() {
       teamImg.append(teamImgItem);
     }
   }
-  teamImg.addClass('banner-gradian');
 };
 
 /**

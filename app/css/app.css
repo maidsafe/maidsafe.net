@@ -214,7 +214,7 @@ a, a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.primary-nav .primary-nav-b > li a.active {
+.primary-nav .primary-nav-b > li.active a {
   background-color: rgba(255, 255, 255, 0.1);
   border-color: #FFF;
 }
@@ -1472,77 +1472,51 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 .post-3 .post-3-cont {
   width: 100%;
   display: inline-block;
-  margin-top: -80px;
-  padding: 80px 0 120px;
+  margin: 0;
+  padding: 60px 0;
   background-color: #FFF;
   position: relative;
  }
-.post-3 .post-3-cont .post-3-top-shdw {
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  background-image: url("../img/post_gradient_top.png");
-  background-repeat: no-repeat;
-  background-size: 100% 32px;
-  background-position: 0 0;
-  position: absolute;
-  top: -32px;
-  left: 0;
-  z-index: -1;
-}
-
-.post-3 .post-3-cont .post-3-top-shdw:before {
-  content: '';
-  width: 32px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: -32px;
-  background-image: url("../img/post_gradient_side.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  z-index: -1;
-}
-.post-3 .post-3-cont .post-3-top-shdw:after {
-  content: '';
-  width: 32px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: -32px;
-  background-image: url("../img/post_gradient_side.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  z-index: -1;
-  transform: scaleX(-1);
-}
+ .post-3:last-child .post-3-cont {
+   padding-bottom: 0;
+ }
 .post-3 .post-3-cont .post-3-cont-i {
   width: 960px;
   display: inline-block;
 }
 .post-3 .post-3-cont h3 {
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 600;
+  text-align: left;
   margin: 0;
   padding: 0;
-  font-size: 49px;
-  line-height: 59px;
-  font-weight: 300;
-  color: #5593d7;
+  color: #606060;
 }
 .post-3 .post-3-cont p {
-  margin-top: 40px;
-  text-align: justify;
   font-size: 18px;
   line-height: 26px;
   font-weight: normal;
-  color: #808080;
+  padding: 20px 0 0;
+  margin: 0;
+  text-align: justify;
 }
-.post-3 .post-3-cont .qt {
+.post-3 .post-3-cont .ques {
   display: inline-block;
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 29px;
-  color: #808080;
-  margin-top: 80px;
+  color: #606060;
+  margin: 60px 0 0;
+}
+.post-3 .post-3-cont .ques span {
+  padding-right: 50px;
+}
+.post-3 .post-3-cont .ques button {
+  margin: 0;
+  border: 0;
+  outline: 0;
 }
 /* #Post 3 */
 
@@ -1550,6 +1524,10 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 .team-img {
   width: 100%;
   min-height: 150px;
+}
+.team-img:after {
+  content: '';
+  clear: both;
 }
 .team-img:after {
   z-index: 99;
