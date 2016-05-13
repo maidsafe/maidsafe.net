@@ -1,5 +1,11 @@
 /* Large Screens */
 @media only screen and (min-width: 1560px) {
+
+  .media-lnks {
+    width: 1170px;
+    margin: 0 auto;
+  }
+
   /* POST 1 */
   .post-1 {
     width: 1170px;

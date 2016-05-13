@@ -101,6 +101,62 @@ a, a:hover {
 }
 /* site logo */
 
+/* Media links */
+.media-lnks {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i {
+  width: 25%;
+  height: 80px;
+  display: inline-block;
+  float: left;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i a {
+  background-image: url(../img/third-party-logo/media_logos.svg);
+  background-size: 1180px;
+  display: block;
+  width: 200px;
+  height: 100%;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i.business-insider a {
+  background-position: 0 80px;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i.business-insider:hover a {
+  background-position: 0 0;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i.tech-crunch a {
+  background-position: -195px 80px;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i.tech-crunch:hover a {
+  background-position: -195px 0;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i.v3 a {
+  background-position: -392px 80px;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i.v3:hover a {
+  background-position: -392px 0;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i.tech-radar a {
+  background-position: -590px 80px;
+}
+
+.media-lnks .media-lnks-b .media-lnks-i.tech-radar:hover a {
+  background-position: -590px 0;
+}
+
+/* Media links */
+
 /* primary nav */
 .primary-nav {
   height: inherit;
