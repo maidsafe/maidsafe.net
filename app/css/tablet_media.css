@@ -202,57 +202,51 @@
     width: 50%;
   }
   /* #Footer */
+
   /* Content 1 */
   .content-1 {
     width: 480px;
-    padding: 80px 0;
-  }
-  .content-1 h3 {
-    font-size: 39px;
-    line-height: 49px;
-  }
-  .content-1 p {
-    font-size: 18px;
-    line-height: 22px;
   }
   /* #Content 1 */
+
   /* Post 2 */
   .post-2 {
     width: 480px;
-    padding: 80px 16px 0;
     display: block;
   }
-  .post-2:last-child {
-    padding-bottom: 80px;
+  .post-2 > .title {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    transform: translateX(0);
   }
   .post-2 .post-2-content {
     display: block;
     width: 100%;
   }
-  .post-2 .post-2-content h3 {
-    font-size: 29px;
-    line-height: 39px;
-    text-align: center;
-  }
+
   .post-2 .post-2-content p {
-    font-size: 18px;
-    line-height: 22px;
     text-align: justify;
   }
   .post-2 .post-2-media {
     display: block;
     width: 100%;
-    padding: 0 0 50px;
+    padding: 20px 0;
   }
   .post-2 .post-2-media img {
     margin: 0;
     padding: 0;
     width: auto;
   }
+  .post-2 .post-2-media iframe {
+    padding: 0;
+    margin: 0;
+  }
   .post-2.flip .post-2-content, .post-2.flip .post-2-media {
     transform: translateX(0);
   }
   /* #Post 2 */
+
   /* Team Img*/
   .team-img .team-img-i {
     width: 20%;

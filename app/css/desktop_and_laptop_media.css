@@ -50,11 +50,6 @@
   }
   /* #Box 3 */
 
-  /* Post 2 */
-  .post-2:last-child {
-    padding-bottom: 120px;
-  }
-  /* /Post 2 */
   #main-wrapper {
     position: static;
   }

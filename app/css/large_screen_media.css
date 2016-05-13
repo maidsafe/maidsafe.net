@@ -60,6 +60,10 @@
   .post-2 {
     width: 1170px;
   }
+  .post-2 > .title {
+    width: 585px;
+    transform: translateX(585px);
+  }
   .post-2 .post-2-media, .post-2 .post-2-content {
     width: 585px;
   }

@@ -619,7 +619,7 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 .post-1 .media {
   display: table-cell;
   vertical-align: middle;
-  width: 375px;
+  width: 480px;
   text-align: left;
   margin: 0;
   padding: 0;
@@ -632,7 +632,7 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 .post-1 .content {
   display: table-cell;
   vertical-align: middle;
-  width: 585px;
+  width: 480px;
   color: #808080;
 }
 
@@ -1252,11 +1252,9 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
   width: 960px;
   text-align: center;
   margin: 0 auto;
-  padding: 80px 0 120px;
+  padding: 60px 0 0;
 }
-.content-1.diff {
-  padding-bottom: 0;
-}
+
 .content-1 h3 {
   font-size: 49px;
   font-weight: 300;
@@ -1270,7 +1268,7 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
   font-size: 18px;
   line-height: 26px;
   font-weight: normal;
-  margin: 40px 0 0;
+  margin: 60px 0 0;
   color: #808080;
 }
 /* #Content 1 */
@@ -1337,8 +1335,7 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
 .post-2 {
   width: 960px;
   margin: 0 auto;
-  display: table;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 .post-2:after {
   content: "";
@@ -1346,36 +1343,59 @@ header.invert .nav-dropdown.open .nav-dropdown-b > li a:hover {
   display: block;
   visibility: hidden;
 }
+.post-2 .post-2-b {
+  display: table;
+}
+.post-2 > .title {
+  width: 480px;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 0 20px;
+  color: #606060;
+  transform: translateX(480px);
+}
 .post-2 .post-2-media {
   width: 480px;
   display: table-cell;
   vertical-align: middle;
 }
 .post-2 .post-2-media img {
-  width: 100%;
-  margin: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 300px;
+  margin: -84px 0 0;
   padding: 0 50px;
   display: block;
+}
+.post-2 .post-2-media iframe {
+  width: 100%;
+  padding: 0 50px 0 0;
+  margin: -84px 0 0;
+  height: 300px;
 }
 .post-2 .post-2-content {
   width: 480px;
   display: table-cell;
   vertical-align: middle;
+  color: #606060;
 }
-.post-2 .post-2-content h3 {
-  font-size: 32px;
-  line-height: 42px;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
-  color: #808080;
-}
+
 .post-2 .post-2-content p {
   font-size: 18px;
   line-height: 26px;
   font-weight: normal;
-  color: #808080;
   margin: 25px 0 0;
+}
+
+.post-2 .post-2-content p:first-child {
+  margin-top: 0;
+}
+
+.post-2.flip > .title {
+  transform: translateX(0);
 }
 .post-2.flip .post-2-content {
   transform: translateX(-100%);
