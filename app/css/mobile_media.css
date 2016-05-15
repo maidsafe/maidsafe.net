@@ -62,7 +62,7 @@
   }
 
   .page-banner.home-like {
-    height: 270px;
+    height: 260px;
   }
 
   /* #Page Banner */
@@ -309,16 +309,9 @@
     width: 100%;
     overflow: hidden;
   }
-  .post-3 .post-3-cont {
-    padding: 60px 0 120px;
-    margin-top: 0;
-  }
   .post-3 .post-3-cont .post-3-cont-i {
     width: 100%;
     padding: 0 16px;
-  }
-  .post-3 .post-3-cont p {
-    margin-top: 30px;
   }
   /* #Post 3 */
   /* Overlay */
@@ -451,4 +444,26 @@
     width: 100%;
     padding: 0 16px;
   }
+
+  /* list content */
+  .list-content .list-content-b {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .list-content .quote {
+    text-align: center;
+  }
+  .list-content .quote span, .list-content .quote button {
+    float: none;
+  }
+  .list-content .quote span {
+    display: block;
+    line-height: 24px;
+  }
+  .list-content .quote button {
+    margin-top: 20px;
+  }
+  /* list content */
 }

@@ -6,6 +6,13 @@
     margin: 0 auto;
   }
 
+  /* list content */
+  .list-content .list-content-b {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  /* list content */
+
   /* POST 1 */
   .post-1 {
     width: 1170px;
@@ -41,21 +48,6 @@
 
   /* #POST 1 */
 
-  /* MaidSafe Team Banner height changes */
-  .page-banner.maidsafe-team {
-    height: 550px;
-  }
-  /* #MaidSafe Team Banner height changes */
-  /* Footer */
-  .app-footer .app-footer-b {
-    width: 1170px;
-  }
-  /* #Footer */
-  /* Content 1 */
-  .content-1 {
-    width: 1170px;
-  }
-  /* #Content 1 */
   /* Post 2 */
   .post-2 {
     width: 1170px;
@@ -74,6 +66,25 @@
     padding: 0 50px 0 100px;
   }
   /* #Post 2 */
+
+  /* MaidSafe Team Banner height changes */
+  .page-banner.maidsafe-team {
+    height: 550px;
+  }
+  .page-banner.safe-pod {
+    height: 700px;
+  }
+  /* #MaidSafe Team Banner height changes */
+  /* Footer */
+  .app-footer .app-footer-b {
+    width: 1170px;
+  }
+  /* #Footer */
+  /* Content 1 */
+  .content-1 {
+    width: 1170px;
+  }
+  /* #Content 1 */
 
   /* Box 3 */
   .box-3 .box-3-i {

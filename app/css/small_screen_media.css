@@ -272,7 +272,8 @@
   /* #Content 3 */
   /* Post 3 */
   .post-3 {
-    width: 710px;
+    width: 100%;
+    overflow: hidden;
   }
   .post-3 .post-3-cont .post-3-cont-i {
     width: 585px;
@@ -350,4 +351,24 @@
   .al-content {
      width: 585px;
    }
+
+   /* list content */
+   .list-content .list-content-b {
+     width: 585px;
+     margin: 0 auto;
+   }
+   .list-content .quote {
+     text-align: center;
+   }
+   .list-content .quote span, .list-content .quote button {
+     float: none;
+   }
+   .list-content .quote span {
+     display: block;
+     line-height: 24px;
+   }
+   .list-content .quote button {
+     margin-top: 20px;
+   }
+   /* list content */
 }
