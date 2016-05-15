@@ -327,7 +327,8 @@
   /* Content 3 */
   .content-3 {
     width: 100%;
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   /* #Content 3 */
   .credits-logo {
@@ -464,6 +465,18 @@
   }
   .list-content .quote button {
     margin-top: 20px;
+  }
+  .list-content .tbl-view {
+    display: block;
+  }
+  .list-content .tbl-c {
+    display: block !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .list-content .tbl-c:not(:last-child) {
+    padding-bottom: 60px !important;
   }
   /* list content */
 }

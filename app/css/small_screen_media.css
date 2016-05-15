@@ -370,5 +370,17 @@
    .list-content .quote button {
      margin-top: 20px;
    }
+   .list-content .tbl-view {
+     display: block;
+   }
+   .list-content .tbl-c {
+     display: block !important;
+     border: none !important;
+     padding: 0 !important;
+     margin: 0 !important;
+   }
+   .list-content .tbl-c:not(:last-child) {
+     padding-bottom: 60px !important;
+   }
    /* list content */
 }
