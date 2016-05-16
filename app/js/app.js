@@ -6,6 +6,7 @@ var updateHeader = function() {
   var isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
   var y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop :
     document.body.scrollTop;
+  $('#navDropdown').removeClass('open');
   if (y > 0) {
     $('header').addClass('invert onScroll');
     $('#site-logo').addClass('invert');
@@ -54,7 +55,13 @@ var showMobPrimaryNav = function() {
     $(this).parent().toggleClass('open');
   });
   $('#navDropdown .nav-dropdown-b > li a').on('click', function(e) {
-    $('#navDropdown').toggleClass('open');
+    $('#navDropdown').parent().toggleClass('open');
+  });
+  $(document).on('mouseup', function(e) {
+    var listItems = $('#navDropdown > a');
+    if (!listItems.is(e.target) && listItems.has(e.target).length === 0) {
+      listItems.parent().removeClass('open');
+    }
   });
 };
 

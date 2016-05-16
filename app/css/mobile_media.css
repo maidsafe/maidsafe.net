@@ -313,6 +313,11 @@
     width: 100%;
     padding: 0 16px;
   }
+  .post-3 .post-3-cont .ques span {
+    display: block;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
   /* #Post 3 */
   /* Overlay */
   .overlay .overlay-cont {

@@ -278,6 +278,11 @@
   .post-3 .post-3-cont .post-3-cont-i {
     width: 585px;
   }
+  .post-3 .post-3-cont .ques span {
+    display: block;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
   /* #Post 3 */
   /* Roadmap */
   .roadmap {
@@ -382,6 +387,6 @@
    .list-content .tbl-c:not(:last-child) {
      padding-bottom: 60px !important;
    }
-   
+
    /* list content */
 }
