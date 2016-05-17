@@ -57,12 +57,6 @@ var showMobPrimaryNav = function() {
   $('#navDropdown .nav-dropdown-b > li a').on('click', function(e) {
     $('#navDropdown').parent().toggleClass('open');
   });
-  $(document).on('mouseup', function(e) {
-    var listItems = $('#navDropdown > a');
-    if (!listItems.is(e.target) && listItems.has(e.target).length === 0) {
-      listItems.parent().removeClass('open');
-    }
-  });
 };
 
 // Modal events
@@ -201,6 +195,22 @@ $(function() {
     e.stopPropagation();
     Modal.close();
     $('#IntroVideo').attr('src', 'about:blank');
+  });
+
+  $('.info').on('click', function(e) {
+    e.preventDefault();
+    $(this).toggleClass('open');
+  });
+
+  $(document).on('mouseup', function(e) {
+    var listItems = $('#navDropdown > a');
+    if (!listItems.is(e.target) && listItems.has(e.target).length === 0) {
+      listItems.parent().removeClass('open');
+    }
+    var infoItems = $('.info');
+    if (!infoItems.is(e.target) && infoItems.has(e.target).length === 0) {
+      infoItems.removeClass('open');
+    }
   });
 });
 

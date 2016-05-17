@@ -28,24 +28,6 @@
     width: 585px;
     text-align: left;
   }
-  .post-1 .content .p {
-    font-size: 20px;
-    line-height: 27px;
-  }
-
-  .post-1.spacing-top {
-    padding-top: 40px;
-  }
-
-  .post-1.spacing-bottom {
-    padding-bottom: 40px;
-  }
-
-  .post-1.spacing-top-bottom {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
   /* #POST 1 */
 
   /* Post 2 */
@@ -66,6 +48,12 @@
     padding: 0 50px 0 100px;
   }
   /* #Post 2 */
+
+  /* Post 3*/
+  .post-3 .post-3-cont .post-3-cont-i {
+    width: 1170px;
+  }
+  /* Post 3*/
 
   /* MaidSafe Team Banner height changes */
   .page-banner.maidsafe-team {
