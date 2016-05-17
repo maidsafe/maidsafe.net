@@ -4,6 +4,15 @@
   .wrapper {
     padding: 0;
   }
+  .location.map {
+    display: none;
+  }
+  .location.img {
+    display: block;
+  }
+  .location.img img {
+    width: 100%;
+  }
   /* #Common */
   .media-lnks {
     width: 100%;

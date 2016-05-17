@@ -26,6 +26,15 @@ a, a:hover {
   padding-bottom: 0;
 }
 
+.location {
+  width: 100%;
+  height: 250px;
+  margin-top: 60px;
+}
+.location.img {
+  display: none;
+}
+
 .primary-btn {
   display: inline-block;
   margin: 30px 0 0;
@@ -834,9 +843,12 @@ header.invert .nav-dropdown.open > a .icn {
   font-weight: 600;
   margin: 0;
   padding: 0 0 20px;
-  float: left;
   color: #606060;
+}
+
+.list-content .title.inline {
   display: inline-block;
+  float: left;
 }
 
 .list-content .p {
@@ -1838,40 +1850,40 @@ header.invert .nav-dropdown.open > a .icn {
   margin-top: 20px;
 }
 
-.content-3 .btn-list button .icn {
+.content-3 .btn-list .al-btn .icn {
   width: 20px;
   height: 20px;
   margin-right: 8px;
   display: inline-block;
 }
 
-.content-3 .btn-list button .icn {
+.content-3 .btn-list .al-btn .icn {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: -4px;
 }
 
-.content-3 .btn-list button:hover .icn.forum {
+.content-3 .btn-list .al-btn:hover .icn.forum {
   background-image: url(../img/forum_button_blue.svg);
 }
 
-.content-3 .btn-list button:hover .icn.slack {
+.content-3 .btn-list .al-btn:hover .icn.slack {
   background-image: url(../img/slack_button_blue.svg);
 }
 
-.content-3 .btn-list button:hover .icn.github {
+.content-3 .btn-list .al-btn:hover .icn.github {
   background-image: url(../img/github_button_blue.svg);
 }
 
-.content-3 .btn-list button .icn.forum, .content-3 .btn-list button:active .icn.forum {
+.content-3 .btn-list .al-btn .icn.forum, .content-3 .btn-list .al-btn:active .icn.forum {
   background-image: url(../img/forum_button.svg);
 }
 
-.content-3 .btn-list button .icn.slack, .content-3 .btn-list button:active .icn.slack {
+.content-3 .btn-list .al-btn .icn.slack, .content-3 .btn-list .al-btn:active .icn.slack {
   background-image: url(../img/slack_button.svg);
 }
 
-.content-3 .btn-list button .icn.github, .content-3 .btn-list button:active .icn.github {
+.content-3 .btn-list .al-btn .icn.github, .content-3 .btn-list .al-btn:active .icn.github {
   background-image: url(../img/github_button.svg);
 }
 
