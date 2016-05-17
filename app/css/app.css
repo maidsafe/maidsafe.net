@@ -635,9 +635,9 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .home-bnr .home-bnr-b .content {
+  width: 585px;
   margin: 120px auto 0;
   padding-bottom: 100px;
-  max-width: 512px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -1900,6 +1900,9 @@ header.invert .nav-dropdown.open > a .icn {
   text-decoration: none;
   font-weight: 600;
   color: #5593d7;
+}
+.content-3 .list li > a:hover {
+  font-weight: bold;
 }
 .content-3 .list li:before {
   background-image: url(../img/arrow_blue.svg);
