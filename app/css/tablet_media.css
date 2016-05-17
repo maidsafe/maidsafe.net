@@ -6,7 +6,7 @@
     padding-right: 16px;
   }
   .media-lnks .media-lnks-b .media-lnks-i {
-    width: 50%;
+    width: 33.33%;
   }
 
   .media-lnks .media-lnks-b .media-lnks-i a {
@@ -136,6 +136,7 @@
     width: 100%;
     height: 360px;
     margin: 0 auto;
+    padding: 0;
   }
   .post-1 .content {
     width: 100%;
