@@ -634,6 +634,17 @@ header.invert .nav-dropdown.open > a .icn {
   float: left;
 }
 
+.home-bnr .home-bnr-b .video-lnk a .icon.white {
+  display: none;
+}
+
+.home-bnr .home-bnr-b .video-lnk a:hover .icon.white {
+  display: inline-block;
+}
+
+.home-bnr .home-bnr-b .video-lnk a:hover .icon.rgb {
+  display: none;
+}
 .home-bnr .home-bnr-b .content {
   width: 585px;
   margin: 120px auto 0;
