@@ -1816,6 +1816,10 @@ header.invert .nav-dropdown.open > a .icn {
   text-align: left;
   margin: 60px auto 0;
 }
+
+.content-3.type-1 {
+  margin-top: 20px;
+}
 .content-3 .title {
   font-size: 38px;
   line-height: 42px;
