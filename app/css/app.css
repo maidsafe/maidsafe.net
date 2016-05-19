@@ -550,6 +550,7 @@ header.invert .nav-dropdown.open > a .icn {
 }
 .footer-wig-b ul li a {
   color: white;
+  text-transform: capitalize;
   text-decoration: none;
 }
 
