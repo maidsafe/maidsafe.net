@@ -13,22 +13,6 @@
     display: block;
     margin: 0 auto;
   }
-  /* primary nav */
-  .primary-nav .primary-nav-b > li:not(.nav-dropdown) {
-    display: none;
-  }
-  .nav-dropdown > .show-on-mob {
-    display: table-cell !important;
-  }
-
-  .nav-dropdown > a:not(.show-on-mob) {
-    display: none !important;
-  }
-
-  .nav-dropdown .nav-dropdown-b > .show-on-mob {
-    display: block !important;
-  }
-  /* primary nav */
 
   /* Typing Effect */
   .typing.lg {
@@ -36,7 +20,7 @@
   }
 
   .typing.lg:after {
-    height: 49px;
+    height: 60px;
   }
   /* #Typing Effect */
 

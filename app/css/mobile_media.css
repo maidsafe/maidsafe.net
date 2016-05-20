@@ -479,7 +479,7 @@
     display: block;
     line-height: 24px;
   }
-  .list-content .quote button {
+  .list-content .quote .al-btn {
     margin-top: 20px;
   }
   .list-content .tbl-view {

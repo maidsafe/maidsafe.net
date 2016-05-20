@@ -227,9 +227,10 @@ a, a:hover {
 }
 
 .nav-dropdown > a .icn {
-  width: 20px;
-  height: 20px;
-  margin-top: 5px;
+  width: 18px;
+  height: 18px;
+  margin-top: 8px;
+  margin-left: 2px;
   float: right;
   display: inline-block;
   transform: rotate(180deg);
@@ -911,7 +912,7 @@ header.invert .nav-dropdown.open > a .icn {
   line-height: 40px;
 }
 
-.list-content .quote button {
+.list-content .quote .al-btn {
   margin-right: 40px;
   float: left;
 }
@@ -1851,18 +1852,15 @@ header.invert .nav-dropdown.open > a .icn {
   text-align: left;
   color: #606060;
 }
-.content-3 .btn-list {
+
+.content-3 .btn-list .al-btn {
   margin-top: 20px;
 }
-
 .content-3 .btn-list .al-btn .icn {
   width: 20px;
   height: 20px;
   margin-right: 8px;
   display: inline-block;
-}
-
-.content-3 .btn-list .al-btn .icn {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: -4px;
