@@ -54,7 +54,7 @@ var showMobPrimaryNav = function() {
     e.preventDefault();
     $(this).parent().toggleClass('open');
   });
-  $('#navDropdown .nav-dropdown-b > li a').on('click', function(e) {
+  $('#navDropdown .nav-dropdown-b > li a').on('click', function() {
     $('#navDropdown').parent().toggleClass('open');
   });
 };
@@ -134,7 +134,7 @@ var accordian = function() {
  * Typing effecting
  */
 var typingEffect = function() {
-  var typeString = ['a secure', 'a free'];
+  var typeString = [ 'a secure', 'a free' ];
   var i = 0;
   var count = 0;
   var selectedText = '';
