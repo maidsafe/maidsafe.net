@@ -4,30 +4,64 @@
   .wrapper {
     padding: 0;
   }
-  /* #Common */
-
-  /* Home Banner */
-  /* Banner height and label size varies */
-  .home-banner {
-    height: 400px;
-  }
-
-  .home-banner .label-1 {
-    font-size: 32px;
-    font-weight: 600;
-  }
-
-  .home-banner .forNonTouch {
+  .location.map {
     display: none;
   }
-  .home-banner .forTouch {
+  .location.img {
     display: block;
   }
+  .location.img img {
+    width: 100%;
+  }
+  /* #Common */
+  .media-lnks {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .media-lnks .media-lnks-b .media-lnks-i {
+    width: 33.33%;
+  }
 
-  .home-banner .label-2 {
-    font-size: 23px;
-    margin-top: 30px;
-    line-height: 36px;
+  .media-lnks .media-lnks-b .media-lnks-i a {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-size: 1000px;
+  }
+
+  /* primary nav */
+  .primary-nav .primary-nav-b > li:not(.nav-dropdown) {
+    display: none;
+  }
+  .nav-dropdown > .show-on-mob {
+    display: table-cell !important;
+  }
+
+  .nav-dropdown > a:not(.show-on-mob) {
+    display: none !important;
+  }
+
+  .nav-dropdown .nav-dropdown-b > .show-on-mob {
+    display: block !important;
+  }
+  /* primary nav */
+
+  /* Home Banner */
+  .home-bnr .home-bnr-b .label-1 {
+    display: none;
+  }
+  .home-bnr .home-bnr-b .label-1.for-touch {
+    padding: 0 16px;
+    display: block;
+  }
+  .home-bnr .home-bnr-b .content {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .home-bnr .home-bnr-b .content .title, .home-bnr .home-bnr-b .content p {
+    text-align: center;
   }
   /* #Home Banner */
 
@@ -38,7 +72,7 @@
   }
 
   .page-banner.home-like {
-    height: 270px;
+    height: 260px;
   }
 
   /* #Page Banner */
@@ -113,19 +147,18 @@
   /* #Page 2 */
 
   /* POST 1 */
-  /* Post-1 structure changes */
   .post-1 {
     width: 100%;
     display: block;
   }
   .post-1 .media {
+    width: 100%;
+    padding: 0 16px;
     display: block;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     margin: 0;
-    padding-top: 40px;
     text-align: center;
   }
   .post-1 .media img  {
@@ -133,12 +166,14 @@
     width: 100%;
     height: 360px;
     margin: 0 auto;
+    padding: 0;
   }
   .post-1 .content {
     width: 100%;
     text-align: left;
-    padding: 340px 16px 0;
+    padding: 350px 16px 0;
     position: relative;
+    z-index: 99;
   }
   .post-1 .content .title {
     margin-top: 0;
@@ -189,6 +224,9 @@
   .app-footer .app-footer-r.top {
     width: 100%;
   }
+  .app-footer-btns-b {
+    justify-content: flex-start;
+  }
   .footer-wig-a:first-child {
     width: 100%;
   }
@@ -227,47 +265,46 @@
   /* Content 1 */
   .content-1 {
     width: 100%;
-    padding: 80px 16px;
-  }
-  .content-1 h3 {
-    font-size: 39px;
-    line-height: 49px;
-  }
-  .content-1 p {
-    font-size: 18px;
-    line-height: 22px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   /* #Content 1 */
   /* Post 2 */
   .post-2 {
     width: 100%;
-    padding: 80px 16px 0;
+    padding-left: 16px;
+    padding-right: 16px;
     display: block;
   }
-  .post-2:last-child {
-    padding-bottom: 80px;
+  .post-2 > .title {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    transform: translateX(0);
   }
   .post-2 .post-2-content {
     display: block;
     width: 100%;
   }
-  .post-2 .post-2-content h3 {
-    text-align: center;
-  }
+
   .post-2 .post-2-content p {
     text-align: justify;
   }
   .post-2 .post-2-media {
     display: block;
     width: 100%;
-    padding: 0 0 50px;
+    padding: 20px 0;
   }
   .post-2 .post-2-media img {
     margin: 0;
     padding: 0;
     width: auto;
   }
-
+  .post-2 .post-2-media iframe {
+    padding: 0;
+    margin: 0;
+    height: 200px;
+  }
   .post-2.flip .post-2-content, .post-2.flip .post-2-media {
     transform: translateX(0);
   }
@@ -283,16 +320,14 @@
     width: 100%;
     overflow: hidden;
   }
-  .post-3 .post-3-cont {
-    padding: 60px 0 120px;
-    margin-top: 0;
-  }
   .post-3 .post-3-cont .post-3-cont-i {
     width: 100%;
     padding: 0 16px;
   }
-  .post-3 .post-3-cont p {
-    margin-top: 30px;
+  .post-3 .post-3-cont .ques span {
+    display: block;
+    padding-right: 0;
+    padding-bottom: 20px;
   }
   /* #Post 3 */
   /* Overlay */
@@ -308,7 +343,8 @@
   /* Content 3 */
   .content-3 {
     width: 100%;
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   /* #Content 3 */
   .credits-logo {
@@ -414,4 +450,56 @@
     width: 100%;
     padding-top: 16px;
   }
+
+  .al-content {
+    width: 100%;
+    padding: 0 16px;
+    border-color: transparent;
+  }
+
+  .al-banner-cont {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  /* list content */
+  .list-content .list-content-b {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .list-content .quote {
+    text-align: center;
+  }
+  .list-content .quote span, .list-content .quote button {
+    float: none;
+  }
+  .list-content .quote span {
+    display: block;
+    line-height: 24px;
+  }
+  .list-content .quote .al-btn {
+    margin-top: 20px;
+  }
+  .list-content .tbl-view {
+    display: block;
+  }
+  .list-content .tbl-c {
+    display: block !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .list-content .tbl-c:not(:last-child) {
+    padding-bottom: 60px !important;
+  }
+  .list-content.type-6 .title {
+    width: 100%;
+    display: block;
+  }
+  .download-btn {
+    margin: 0 0 20px;
+  }
+  /* list content */
 }
