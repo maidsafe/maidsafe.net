@@ -799,6 +799,7 @@ header.invert .nav-dropdown.open > a .icn {
   padding: 0 50px 0 0;
   margin: -84px 0 0;
   height: 300px;
+  border: 0;
 }
 .post-2 .post-2-content {
   width: 480px;
@@ -1070,6 +1071,9 @@ header.invert .nav-dropdown.open > a .icn {
   vertical-align: middle;
   text-align: center;
 }
+.list-content.type-6 .img-list .img-list-i .img-list-i-media img {
+  width: 100%;
+}
 .list-content.type-6 .img-list .img-list-i .img-list-i-opt {
   padding: 0;
   font-size: 16px;
@@ -1079,15 +1083,16 @@ header.invert .nav-dropdown.open > a .icn {
 .list-content.type-6 .img-list .img-list-i .img-list-i-opt > .lt,
 .list-content.type-6 .img-list .img-list-i .img-list-i-opt > .rt {
   width: 50%;
-  float: left;
 }
 
 .list-content.type-6 .img-list .img-list-i .img-list-i-opt > .lt {
   text-align: left;
+  float: left;
 }
 
 .list-content.type-6 .img-list .img-list-i .img-list-i-opt > .rt {
   text-align: right;
+  float: right;
 }
 
 .list-content.type-6 .img-list .img-list-i .img-list-i-opt a {
