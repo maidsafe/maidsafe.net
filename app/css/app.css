@@ -794,6 +794,7 @@ header.invert .nav-dropdown.open > a .icn {
   padding: 0 50px;
   display: block;
 }
+
 .post-2 .post-2-media iframe {
   width: 100%;
   padding: 0 50px 0 0;
@@ -801,6 +802,7 @@ header.invert .nav-dropdown.open > a .icn {
   height: 300px;
   border: 0;
 }
+
 .post-2 .post-2-content {
   width: 480px;
   display: table-cell;
