@@ -16,8 +16,8 @@ module.exports = function (grunt) {
   var BRANCH_KEY = 'local_branch';
   var TEST_PORT = grunt.option('testPort') || 8000;
   var CONFIG = {
-    owner: 'krishna90919',
-    repo: 'krishna90919.gitlab.io',
+    owner: 'maidsafe',
+    repo: 'maidsafe.gitlab.io',
     baseBranch: 'master',
     deployBranch: 'master'
   };
@@ -526,7 +526,7 @@ module.exports = function (grunt) {
     // Jekyll cleans files from the target directory, so must run first
     'jekyll:dist',
     'concurrent:dist',
-    // 'useminPrepare',
+    'useminPrepare',
     'concat',
     'cssmin',
     'autoprefixer:dist',
@@ -534,7 +534,7 @@ module.exports = function (grunt) {
     'imagemin',
     'svgmin',
     'filerev',
-    // 'usemin',
+    'usemin',
     'clean:bundler',
     'htmlmin'
     ]);

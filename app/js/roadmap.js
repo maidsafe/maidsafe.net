@@ -593,7 +593,7 @@ var Task = function(payload, parent, isRoot) {
   this.target = payload.target;
   this.source = payload.source || null;
   this.color = payload.color;
-  this.status = payload.status;
+  this.status = payload.status;  
   this.startDate = Utils.parseDate(payload.startDate);
   this.daysCompleted = payload.daysCompleted || 0;
   this.inProgress = payload.inProgress || 0;
@@ -1870,6 +1870,9 @@ Roadmap.prototype.draw = function() {
 
 $(function() {
   $.get('data/roadmapData.json', function(data) {
+    if (typeof data === 'string') {
+      data = JSON.parse(data);
+    }
     new Roadmap({
       data: data,
       target: '#Roadmap',
