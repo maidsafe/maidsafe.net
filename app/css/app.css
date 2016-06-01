@@ -1072,9 +1072,10 @@ header.invert .nav-dropdown.open > a .icn {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
+  overflow: hidden;
 }
 .list-content.type-6 .img-list .img-list-i .img-list-i-media img {
-  width: 100%;
+  height: 100%;
 }
 .list-content.type-6 .img-list .img-list-i .img-list-i-opt {
   padding: 0;
