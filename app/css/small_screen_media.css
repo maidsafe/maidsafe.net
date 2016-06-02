@@ -1,37 +1,18 @@
 /* Less Than 1135px */
 @media screen and (min-width: 830px) and (max-width: 1134px){
-  /* Header */
-  header .sec-1 {
-    width: 25%;
+  .media-lnks {
+    width: 585px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
-  header .sec-2 {
-    width: 75%;
-  }
-  header .sec-2 .primary-nav {
-    display: block !important;
+  .media-lnks .media-lnks-b .media-lnks-i {
+    width: 33.33%;
   }
 
-  /* Secondary Navigation */
-  header .secondary-nav.show {
-    display: none !important;
+  .media-lnks .media-lnks-b .media-lnks-i a {
+    display: block;
+    margin: 0 auto;
   }
-  /* #Header */
-
-  /* Home Banner */
-  .home-banner {
-    height: 520px;
-  }
-
-  .home-banner .label-1 {
-    font-size: 49px;
-    font-weight: 600;
-  }
-
-  .home-banner .label-2 {
-    font-size: 29px;
-  }
-
-  /* #Home Banner */
 
   /* Typing Effect */
   .typing.lg {
@@ -39,7 +20,7 @@
   }
 
   .typing.lg:after {
-    height: 49px;
+    height: 60px;
   }
   /* #Typing Effect */
 
@@ -122,31 +103,36 @@
     width: 585px;
     display: block;
   }
-
   .post-1 .media {
+    width: 100%;
+    padding: 0 16px;
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .post-1 .media img  {
     display: block;
     width: 100%;
-    padding-top: 40px;
-  }
-
-  .post-1 .media img  {
     height: 360px;
-    display: block;
     margin: 0 auto;
+    padding: 0;
   }
-
   .post-1 .content {
     width: 100%;
     text-align: left;
-    padding-top: 340px;
+    padding: 350px 16px 0;
+    position: relative;
+    z-index: 99;
   }
-
   .post-1 .content .title {
-    margin: 0;
+    margin-top: 0;
     text-align: center;
+  }
+  .post-1 .content .p {
+    text-align: justify;
   }
   /* #POST 1 */
 
@@ -201,7 +187,6 @@
   /* Content 1 */
   .content-1 {
     width: 585px;
-    padding: 80px 0;
   }
   .content-1 h3 {
     font-size: 39px;
@@ -212,41 +197,45 @@
     line-height: 22px;
   }
   /* #Content 1 */
+
   /* Post 2 */
   .post-2 {
     width: 585px;
-    padding: 80px 16px 0;
     display: block;
   }
-  .post-2:last-child {
-    padding-bottom: 80px;
+  .post-2 > .title {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    transform: translateX(0);
   }
   .post-2 .post-2-content {
     display: block;
     width: 100%;
   }
-  .post-2 .post-2-content h3 {
-    font-size: 29px;
-    line-height: 39px;
-  }
+
   .post-2 .post-2-content p {
-    font-size: 18px;
-    line-height: 22px;
+    text-align: justify;
   }
   .post-2 .post-2-media {
     display: block;
     width: 100%;
-    padding: 0 0 50px;
+    padding: 20px 0;
   }
   .post-2 .post-2-media img {
     margin: 0;
     padding: 0;
     width: auto;
   }
+  .post-2 .post-2-media iframe {
+    padding: 0;
+    margin: 0;
+  }
   .post-2.flip .post-2-content, .post-2.flip .post-2-media {
     transform: translateX(0);
   }
   /* #Post 2 */
+
   /* Team Img*/
   .team-img .team-img-i {
     width: 16.667%;
@@ -268,10 +257,16 @@
   /* #Content 3 */
   /* Post 3 */
   .post-3 {
-    width: 710px;
+    width: 100%;
+    overflow: hidden;
   }
   .post-3 .post-3-cont .post-3-cont-i {
     width: 585px;
+  }
+  .post-3 .post-3-cont .ques span {
+    display: block;
+    padding-right: 0;
+    padding-bottom: 20px;
   }
   /* #Post 3 */
   /* Roadmap */
@@ -343,4 +338,40 @@
     color: #282828;
     font-weight: 600;
   }
+  .al-content {
+     width: 585px;
+   }
+
+   /* list content */
+   .list-content .list-content-b {
+     width: 585px;
+     margin: 0 auto;
+   }
+   .list-content .quote {
+     text-align: center;
+   }
+   .list-content .quote span, .list-content .quote button {
+     float: none;
+   }
+   .list-content .quote span {
+     display: block;
+     line-height: 24px;
+   }
+   .list-content .quote button {
+     margin-top: 20px;
+   }
+   .list-content .tbl-view {
+     display: block;
+   }
+   .list-content .tbl-c {
+     display: block !important;
+     border: none !important;
+     padding: 0 !important;
+     margin: 0 !important;
+   }
+   .list-content .tbl-c:not(:last-child) {
+     padding-bottom: 60px !important;
+   }
+
+   /* list content */
 }
