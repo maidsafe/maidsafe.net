@@ -1,11 +1,24 @@
 /* Large Screens */
 @media only screen and (min-width: 1560px) {
-  .root.sub-page {
-    padding-bottom: 120px;
+
+  .media-lnks {
+    width: 1170px;
+    margin: 0 auto;
   }
+
+  /* list content */
+  .list-content .list-content-b {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  /* list content */
+
   /* POST 1 */
   .post-1 {
     width: 1170px;
+  }
+  .post-1 .media {
+    width: 585px;
   }
   .post-1 .media img  {
     width: 80%;
@@ -15,38 +28,39 @@
     width: 585px;
     text-align: left;
   }
-  .post-1 .content .title {
-    margin-top: 80px;
-    font-size: 44px;
-    line-height: 59px;
-  }
-  .post-1 .content .p {
-    font-size: 20px;
-    line-height: 27px;
-  }
-
-  .post-1 .foot {
-    margin-bottom: 40px;
-  }
-
-  .post-1.spacing-top {
-    padding-top: 40px;
-  }
-
-  .post-1.spacing-bottom {
-    padding-bottom: 40px;
-  }
-
-  .post-1.spacing-top-bottom {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
   /* #POST 1 */
+
+  /* Post 2 */
+  .post-2 {
+    width: 1170px;
+  }
+  .post-2 > .title {
+    width: 585px;
+    transform: translateX(585px);
+  }
+  .post-2 .post-2-media, .post-2 .post-2-content {
+    width: 585px;
+  }
+  .post-2 .post-2-media img {
+    padding: 0 100px 0 50px;
+  }
+  .post-2.flip .post-2-media img {
+    padding: 0 50px 0 100px;
+  }
+  /* #Post 2 */
+
+  /* Post 3*/
+  .post-3 .post-3-cont .post-3-cont-i {
+    width: 1170px;
+  }
+  /* Post 3*/
 
   /* MaidSafe Team Banner height changes */
   .page-banner.maidsafe-team {
     height: 550px;
+  }
+  .page-banner.safe-pod {
+    height: 700px;
   }
   /* #MaidSafe Team Banner height changes */
   /* Footer */
@@ -59,20 +73,6 @@
     width: 1170px;
   }
   /* #Content 1 */
-  /* Post 2 */
-  .post-2 {
-    width: 1170px;
-  }
-  .post-2 .post-2-media, .post-2 .post-2-content {
-    width: 585px;
-  }
-  .post-2 .post-2-media img {
-    padding: 0 100px 0 50px;
-  }
-  .post-2.flip .post-2-media img {
-    padding: 0 50px 0 100px;
-  }
-  /* #Post 2 */
 
   /* Box 3 */
   .box-3 .box-3-i {
@@ -116,16 +116,16 @@
     width: 240px;
   }
 
-  /* Post 2 */
-  .post-2:last-child {
-    padding-bottom: 120px;
-  }
-  /* /Post 2 */
-
   #main-wrapper {
     position: static;
   }
   .roadmapChartMobile-b {
     display: none;
   }
+
+  .al-content {
+    width: 1170px;
+  }
+
+
 }
