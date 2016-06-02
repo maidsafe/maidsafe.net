@@ -1870,6 +1870,9 @@ Roadmap.prototype.draw = function() {
 
 $(function() {
   $.get('data/roadmapData.json', function(data) {
+    if (typeof data === 'string') {
+      data = JSON.parse(data);
+    }
     new Roadmap({
       data: data,
       target: '#Roadmap',
