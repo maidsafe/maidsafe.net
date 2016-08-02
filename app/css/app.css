@@ -2201,6 +2201,11 @@ header.invert .nav-dropdown.open > a .icn {
    padding: 18px 0 0;
    margin: 0;
  }
+ .al-content p b {
+   color: #eea450;
+   font-weight: 700;
+   text-transform: uppercase;
+ }
  .al-content p.first {
    padding: 3px 0 0;
  }
@@ -2228,10 +2233,11 @@ header.invert .nav-dropdown.open > a .icn {
  }
  .al-content ul {
    margin: 0;
+   padding: 10px;
  }
  .al-content ul li {
    list-style-type: disc;
-   padding-top: 10px;
+   padding-top: 5px;
  }
 
  .al-highlight-content {
