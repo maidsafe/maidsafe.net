@@ -10,6 +10,7 @@ var updateHeader = function() {
   if (y > 0) {
     $('header').addClass('invert onScroll');
     $('#site-logo').addClass('invert');
+    $('#alphaBtn').addClass('invert');
     $('#secNav').addClass('invert');
     $('#secNavButton').addClass('invert');
     return;
@@ -23,6 +24,7 @@ var updateHeader = function() {
 
   $('#secNav').removeClass('invert');
   $('#secNavButton').removeClass('invert');
+  $('#alphaBtn').removeClass('invert');
 };
 
 var setActiveNav = function() {
