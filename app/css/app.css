@@ -214,6 +214,13 @@ a, a:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-color: #FFF;
 }
+
+.primary-nav .primary-nav-b > li.link-button a {
+  margin-bottom: -34px;
+}
+.primary-nav .primary-nav-b > li.link-button .al-btn {
+  margin-right: 15px;
+}
 /* primary nav */
 
 /* nav dropdown */
@@ -1198,6 +1205,11 @@ header.invert .nav-dropdown.open > a .icn {
   padding-right: 0;
 }
 
+.root.sub-page-3 {
+  padding-top: 70px;
+  padding-bottom: 0;
+}
+
 .root.sub-page-4 {
   padding-top: 70px;
   padding-bottom: 40px;
@@ -2171,7 +2183,7 @@ header.invert .nav-dropdown.open > a .icn {
 
  .al-content {
    width: 960px;
-   margin: 0 auto 40px;
+   margin: 0 auto 45px;
    padding-bottom: 40px;
    border-bottom: 1px solid #7f7f7f;
    font-size: 18px;
@@ -2189,9 +2201,13 @@ header.invert .nav-dropdown.open > a .icn {
    padding: 18px 0 0;
    margin: 0;
  }
+ .al-content p.first {
+   padding: 3px 0 0;
+ }
 
  .al-content a {
    text-decoration: none;
+   font-weight: 600;
    color: #5593d7;
  }
  .al-subtitle {
