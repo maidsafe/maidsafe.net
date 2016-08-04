@@ -1002,10 +1002,12 @@ header.invert .nav-dropdown.open > a .icn {
 
 .list-content .tbl-view {
   display: table;
+  margin-top: 50px;
 }
 
 .list-content .tbl-view .tbl-c {
   display: table-cell;
+  width: 50%;
   padding-top: 30px;
   border-right: 1px solid #606060;
 }

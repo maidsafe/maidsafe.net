@@ -387,6 +387,7 @@
      display: block;
    }
    .list-content .tbl-c {
+     width: 100% !important;
      display: block !important;
      border: none !important;
      padding: 0 !important;
