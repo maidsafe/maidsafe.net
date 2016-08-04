@@ -680,7 +680,7 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .home-bnr .home-bnr-b .content p {
-  margin: 25px 0 0 0;
+  margin: 8px 0 0 0;
   padding: 0;
   font-size: 18px;
   font-weight: normal;
@@ -2204,6 +2204,8 @@ header.invert .nav-dropdown.open > a .icn {
  .al-content p b {
    color: #eea450;
    font-weight: 700;
+ }
+ .al-content p b.upper {
    text-transform: uppercase;
  }
  .al-content p.first {
@@ -2214,6 +2216,9 @@ header.invert .nav-dropdown.open > a .icn {
    text-decoration: none;
    font-weight: 600;
    color: #5593d7;
+ }
+ .al-content a:hover {
+   color: #215A96;
  }
  .al-subtitle {
    padding: 0;
@@ -2228,12 +2233,12 @@ header.invert .nav-dropdown.open > a .icn {
  }
  .al-subcontent-title {
    font-size: 18px;
+   margin: 20px 0 0;
    font-weight: bold;
-   color: #808080;
+   color: #606060;
  }
  .al-content ul {
    margin: 0;
-   padding: 10px;
  }
  .al-content ul li {
    list-style-type: disc;
