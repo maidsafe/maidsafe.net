@@ -488,13 +488,13 @@
   .list-content .tbl-c {
     width: 100% !important;
     display: block !important;
-    border: none !important;
+    /*border: none !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin: 0 !important;*/
   }
-  .list-content .tbl-c:not(:last-child) {
+  /*.list-content .tbl-c:not(:last-child) {
     padding-bottom: 60px !important;
-  }
+  }*/
   .list-content.type-6 .title {
     width: 100%;
     display: block;

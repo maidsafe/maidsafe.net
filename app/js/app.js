@@ -200,6 +200,10 @@ $(function() {
     $(this).toggleClass('open');
   });
 
+  $('.list-content .tbl-view .tbl-c .title').on('click', function() {
+    $(this).siblings('.tbl-cnt').toggle();
+  });
+
   $(document).on('mouseup', function(e) {
     var listItems = $('#navDropdown > a');
     if (!listItems.is(e.target) && listItems.has(e.target).length === 0) {
