@@ -734,7 +734,7 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .post-1 .content .p {
-  margin: 25px 0 0 0;
+  margin: 8px 0 0 0;
   padding: 0;
   font-size: 18px;
   font-weight: normal;
@@ -2238,7 +2238,7 @@ header.invert .nav-dropdown.open > a .icn {
    color: #606060;
  }
  .al-content ul {
-   margin: 0;
+   margin: 10px 0 0;
  }
  .al-content ul li {
    list-style-type: disc;
