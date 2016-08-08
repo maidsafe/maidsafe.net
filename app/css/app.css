@@ -680,7 +680,7 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .home-bnr .home-bnr-b .content p {
-  margin: 8px 0 0 0;
+  margin: 8px 0 0;
   padding: 0;
   font-size: 18px;
   font-weight: normal;
@@ -734,7 +734,7 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .post-1 .content .p {
-  margin: 25px 0 0 0;
+  margin: 8px 0 25px;
   padding: 0;
   font-size: 18px;
   font-weight: normal;
