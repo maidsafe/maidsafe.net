@@ -200,9 +200,9 @@ $(function() {
     $(this).toggleClass('open');
   });
 
-  $('.list-content .tbl-view .tbl-c .title').on('click', function() {
-    $(this).siblings('.tbl-cnt').toggle();
-  });
+  // $('.list-content .tbl-view .tbl-c .title').on('click', function() {
+  //   $(this).siblings('.tbl-cnt').toggle();
+  // });
 
   $(document).on('mouseup', function(e) {
     var listItems = $('#navDropdown > a');
@@ -214,6 +214,23 @@ $(function() {
       infoItems.removeClass('open');
     }
   });
+});
+
+$(window).on('hashchange load', function() {
+  // career page expand
+  var careerLink = window.location.pathname.split('/').pop();
+  setTimeout(function () {
+    if (careerLink === 'careers.html') {
+      var targetCareer = window.location.hash.split('#').pop();
+      if (!targetCareer) {
+        return;
+      }
+      $('.tbl-cnt').hide();
+      var targetEle = $('#' + targetCareer);
+      targetEle.children('.tbl-cnt').show();
+      window.scroll(0, targetEle.offset().top - 70)
+    }
+  }, 10);
 });
 
 $(window).resize(function() {

@@ -1018,6 +1018,11 @@ header.invert .nav-dropdown.open > a .icn {
   display: inline-block;
 }
 
+.list-content .tbl-view .tbl-c .title a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .list-content .tbl-view .sub-title {
   padding-bottom: 10px;
 }
