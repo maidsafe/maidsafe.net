@@ -1015,6 +1015,7 @@ header.invert .nav-dropdown.open > a .icn {
 
 .list-content .tbl-view .tbl-c .title {
   cursor: pointer;
+  display: inline-block;
 }
 
 .list-content .tbl-view .sub-title {
