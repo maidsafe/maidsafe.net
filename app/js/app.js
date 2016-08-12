@@ -197,7 +197,9 @@ var setDownloadLink = function() {
 
   // reset
   for (var i in PLATFORM_CLASSNAMES) {
-    platformEle.removeClass(PLATFORM_CLASSNAMES[i]);
+    if (PLATFORM_CLASSNAMES[i]) {
+      platformEle.removeClass(PLATFORM_CLASSNAMES[i]);
+    }
   }
   var targetPlatformClass = PLATFORM_CLASSNAMES[ $.ua.os.name ] || PLATFORM_CLASSNAMES.UNIX;
   platformEle.addClass(targetPlatformClass);
@@ -213,7 +215,7 @@ var setPlatform = function() {
   if (EXCLUDED_DEVIVES.indexOf($.ua.device.type) > -1) {
     return;
   }
-  window.platform = OS[ $.ua.os.name ] || OS.UNIX;
+  window.platform = window.OS[ $.ua.os.name ] || window.OS.UNIX;
 };
 
 var downloadLauncher = function(e, shouldNavigate) {
@@ -224,11 +226,10 @@ var downloadLauncher = function(e, shouldNavigate) {
   var winExe = 'https://github.com/maidsafe/safe_launcher/releases/download/0.8.0/safe_launcher-v0.8.0-win.exe';
   var osxExe = 'https://github.com/maidsafe/safe_launcher/releases/download/0.8.0/safe_launcher-v0.8.0-osx.pkg';
   var unix = 'https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0';
-  var newWindow = null;
   if (window.platform === window.OS.UNIX) {
     window.location.assign(unix);
   } else {
-    window.location.assign((window.platform === window.OS.Windows) ? winExe : osxExe );
+    window.location.assign((window.platform === window.OS.Windows) ? winExe : osxExe);
   }
   if (e) {
     e.preventDefault();
@@ -246,7 +247,7 @@ var downloadDemoApp = function(e, shouldNavigate) {
   if (window.platform === window.OS.UNIX) {
     window.location.assign(unix);
   } else {
-    window.location.assign((window.platform === window.OS.Windows) ? winExe : osxExe );
+    window.location.assign((window.platform === window.OS.Windows) ? winExe : osxExe);
   }
   if (e) {
     e.preventDefault();
@@ -319,14 +320,14 @@ $(function() {
 
 $(window).on('hashchange load', function() {
   var currentPage = window.location.pathname.split('/').pop();
-  setTimeout(function () {
+  setTimeout(function() {
     if (currentPage === 'alpha.html') {
       var targetHash = window.location.hash.split('?')[0].split('#').pop();
       if (!targetHash) {
         return;
       }
       var targetEle = $('#' + targetHash);
-      window.scroll(0, targetEle.offset().top - 80)
+      window.scroll(0, targetEle.offset().top - 80);
     }
   }, 10);
 });
