@@ -221,9 +221,9 @@ var downloadLauncher = function(e, shouldNavigate) {
     window.location.href = './alpha.html#launcher?download';
     return;
   }
-  var winExe = 'https://github.com/maidsafe/safe_launcher/releases/download/untagged-abec77ea424f92b57d4e/safe_launcher-v0.8.0-win.exe';
-  var osxExe = 'https://github.com/maidsafe/safe_launcher/releases/download/untagged-abec77ea424f92b57d4e/safe_launcher-v0.8.0-osx.pkg';
-  var unix = 'https://github.com/maidsafe/safe_launcher/releases/tag/untagged-abec77ea424f92b57d4e';
+  var winExe = 'https://github.com/maidsafe/safe_launcher/releases/download/0.8.0/safe_launcher-v0.8.0-win.exe';
+  var osxExe = 'https://github.com/maidsafe/safe_launcher/releases/download/0.8.0/safe_launcher-v0.8.0-osx.pkg';
+  var unix = 'https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0';
   var newWindow = null;
   if (window.platform === window.OS.UNIX) {
     window.location.assign(unix);
@@ -240,9 +240,9 @@ var downloadDemoApp = function(e, shouldNavigate) {
     window.location.href = './alpha.html#demo_app?download';
     return;
   }
-  var winExe = 'https://github.com/maidsafe/safe_examples/releases/download/untagged-09e359cd0686b36cdca8/safe_demo_app-v0.6.0-win.exe';
-  var osxExe = 'https://github.com/maidsafe/safe_examples/releases/download/untagged-09e359cd0686b36cdca8/safe_demo_app-v0.6.0-osx.pkg';
-  var unix = 'https://github.com/maidsafe/safe_examples/releases/tag/untagged-09e359cd0686b36cdca8';
+  var winExe = 'https://github.com/maidsafe/safe_examples/releases/download/0.6.0/safe_demo_app-v0.6.0-win.exe';
+  var osxExe = 'https://github.com/maidsafe/safe_examples/releases/download/0.6.0/safe_demo_app-v0.6.0-osx.pkg';
+  var unix = 'https://github.com/maidsafe/safe_examples/releases/tag/0.6.0';
   if (window.platform === window.OS.UNIX) {
     window.location.assign(unix);
   } else {

@@ -622,7 +622,6 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .home-bnr .home-bnr-b {
-  width: 100%;
   padding-top: 150px;
   position: relative;
   z-index: 1;
@@ -643,7 +642,6 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .home-bnr .home-bnr-b .content {
-  /*width: 585px;*/
   margin: 60px auto 0;
   color: #FFFFFF;
   text-align: center;
