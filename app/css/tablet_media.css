@@ -388,6 +388,10 @@
     width: 480px;
   }
 
+  .al-download-sec .al-download-lnk {
+    display: none;
+  }
+
    /* list content */
    .list-content .list-content-b {
      width: 480px;
@@ -427,4 +431,10 @@
      margin: 0 0 20px;
    }
    /* list content */
+   .platform.unix-platform .win,  .platform.unix-platform .osx, .platform.unix-platform .unix {
+     display: none !important;
+   }
+   .platform.unix-platform .mob-alert {
+     display: block;
+   }
 }

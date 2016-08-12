@@ -1,4 +1,10 @@
 /* global $: false, document: false, window: false */
+window.platform = null;
+window.OS = {
+  'Mac OS': 'osx',
+  'Windows': 'win',
+  'UNIX': 'unix'
+};
 
 var INTRO_VIDEO_SRC = 'https://www.youtube.com/embed/bXOaxjvefGc';
 var updateHeader = function() {
@@ -40,7 +46,7 @@ var setActiveNav = function() {
     hash = hash[hash.length - 1];
     var path = window.location.pathname.split('/');
     path = path[path.length - 1];
-    if (path === 'alpha_release.html') {
+    if (path === 'alpha.html') {
       $('#alphaBtn').removeClass();
     }
     if (hash && hash === path) {
@@ -176,12 +182,109 @@ var typingEffect = function() {
   type();
 };
 
+// set download link
+var setDownloadLink = function() {
+  var PLATFORM_CLASSNAMES = {
+    'Mac OS': 'osx-platform',
+    'Windows': 'win-platform',
+    'UNIX': 'unix-platform'
+  };
+  var platformEle = $('.platform');
+
+  if (!platformEle) {
+    return;
+  }
+
+  // reset
+  for (var i in PLATFORM_CLASSNAMES) {
+    platformEle.removeClass(PLATFORM_CLASSNAMES[i]);
+  }
+  var targetPlatformClass = PLATFORM_CLASSNAMES[ $.ua.os.name ] || PLATFORM_CLASSNAMES.UNIX;
+  platformEle.addClass(targetPlatformClass);
+  platformEle.show();
+};
+
+// set platform
+var setPlatform = function() {
+  var EXCLUDED_DEVIVES = [
+    'console', 'mobile', 'tablet', 'smarttv', 'wearable', 'embedded'
+  ];
+
+  if (EXCLUDED_DEVIVES.indexOf($.ua.device.type) > -1) {
+    return;
+  }
+  window.platform = OS[ $.ua.os.name ] || OS.UNIX;
+};
+
+var downloadLauncher = function(e, shouldNavigate) {
+  if (shouldNavigate) {
+    window.location.href = './alpha.html#launcher?download';
+    return;
+  }
+  var winExe = 'https://github.com/maidsafe/safe_launcher/releases/download/untagged-abec77ea424f92b57d4e/safe_launcher-v0.8.0-win.exe';
+  var osxExe = 'https://github.com/maidsafe/safe_launcher/releases/download/untagged-abec77ea424f92b57d4e/safe_launcher-v0.8.0-osx.pkg';
+  var unix = 'https://github.com/maidsafe/safe_launcher/releases/tag/untagged-abec77ea424f92b57d4e';
+  var newWindow = null;
+  if (window.platform === window.OS.UNIX) {
+    window.location.assign(unix);
+  } else {
+    window.location.assign((window.platform === window.OS.Windows) ? winExe : osxExe );
+  }
+  if (e) {
+    e.preventDefault();
+  }
+};
+
+var downloadDemoApp = function(e, shouldNavigate) {
+  if (shouldNavigate) {
+    window.location.href = './alpha.html#demo_app?download';
+    return;
+  }
+  var winExe = 'https://github.com/maidsafe/safe_examples/releases/download/untagged-09e359cd0686b36cdca8/safe_demo_app-v0.6.0-win.exe';
+  var osxExe = 'https://github.com/maidsafe/safe_examples/releases/download/untagged-09e359cd0686b36cdca8/safe_demo_app-v0.6.0-osx.pkg';
+  var unix = 'https://github.com/maidsafe/safe_examples/releases/tag/untagged-09e359cd0686b36cdca8';
+  if (window.platform === window.OS.UNIX) {
+    window.location.assign(unix);
+  } else {
+    window.location.assign((window.platform === window.OS.Windows) ? winExe : osxExe );
+  }
+  if (e) {
+    e.preventDefault();
+  }
+};
+
 $(function() {
   typingEffect();
   accordian();
   showMobPrimaryNav();
   setActiveNav();
   loadTeamBanner();
+  setPlatform();
+  setDownloadLink();
+
+  var downloadTokens = window.location.hash.split('?');
+  if ((downloadTokens.length === 2) && (downloadTokens.pop() === 'download')) {
+    if (downloadTokens[0] === '#launcher') {
+      downloadLauncher();
+    } else {
+      downloadDemoApp();
+    }
+    window.location.hash = downloadTokens[0];
+  }
+
+  $(document).on('click', '.al-download-tab .al-download-tab-nav ul li', function() {
+    var target = $(this).data('target');
+    var targetEle = $('#' + target);
+    if (!targetEle.is('.al-download-tab .al-download-tab-cnt')) {
+      return;
+    }
+    // reset
+    $(this).siblings().removeClass('active');
+    $(this).parents('.al-download-tab').find('.al-download-tab-cnt').removeClass('active');
+
+    $(this).addClass('active');
+    targetEle.addClass('active');
+  });
 
   // Intro video
   $('#IntroVideoTrigger').on('click', function(e) {
@@ -212,6 +315,20 @@ $(function() {
       infoItems.removeClass('open');
     }
   });
+});
+
+$(window).on('hashchange load', function() {
+  var currentPage = window.location.pathname.split('/').pop();
+  setTimeout(function () {
+    if (currentPage === 'alpha.html') {
+      var targetHash = window.location.hash.split('?')[0].split('#').pop();
+      if (!targetHash) {
+        return;
+      }
+      var targetEle = $('#' + targetHash);
+      window.scroll(0, targetEle.offset().top - 80)
+    }
+  }, 10);
 });
 
 $(window).resize(function() {
