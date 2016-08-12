@@ -29,6 +29,9 @@
   }
   /* #Layout Type 1 */
 
+  .home-bnr .home-bnr-b .downloads {
+    margin-top: 70px;
+  }
   /* MaidSafe Team Banner height changes */
   .page-banner.maidsafe-team {
     height: 550px;

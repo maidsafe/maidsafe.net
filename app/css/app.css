@@ -53,6 +53,13 @@ a, a:hover {
   color: #FFFFFF !important;
 }
 
+/* base */
+.base-1 {
+  width: 960px;
+  margin: 0 auto;
+}
+/* base */
+
 /* alpha button */
 .al-btn {
   background-color: #FFF !important;
@@ -592,35 +599,41 @@ header.invert .nav-dropdown.open > a .icn {
 /* Home Banner */
 .home-bnr {
   width: 100%;
-  background-image: url(../img/banner_new.jpg);
-  background-color: #4c66a3;
-  background-position: center;
-  background-size: cover;
+  background-color: #5592d7;
+  position: relative;
+}
+
+.home-bnr:after, .home-bnr:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/safe_network_bg_corner.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto;
+}
+
+.home-bnr:before {
+  transform: rotateY(180deg);
+  transform-origin: center;
 }
 
 .home-bnr .home-bnr-b {
   width: 100%;
   padding-top: 150px;
-}
-
-.home-bnr .home-bnr-b:after {
-  content: "";
-  width: 100%;
-  height: 20px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.5);
-  z-index: 99;
+  position: relative;
+  z-index: 1;
 }
 
 .home-bnr .home-bnr-b .label-1 {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-size: 59px;
-  line-height: 64px;
-  font-weight: 600;
+  font-size: 56px;
+  font-weight: normal;
   text-align: center;
   color: #FFFFFF;
 }
@@ -629,53 +642,17 @@ header.invert .nav-dropdown.open > a .icn {
   display: none;
 }
 
-.home-bnr .home-bnr-b .video-lnk {
-  margin: 60px 0 0;
-  padding: 0;
-  text-align: center;
-}
-
-.home-bnr .home-bnr-b .video-lnk a {
-  display: inline-block;
-}
-
-.home-bnr .home-bnr-b .video-lnk a span {
-  float: left;
-}
-
-.home-bnr .home-bnr-b .video-lnk a .icon {
-  width: 25px;
-  height: 25px;
-  display: inline-block;
-  margin-left: 8px;
-  margin-top: 2.5px;
-  float: left;
-}
-
-.home-bnr .home-bnr-b .video-lnk a .icon.white {
-  display: none;
-}
-
-.home-bnr .home-bnr-b .video-lnk a:hover .icon.white {
-  display: inline-block;
-}
-
-.home-bnr .home-bnr-b .video-lnk a:hover .icon.rgb {
-  display: none;
-}
 .home-bnr .home-bnr-b .content {
-  width: 585px;
-  margin: 120px auto 0;
-  padding-bottom: 100px;
+  /*width: 585px;*/
+  margin: 60px auto 0;
   color: #FFFFFF;
   text-align: center;
 }
 
 .home-bnr .home-bnr-b .content .title {
-  margin: 80px 0 0;
-  font-size: 38px;
-  line-height: 49px;
-  font-weight: normal;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -684,8 +661,88 @@ header.invert .nav-dropdown.open > a .icn {
   padding: 0;
   font-size: 18px;
   font-weight: normal;
-  line-height: 27px;
   text-align: left;
+}
+
+.home-bnr .home-bnr-b .downloads {
+  margin: 90px auto 0;
+  padding-bottom: 60px;
+}
+
+.home-bnr .home-bnr-b .download-i {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.home-bnr .home-bnr-b .download-i .desc {
+  margin-top: 60px;
+  font-size: 18px;
+  color: #FFF;
+}
+
+.home-bnr .home-bnr-b .download-i .desc a {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.home-bnr .home-bnr-b .download-icn {
+  width: 100px;
+  height: 100px;
+  background-color: #FFF;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.home-bnr .home-bnr-b .download-lnk-btn {
+  background-color: #FFF;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 44px;
+  padding: 0 16px;
+  margin: 32px auto 0;
+  border-radius: 3px;
+}
+
+.home-bnr .home-bnr-b .download-lnk-btn a {
+  color: #5592d7;
+  text-transform: uppercase;
+}
+
+.home-bnr .home-bnr-b .no-support-content {
+  display: none;
+  padding-left: 16px;
+  padding-bottom: 60px;
+}
+
+.home-bnr .home-bnr-b .no-support-content .no-support-content-b {
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 16px;
+  color: #5592d7;
+}
+
+.home-bnr .home-bnr-b .no-support-content .no-support-content-b h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.home-bnr .home-bnr-b .no-support-content .no-support-content-b p {
+  margin: 16px 0 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.home-bnr .home-bnr-b .no-support-content .no-support-content-b p a {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .home-bnr .lnk-btn {
