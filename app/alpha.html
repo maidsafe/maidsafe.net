@@ -1,0 +1,207 @@
+---
+layout: base
+title: MaidSafe - Alpha Release
+description: MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.
+keywords: Distributed Platform, MaidSafe
+headerClass: invert
+rootClass: sub-page-3
+---
+<div class="base-1">
+    <h3 class="al-title">SAFE Network Alpha Release!</h3>
+    <h4 class="al-sub-title">We are delighted to announce the immediate availability of the alpha release of the SAFE Network.</h4>
+    <div class="al-desc">
+      <p class="al-p first">
+        Installing both the Launcher and Demo App will enable you to store private data, publish public data, create your own
+        SAFE webpage and even host an existing site without charge.
+      </p>
+      <p class="al-p">
+        If you haven’t already, you can download Launcher and the Demo App below on either Windows, Mac or Linux (sorry, no mobile, yet!)
+      </p>
+      <p class="al-p">
+        As with any alpha software caveats apply, and you should be aware of a couple of things prior to use. Data on this alpha network may
+        get lost and MaidSafe will decide or require to wipe the network from time to time. It is therefore recommended that you store your
+        only pictures of your first born elsewhere.
+      </p>
+      <p class="al-p">
+        This is also a client only network, meaning that users cannot run vaults (contribute their resources), all data will be hosted on a
+        network managed by MaidSafe. The ability for users to run their own vault will be enabled shortly. A more detailed list of
+        limitations is available <a href="https://maidsafe.readme.io/docs/install-launcher#limitations" target="_blank">here</a>.
+      </p>
+    </div>
+</div>
+<!-- Launcher -->
+<div class="base-1 al-content" id="launcher">
+  <h4 class="al-sub-title">Launcher</h4>
+  <p class="al-p first">
+    The Launcher connects you to the SAFE Network without providing either your account secret or password to any application, such as the demo app.
+    It is your secure gateway to the network. <a href="https://maidsafe.readme.io/docs/launcher" target="_blank">Find out more</a>.
+  </p>
+  <div class="platform">
+    <!-- windows -->
+    <div class="win">
+      <div class="al-download-sec clearfix">
+        <div class="al-download-icn">
+          <img src="../img/launcher_home.svg" alt="Launcher" />
+        </div>
+        <div class="al-download-lnk">
+          <a href="#" onclick="downloadLauncher(this)"><span class="icn win"></span>Download Launcher</a>
+        </div>
+      </div>
+      <p class="al-p first al-download-desc">
+        Not on Windows? Download for <a href="https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0" target="_blank">another platform</a>.
+      </p>
+    </div>
+
+    <!-- osx -->
+    <div class="osx">
+      <div class="al-download-sec clearfix">
+        <div class="al-download-icn">
+          <img src="../img/launcher_home.svg" alt="Launcher" />
+        </div>
+        <div class="al-download-lnk">
+          <a href="#" onclick="downloadLauncher(this)"><span class="icn osx"></span>Download Launcher</a>
+        </div>
+      </div>
+      <p class="al-p first al-download-desc">
+        Not on OS X? Download for <a href="https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0" target="_blank">another platform</a>.
+      </p>
+    </div>
+
+    <!-- unix -->
+    <div class="unix">
+      <div class="al-download-tab">
+        <div class="al-download-tab-nav">
+          <ul>
+            <li class="active" data-target="Debian_Launcher">Debian</li>
+            <li data-target="RPM_Launcher">RPM</li>
+            <li data-target="OtherPlatforms_Launcher">Other</li>
+          </ul>
+        </div>
+        <div class="al-download-tab-cnt active" id="Debian_Launcher">
+          <pre>
+            wget -O - http://apt.maidsafe.net/repos/maidsafe.apt.gpg.key%7Csudo apt-key add -
+            sudo wget -O /etc/apt/sources.list.d/maidsafe.list http://apt.maidsafe.net/repos/maidsafe.list
+            sudo apt-get update
+            sudo apt-get install safe-launcher
+          </pre>
+        </div>
+        <div class="al-download-tab-cnt" id="RPM_Launcher">
+          <pre>
+            curl -O http://yum.maidsafe.net/repos/maidsafe.yum.gpg.key
+            sudo rpm --import maidsafe.yum.gpg.key
+            sudo curl -o /etc/yum.repos.d/maidsafe.repo http://yum.maidsafe.net/repos/maidsafe.repo
+            sudo yum update
+            sudo yum install safe_launcher
+          </pre>
+        </div>
+        <div class="al-download-tab-cnt" id="OtherPlatforms_Launcher">
+          <a class="primary-btn" href="https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0" target="_blank">Download</a>
+        </div>
+      </div>
+      <p class="al-p first al-download-desc">
+        Not on Linux? Download for <a href="https://github.com/maidsafe/safe_launcher/releases/tag/0.8.0" target="_blank">another platform</a>.
+      </p>
+    </div>
+    <div class="mob-alert">
+      The SAFE Network Alpha isn't available for mobile yet.
+    </div>
+  </div>
+</div>
+
+<!-- Demo app -->
+<div class="base-1 al-content" id="demo_app">
+  <h4 class="al-sub-title">Demo App</h4>
+  <p class="al-p first">
+    This is a simple application that demonstrates some of the network’s key features. To store and share data, create your SAFE public ID and more,
+    you must run the demo app at the same time as the Launcher. <a href="https://maidsafe.readme.io/docs/demo-app">Find out more</a>.
+  </p>
+  <div class="platform">
+    <!-- windows -->
+    <div class="win">
+      <div class="al-download-sec clearfix">
+        <div class="al-download-icn">
+          <img src="../img/demo_home.svg" alt="Demo App" />
+        </div>
+        <div class="al-download-lnk">
+          <a href="#" onclick="downloadDemoApp(this)"><span class="icn win"></span>Download Demo App</a>
+        </div>
+      </div>
+      <p class="al-p first al-download-desc">
+        Not on Windows? Download for <a href="https://github.com/maidsafe/safe_examples/releases/tag/0.6.0" target="_blank">another platform</a>.
+      </p>
+    </div>
+
+    <!-- osx -->
+    <div class="osx">
+      <div class="al-download-sec clearfix">
+        <div class="al-download-icn">
+          <img src="../img/demo_home.svg" alt="Demo App" />
+        </div>
+        <div class="al-download-lnk">
+          <a href="#" onclick="downloadDemoApp(this)"><span class="icn osx"></span>Download Demo App</a>
+        </div>
+      </div>
+      <p class="al-p first al-download-desc">
+        Not on OS X? Download for <a href="https://github.com/maidsafe/safe_examples/releases/tag/0.6.0" target="_blank">another platform</a>.
+      </p>
+    </div>
+
+    <!-- unix -->
+    <div class="unix">
+      <div class="al-download-tab">
+        <div class="al-download-tab-nav">
+          <ul>
+            <li class="active" data-target="Debian_Demo">Debian</li>
+            <li data-target="RPM_Demo">RPM</li>
+            <li data-target="OtherPlatforms_Demo">Other</li>
+          </ul>
+        </div>
+        <div class="al-download-tab-cnt active" id="Debian_Demo">
+          <pre>
+            wget -O - http://apt.maidsafe.net/repos/maidsafe.apt.gpg.key%7Csudo apt-key add -
+            sudo wget -O /etc/apt/sources.list.d/maidsafe.list http://apt.maidsafe.net/repos/maidsafe.list
+            sudo apt-get update
+            sudo apt-get install safe-demo-app
+          </pre>
+        </div>
+        <div class="al-download-tab-cnt" id="RPM_Demo">
+          <pre>
+            curl -O http://yum.maidsafe.net/repos/maidsafe.yum.gpg.key
+            sudo rpm --import maidsafe.yum.gpg.key
+            sudo curl -o /etc/yum.repos.d/maidsafe.repo http://yum.maidsafe.net/repos/maidsafe.repo
+            sudo yum update
+            sudo yum install safe_demo_app
+          </pre>
+        </div>
+        <div class="al-download-tab-cnt" id="OtherPlatforms_Demo">
+          <a class="primary-btn" href="https://github.com/maidsafe/safe_examples/releases/tag/0.6.0" target="_blank">Download</a>
+        </div>
+      </div>
+      <p class="al-p first al-download-desc">
+        Not on Linux? Download for <a href="https://github.com/maidsafe/safe_examples/releases/tag/0.6.0" target="_blank">another platform</a>.
+      </p>
+    </div>
+
+    <div class="mob-alert">
+      The SAFE Network Alpha isn't available for mobile yet.
+    </div>
+  </div>
+</div>
+
+<!-- Proxy -->
+<div class="base-1 al-content" id="proxy">
+  <h4 class="al-sub-title">Proxy</h4>
+  <p class="al-p first">
+    The first time you use the network you will need to set up a proxy to view SAFE websites. Setup instructions are available
+    <a href="https://maidsafe.readme.io/docs/proxy-setup" target="_blank">here</a>.
+  </p>
+</div>
+
+<!-- Support -->
+<div class="base-1 al-content last-content" id="support">
+  <h4 class="al-sub-title">Support</h4>
+  <p class="al-p first">
+    If you have any problems please flag it up by posting within the <a href="https://safenetforum.org/c/support" target="_blank">support section</a> of the
+    forum and someone will help. You will need to set up an account to post, but this process is both quick, easy and free!
+  </p>
+</div>
