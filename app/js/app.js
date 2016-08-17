@@ -334,9 +334,11 @@ $(window).on('hashchange load', function() {
       window.scroll(0, targetEle.offset().top - 80);
     }
     if (currentPage === 'careers.html') {
-      $('.tbl-cnt').hide();
-      targetEle.children('.tbl-cnt').show();
-      window.scroll(0, targetEle.offset().top - 80);
+      var targetEleChild = targetEle.children('.tbl-cnt');
+      targetEleChild.slideDown(function() {
+        $('.tbl-cnt').not(targetEleChild).hide();
+        window.scroll(0, targetEle.offset().top - 80);
+      });
     }
   }, 10);
 });
