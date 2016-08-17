@@ -306,6 +306,10 @@ $(function() {
     $(this).toggleClass('open');
   });
 
+  // $('.list-content .tbl-view .tbl-c .title').on('click', function() {
+  //   $(this).siblings('.tbl-cnt').toggle();
+  // });
+
   $(document).on('mouseup', function(e) {
     var listItems = $('#navDropdown > a');
     if (!listItems.is(e.target) && listItems.has(e.target).length === 0) {
@@ -321,13 +325,20 @@ $(function() {
 $(window).on('hashchange load', function() {
   var currentPage = window.location.pathname.split('/').pop();
   setTimeout(function() {
+    var targetHash = window.location.hash.split('?')[0].split('#').pop();
+    if (!targetHash) {
+      return;
+    }
+    var targetEle = $('#' + targetHash);
     if (currentPage === 'alpha.html') {
-      var targetHash = window.location.hash.split('?')[0].split('#').pop();
-      if (!targetHash) {
-        return;
-      }
-      var targetEle = $('#' + targetHash);
       window.scroll(0, targetEle.offset().top - 80);
+    }
+    if (currentPage === 'careers.html') {
+      var targetEleChild = targetEle.children('.tbl-cnt');
+      targetEleChild.slideDown(function() {
+        $('.tbl-cnt').not(targetEleChild).hide();
+        window.scroll(0, targetEle.offset().top - 80);
+      });
     }
   }, 10);
 });
