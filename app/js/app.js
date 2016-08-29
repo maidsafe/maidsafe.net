@@ -1,4 +1,7 @@
 /* global $: false, document: false, window: false */
+if (window.location.protocol !== 'https:') {
+  window.location = window.location.toString().replace(/^http:/, 'https:');
+}
 window.platform = null;
 window.OS = {
   'Mac OS': 'osx',
