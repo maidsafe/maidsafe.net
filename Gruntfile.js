@@ -68,6 +68,7 @@ module.exports = function (grunt) {
           ]
         },
         options: {
+          https: true,
           server: {
             baseDir: [
               '.jekyll',
@@ -81,6 +82,7 @@ module.exports = function (grunt) {
       },
       dist: {
         options: {
+          https: true,
           server: {
             baseDir: '<%= yeoman.dist %>',
             middleware: customMiddleware
