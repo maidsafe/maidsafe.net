@@ -81,7 +81,7 @@
   .home-bnr .home-bnr-b .download-lnk-btn, .home-bnr .home-bnr-b .download-i .desc {
     display: none;
   }
-  .home-bnr .home-bnr-b .no-support-content {
+  .no-support-content {
     display: block;
   }
   /* #Home Banner */
@@ -558,5 +558,25 @@
   }
   .platform.unix-platform .mob-alert {
     display: block;
+  }
+
+  .al-download {
+    display: none;
+  }
+
+  .al-media {
+    width: 100%;
+    height: auto;
+  }
+
+  .al-media img {
+    height: auto;
+    width: 100%;
+  }
+  .al-banner:after {
+    background-image: url(../img/alpha_mobile.png);
+  }
+  .al-banner:before {
+    display: none;
   }
 }
