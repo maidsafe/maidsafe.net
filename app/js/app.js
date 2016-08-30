@@ -9,7 +9,8 @@ window.OS = {
   'UNIX': 'unix'
 };
 
-var INTRO_VIDEO_SRC = 'https://www.youtube.com/embed/bXOaxjvefGc';
+// var INTRO_VIDEO_SRC = 'https://www.youtube.com/embed/bXOaxjvefGc';
+
 var updateHeader = function() {
   var supportPageOffset = window.pageXOffset !== undefined;
   var isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
@@ -221,10 +222,9 @@ var setPlatform = function() {
   window.platform = window.OS[ $.ua.os.name ] || window.OS.UNIX;
 };
 
-var downloadLauncher = function(e, shouldNavigate) {
-  if (shouldNavigate) {
-    window.location.href = './alpha.html#launcher?download';
-    return;
+var downloadLauncher = function(e) {
+  if (e) {
+    e.preventDefault();
   }
   var winExe = 'https://github.com/maidsafe/safe_launcher/releases/download/0.8.0/safe_launcher-v0.8.0-win.exe';
   var osxExe = 'https://github.com/maidsafe/safe_launcher/releases/download/0.8.0/safe_launcher-v0.8.0-osx.pkg';
@@ -234,15 +234,11 @@ var downloadLauncher = function(e, shouldNavigate) {
   } else {
     window.location.assign((window.platform === window.OS.Windows) ? winExe : osxExe);
   }
-  if (e) {
-    e.preventDefault();
-  }
 };
 
-var downloadDemoApp = function(e, shouldNavigate) {
-  if (shouldNavigate) {
-    window.location.href = './alpha.html#demo_app?download';
-    return;
+var downloadDemoApp = function(e) {
+  if (e) {
+    e.preventDefault();
   }
   var winExe = 'https://github.com/maidsafe/safe_examples/releases/download/0.6.0/safe_demo_app-v0.6.0-win.exe';
   var osxExe = 'https://github.com/maidsafe/safe_examples/releases/download/0.6.0/safe_demo_app-v0.6.0-osx.pkg';
@@ -251,9 +247,6 @@ var downloadDemoApp = function(e, shouldNavigate) {
     window.location.assign(unix);
   } else {
     window.location.assign((window.platform === window.OS.Windows) ? winExe : osxExe);
-  }
-  if (e) {
-    e.preventDefault();
   }
 };
 
@@ -276,26 +269,26 @@ $(function() {
     window.location.hash = downloadTokens[0];
   }
 
-  $(document).on('click', '.al-download-tab .al-download-tab-nav ul li', function() {
-    var target = $(this).data('target');
-    var targetEle = $('#' + target);
-    if (!targetEle.is('.al-download-tab .al-download-tab-cnt')) {
-      return;
-    }
-    // reset
-    $(this).siblings().removeClass('active');
-    $(this).parents('.al-download-tab').find('.al-download-tab-cnt').removeClass('active');
-
-    $(this).addClass('active');
-    targetEle.addClass('active');
-  });
+  // $(document).on('click', '.al-download-tab .al-download-tab-nav ul li', function() {
+  //   var target = $(this).data('target');
+  //   var targetEle = $('#' + target);
+  //   if (!targetEle.is('.al-download-tab .al-download-tab-cnt')) {
+  //     return;
+  //   }
+  //   // reset
+  //   $(this).siblings().removeClass('active');
+  //   $(this).parents('.al-download-tab').find('.al-download-tab-cnt').removeClass('active');
+  //
+  //   $(this).addClass('active');
+  //   targetEle.addClass('active');
+  // });
 
   // Intro video
-  $('#IntroVideoTrigger').on('click', function(e) {
-    e.preventDefault();
-    Modal.open();
-    $('#IntroVideo').attr('src', INTRO_VIDEO_SRC);
-  });
+  // $('#IntroVideoTrigger').on('click', function(e) {
+  //   e.preventDefault();
+  //   Modal.open();
+  //   $('#IntroVideo').attr('src', INTRO_VIDEO_SRC);
+  // });
 
   // Close Modal
   $('#Modal').on('click', function(e) {

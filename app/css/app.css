@@ -741,38 +741,47 @@ header.invert .nav-dropdown.open > a .icn {
   background-image: url(../img/linux_icon.svg);
 }
 
-.home-bnr .home-bnr-b .no-support-content {
+.no-support-content {
   display: none;
   padding-left: 16px;
   padding-bottom: 60px;
 }
 
-.home-bnr .home-bnr-b .no-support-content .no-support-content-b {
+.no-support-content .no-support-content-b {
   background-color: #FFF;
   border-radius: 5px;
   padding: 16px;
   color: #5592d7;
 }
 
-.home-bnr .home-bnr-b .no-support-content .no-support-content-b h3 {
+.no-support-content .no-support-content-b h3 {
   margin: 0;
   padding: 0;
   font-size: 20px;
   font-weight: 600;
 }
 
-.home-bnr .home-bnr-b .no-support-content .no-support-content-b p {
+.no-support-content .no-support-content-b p {
   margin: 16px 0 0;
   padding: 0;
   font-size: 18px;
   font-weight: normal;
 }
 
-.home-bnr .home-bnr-b .no-support-content .no-support-content-b p a {
+.no-support-content .no-support-content-b p a {
   font-size: inherit;
   color: inherit;
   text-decoration: underline;
   font-weight: 600;
+}
+
+.no-support-content.dark {
+  margin-top: 40px;
+}
+
+.no-support-content.dark .no-support-content-b {
+  color: #FFF;
+  background-color: #5592d7;
 }
 
 .home-bnr .lnk-btn {
@@ -1200,7 +1209,10 @@ header.invert .nav-dropdown.open > a .icn {
   overflow: hidden;
 }
 .list-content.type-6 .img-list .img-list-i .img-list-i-media img {
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 .list-content.type-6 .img-list .img-list-i .img-list-i-opt {
   padding: 0;
@@ -2294,95 +2306,6 @@ header.invert .nav-dropdown.open > a .icn {
 }
 /* #Credits */
 
-/* alpha page */
- .al-title {
-   font-size: 56px;
-   color: #5891CC;
-   font-weight: normal;
-   padding-bottom: 25px !important;
-   text-align: center;
- }
- .al-sub-title {
-   font-size: 30px;
-   color: #4C4C4C;
-   font-weight: 600;
- }
-
- .al-desc {
-   margin-top: 50px;
- }
-
- .al-p {
-   font-size: 18px;
-   margin: 0;
-   padding: 16px 0 0;
-   color: #4C4C4C;
- }
-
- .al-p.first {
-   padding-top: 0;
- }
-
- .al-p a {
-  font-weight: 600;
-  color: #5891CC;
- }
-
- .al-content {
-   margin-top: 80px;
- }
-
- .al-content.last-content {
-   margin-bottom: 60px;
- }
-
- .al-download-sec {
-    margin: 40px 0;
-    padding-left: 42px;
- }
-
- .al-download-sec .al-download-icn {
-   width: 100px;
-   height: 100px;
-   display: inline-block;
-   float: left;
-   margin-right: 50px;
- }
-
-.al-download-sec .al-download-lnk  {
-  margin: 28px 0;
-  float: left;
-}
- .al-download-sec .al-download-lnk a {
-   display: inline-block;
-   padding: 0 16px 0 54px;
-   background-color: #5891CC;
-   line-height: 44px;
-   text-transform: uppercase;
-   color: #FFF;
-   text-decoration: none;
-   border-radius: 5px;
-   position: relative;
- }
- .al-download-sec .al-download-lnk a .icn {
-   width: 44px;
-   height: 44px;
-   position: absolute;
-   top: 0;
-   left: 8px;
-   display: inline-block;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: 28px;
- }
- .al-download-sec .al-download-lnk a .icn.win {
-   background-image: url(../img/white_win_icon.svg);
- }
- .al-download-sec .al-download-lnk a .icn.osx {
-   background-image: url(../img/white_osx_icon.svg);
- }
- /* al page*/
-
  .platform {
    display: none;
  }
@@ -2421,62 +2344,286 @@ header.invert .nav-dropdown.open > a .icn {
    font-weight: 600;
  }
 
-
-/* alpha Tabbing */
-.al-download-tab {
-  margin: 40px 0;
+/* alpha page */
+.al-title {
+  font-size: 49px;
+  color: #5891CC;
+  font-weight: normal;
+  padding-bottom: 35px;
+  padding-top: 60px;
+  margin: 0;
+  text-align: center;
 }
 
-.al-download-tab .al-download-tab-nav ul {
-  list-style-type: none;
+.al-sub-title {
+  font-size: 39px;
+  color: #5592D7;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.al-bold {
+  font-size: 29px;
+  color: #282828;
+  font-weight: normal;
+  padding: 0 0 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.al-bold-2 {
+  font-size: 29px;
+  color: #282828;
+  font-weight: normal;
+  padding: 25px 0 0;
+  margin: 0;
+  text-align: center;
+}
+
+.al-p {
+  font-size: 18px;
+  margin: 0;
+  padding: 20px 0 0;
+  color: #282828;
+}
+
+.al-p a {
+ font-weight: 600;
+ color: #5891CC;
+}
+
+.al-download {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.al-download .al-download-i {
+  width: 50%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+}
+
+.al-download-i .head {
+  font-size: 28px;
+  color: #282828;
+  margin: 0;
+}
+
+.al-download-i .cnt {
+
+}
+.al-download-i .cnt .icon {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #5891CC;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.al-download-lnk  {
+  margin: 0 0 25px;
+}
+
+.al-download-lnk a {
+  display: inline-block;
+  padding: 0 16px 0 54px;
+  background-color: #5891CC;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+}
+
+.al-download-lnk a .icn {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28px;
+}
+
+.al-download-lnk a .icn.win {
+  background-image: url(../img/white_win_icon.svg);
+}
+
+.al-download-lnk a .icn.osx {
+  background-image: url(../img/white_osx_icon.svg);
+}
+
+.al-download-lnk a .icn.unix {
+  background-image: url(../img/white_linux_icon.svg);
+}
+
+.al-download-i .cnt .icon img {
+  width: 100%;
+}
+
+.al-download-i .foot p {
+  font-size: 18px;
+  color: #282828;
+  padding: 0;
+  margin: 0;
+}
+
+.al-download-i .foot p a {
+  font-weight: 600;
+  color: #5891CC;
+}
+
+.al-download-i.light .head {
+  color: #FFF;
+}
+
+.al-download-i.light .al-download-lnk a {
+  background-color: #FFF;
+  color: #5891CC;
+}
+
+.al-download-i.light .foot p, .al-download-i.light .foot p a {
+  color: #FFF;
+}
+
+.al-download-i.light .al-download-lnk a .icn.win {
+  background-image: url(../img/win_icon.svg);
+}
+
+.al-download-i.light .al-download-lnk a .icn.osx {
+  background-image: url(../img/osx_icon.svg);
+}
+
+.al-download-i.light .al-download-lnk a .icn.unix {
+  background-image: url(../img/linux_icon.svg);
+}
+
+.al-media {
+  margin: 40px 0;
+  height: 400px;
+  text-align: center;
+}
+
+.al-media img {
+  height: 100%;
+}
+.al-banner {
+  position: relative;
+}
+.al-banner:after, .al-banner:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/alpha_desktop.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto;
+}
+
+.al-banner:before {
+  transform: rotateY(180deg);
+  transform-origin: center;
+}
+.al-banner-cnt {
+  position: relative;
+  z-index: 1;
+}
+.al-cnt {
+  padding-bottom: 60px;
+}
+
+.al-bg-blue {
+  background-color: #5891CC;
+  margin-top: 20px;
+}
+
+.al-bg-blue .al-download {
+  padding: 60px 0;
+}
+.al-blue-stripe {
+  display: block;
+  width: 100%;
+  height: 20px;
+  background-color: #4c89c7;
+  position: relative;
+}
+/* alpha page */
+
+.text-center {
+  text-align: center;
+}
+
+.download-sec {
+  padding: 100px 0 140px;
+}
+
+.download-sec .download-sec-media, .download-sec .download-sec-cnt {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+.download-sec .download-sec-media {
+  padding: 0 20px;
+}
+
+.download-sec .download-sec-media img {
+  width: 100%;
+}
+
+.download-sec .download-sec-cnt .head {
+  font-size: 29px;
+  color: #282828;
   margin: 0;
   padding: 0;
 }
 
-.al-download-tab .al-download-tab-nav ul li {
-  display: inline-block;
-  line-height: 40px;
-  padding: 0 22.5px;
-  cursor: pointer;
+.download-sec .download-sec-cnt .p {
+  font-size: 18px;
+  color: #282828;
+  margin: 0;
+  padding: 20px 0 0;
 }
 
-.al-download-tab .al-download-tab-nav ul li.active {
-  background-color: #e5e5e5;
+.download-sec .download-sec-cnt .p a {
   font-weight: 600;
+  color: #5891CC;
 }
 
-.al-download-tab .al-download-tab-cnt {
-  display: none;
-  padding: 24px;
-  background-color: #e5e5e5;
-}
-.al-download-tab .al-download-tab-cnt.active {
-  display: block;
-}
-.al-download-tab .al-download-tab-cnt pre {
-  background-color: #2a5789;
-  border: 0;
-  border-radius: 0;
-  color: #FFF;
-  font-size: 16px;
-  line-height: 32px;
-  font-weight: normal;
-  white-space: pre-line;
-  margin: 0;
-  font-family: 'Roboto Mono Regular';
-  padding: 24px;
+.download-sec .download-sec-cnt .al-download-lnk {
+  margin: 20px 0 0;
 }
 
-.al-download-tab .al-download-tab-cnt pre a {
-  color: inherit;
+.downloading-banner {
+  position: relative;
 }
-.al-download-tab .al-download-tab-cnt pre a:hover {
-  text-decoration: underline;
+.downloading-banner:before, .downloading-banner:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/downloading_desktop_updated.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto;
+}
+.downloading-banner:before {
+  transform: rotateY(180deg);
+  transform-origin: center;
 }
 
-.al-download-tab .al-download-tab-cnt .primary-btn {
-  margin: 0;
-  line-height: 44px;
-  color: #FFF !important;
-  text-decoration: none !important;
+.downloading-banner-cnt {
+  position: relative;
+  z-index: 1;
 }
