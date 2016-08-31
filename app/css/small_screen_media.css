@@ -394,4 +394,19 @@
    }*/
 
    /* list content */
+   .al-media {
+     width: 100%;
+     height: auto;
+   }
+
+   .al-media img {
+     height: auto;
+     width: 100%;
+   }
+   .download-sec .download-sec-media {
+     margin-bottom: 80px;
+   }
+   .download-sec .download-sec-media, .download-sec .download-sec-cnt {
+     width: 100%;
+   }
 }

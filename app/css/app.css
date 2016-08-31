@@ -683,6 +683,11 @@ header.invert .nav-dropdown.open > a .icn {
 .home-bnr .home-bnr-b .download-i .desc a {
   font-size: inherit;
   color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.home-bnr .home-bnr-b .download-i .desc a:hover {
   text-decoration: underline;
 }
 
@@ -705,16 +710,26 @@ header.invert .nav-dropdown.open > a .icn {
   line-height: 44px;
   padding: 0;
   margin: 32px auto 0;
-  border-radius: 3px;
+  border: 2px solid #FFF;
+  border-radius: 5px;
 }
 
 .home-bnr .home-bnr-b .download-lnk-btn a {
   color: #5592d7;
   display: block;
-  padding: 0 16px 0 54px;
+  padding: 0 16px 0 50px;
   text-transform: uppercase;
   position: relative;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.home-bnr .home-bnr-b .download-lnk-btn:hover {
+  background-color: transparent;
+}
+
+.home-bnr .home-bnr-b .download-lnk-btn:hover a {
+  color: #FFF;
 }
 
 .home-bnr .home-bnr-b .download-lnk-btn a .icn {
@@ -723,8 +738,8 @@ header.invert .nav-dropdown.open > a .icn {
   display: inline-block;
   position: absolute;
   top: 0;
-  left: 8px;
-  background-size: 28px;
+  left: 6px;
+  background-size: 24px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -739,6 +754,18 @@ header.invert .nav-dropdown.open > a .icn {
 
 .home-bnr .home-bnr-b .download-lnk-btn a .icn.unix {
   background-image: url(../img/linux_icon.svg);
+}
+
+.home-bnr .home-bnr-b .download-lnk-btn:hover a .icn.win {
+  background-image: url(../img/white_win_icon.svg);
+}
+
+.home-bnr .home-bnr-b .download-lnk-btn:hover a .icn.osx {
+  background-image: url(../img/white_osx_icon.svg);
+}
+
+.home-bnr .home-bnr-b .download-lnk-btn:hover a .icn.unix {
+  background-image: url(../imgwhite_/linux_icon.svg);
 }
 
 .no-support-content {
@@ -853,6 +880,7 @@ header.invert .nav-dropdown.open > a .icn {
 
 .post-1 .content .p a:hover {
   color: #215A96;
+  text-decoration: underline;
 }
 
 .post-1 .foot {
@@ -2329,6 +2357,7 @@ header.invert .nav-dropdown.open > a .icn {
  .platform.unix-platform .unix {
    display: block;
  }
+
  .platform.unix-platform .win,  .platform.unix-platform .osx {
    display: none;
  }
@@ -2394,6 +2423,11 @@ header.invert .nav-dropdown.open > a .icn {
  color: #5891CC;
 }
 
+.al-p a:hover {
+ color: #215A96;
+ text-decoration: underline;
+}
+
 .al-download {
   width: 100%;
   padding: 100px 0;
@@ -2417,6 +2451,7 @@ header.invert .nav-dropdown.open > a .icn {
 }
 .al-download-i .cnt .icon {
   width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 3px solid #5891CC;
   margin: 20px 0;
@@ -2429,13 +2464,14 @@ header.invert .nav-dropdown.open > a .icn {
 
 .al-download-lnk a {
   display: inline-block;
-  padding: 0 16px 0 54px;
+  padding: 0 16px 0 50px;
   background-color: #5891CC;
   line-height: 44px;
   text-transform: uppercase;
   color: #FFF;
   text-decoration: none;
   border-radius: 5px;
+  border: 2px solid #5891CC;
   position: relative;
 }
 
@@ -2444,11 +2480,11 @@ header.invert .nav-dropdown.open > a .icn {
   height: 44px;
   position: absolute;
   top: 0;
-  left: 8px;
+  left: 6px;
   display: inline-block;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 28px;
+  background-size: 24px;
 }
 
 .al-download-lnk a .icn.win {
@@ -2463,6 +2499,23 @@ header.invert .nav-dropdown.open > a .icn {
   background-image: url(../img/white_linux_icon.svg);
 }
 
+.al-download-lnk a:hover {
+  background-color: transparent;
+  color: #5891CC;
+}
+
+.al-download-lnk a:hover .icn.win {
+  background-image: url(../img/win_icon.svg);
+}
+
+.al-download-lnk a:hover .icn.osx {
+  background-image: url(../img/osx_icon.svg);
+}
+
+.al-download-lnk a:hover .icn.unix {
+  background-image: url(../img/linux_icon.svg);
+}
+
 .al-download-i .cnt .icon img {
   width: 100%;
 }
@@ -2475,8 +2528,14 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .al-download-i .foot p a {
-  font-weight: 600;
+  font-weight: bold;
   color: #5891CC;
+  text-decoration: none;
+}
+
+.al-download-i .foot p a:hover {
+  color: #215A96;
+  text-decoration: underline;
 }
 
 .al-download-i.light .head {
@@ -2486,9 +2545,11 @@ header.invert .nav-dropdown.open > a .icn {
 .al-download-i.light .al-download-lnk a {
   background-color: #FFF;
   color: #5891CC;
+  border-color: #FFF;
 }
 
-.al-download-i.light .foot p, .al-download-i.light .foot p a {
+.al-download-i.light .al-download-lnk a:hover {
+  background-color: transparent;
   color: #FFF;
 }
 
@@ -2502,6 +2563,25 @@ header.invert .nav-dropdown.open > a .icn {
 
 .al-download-i.light .al-download-lnk a .icn.unix {
   background-image: url(../img/linux_icon.svg);
+}
+
+.al-download-i.light .al-download-lnk a:hover .icn.win {
+  background-image: url(../img/white_win_icon.svg);
+}
+
+.al-download-i.light .al-download-lnk a:hover .icn.osx {
+  background-image: url(../img/white_osx_icon.svg);
+}
+
+.al-download-i.light .al-download-lnk a:hover .icn.unix {
+  background-image: url(../img/white_linux_icon.svg);
+}
+
+.al-download-i.light .foot p, .al-download-i.light .foot p a {
+  color: #FFF;
+}
+.al-download-i.light .foot p a:hover  {
+  text-decoration: underline;
 }
 
 .al-media {
@@ -2595,8 +2675,13 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .download-sec .download-sec-cnt .p a {
-  font-weight: 600;
+  font-weight: bold;
   color: #5891CC;
+}
+
+.download-sec .download-sec-cnt .p a:hover {
+  color: #215A96;
+  text-decoration: underline;
 }
 
 .download-sec .download-sec-cnt .al-download-lnk {

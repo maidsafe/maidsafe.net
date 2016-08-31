@@ -193,6 +193,7 @@ var setDownloadLink = function() {
     'Windows': 'win-platform',
     'UNIX': 'unix-platform'
   };
+
   var platformEle = $('.platform');
 
   if (!platformEle) {
@@ -206,6 +207,9 @@ var setDownloadLink = function() {
     }
   }
   var targetPlatformClass = PLATFORM_CLASSNAMES[ $.ua.os.name ] || PLATFORM_CLASSNAMES.UNIX;
+  if (!$.ua.device.type) {
+    targetPlatformClass += ' desktop-view';
+  }
   platformEle.addClass(targetPlatformClass);
   platformEle.show();
 };
@@ -215,7 +219,6 @@ var setPlatform = function() {
   var EXCLUDED_DEVIVES = [
     'console', 'mobile', 'tablet', 'smarttv', 'wearable', 'embedded'
   ];
-
   if (EXCLUDED_DEVIVES.indexOf($.ua.device.type) > -1) {
     return;
   }

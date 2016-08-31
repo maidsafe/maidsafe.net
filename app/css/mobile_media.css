@@ -78,11 +78,25 @@
   .home-bnr:after {
     display: none;
   }
+
+  .home-bnr .home-bnr-b .downloads.desktop-view {
+    margin-top: 100px;
+  }
+
   .home-bnr .home-bnr-b .download-lnk-btn, .home-bnr .home-bnr-b .download-i .desc {
     display: none;
   }
+
+  .home-bnr .home-bnr-b .downloads.desktop-view .download-i {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .home-bnr .home-bnr-b .downloads.desktop-view .download-lnk-btn, .home-bnr .home-bnr-b .downloads.desktop-view .download-i .desc {
+    display: inline-block;
+  }
+
   .no-support-content {
-    display: block;
+    display: block !important;
   }
   /* #Home Banner */
 
@@ -553,17 +567,34 @@
     margin: 0 0 20px;
   }
   /* list content */
-  .platform.unix-platform .win,  .platform.unix-platform .osx, .platform.unix-platform .unix {
-    display: none !important;
-  }
   .platform.unix-platform .mob-alert {
     display: block;
   }
 
   .al-download {
-    display: none;
+    padding: 0;
   }
 
+  .al-download .platform {
+    display: none !important;
+  }
+
+  .al-download .desktop-view.platform {
+    margin-top: 100px;
+    display: block !important;
+  }
+
+  .al-download .desktop-view .al-download-i {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .al-bg-blue .al-download .platform {
+    margin-top: 0;
+  }
+
+  .al-bg-blue .al-download .platform .al-download-i:last-child {
+    margin-bottom: 0;
+  }
   .al-media {
     width: 100%;
     height: auto;
@@ -578,5 +609,11 @@
   }
   .al-banner:before {
     display: none;
+  }
+  .download-sec .download-sec-media {
+    margin-bottom: 80px;
+  }
+  .download-sec .download-sec-media, .download-sec .download-sec-cnt {
+    width: 100%;
   }
 }
