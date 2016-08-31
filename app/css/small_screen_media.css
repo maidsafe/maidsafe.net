@@ -33,6 +33,18 @@
     margin-top: 70px;
   }
 
+  .home-bnr .home-bnr-b .downloads.touch-view .download-lnk-btn, .home-bnr .home-bnr-b .downloads.touch-view .download-i .desc {
+    display: none;
+  }
+
+  .no-support-content {
+    display: none !important;
+  }
+
+  .no-support-content.desktop-view {
+    display: none !important;
+  }
+
   /* Typing Effect */
   .typing.lg {
     line-height: 50px;
@@ -394,4 +406,42 @@
    }*/
 
    /* list content */
+   .al-media {
+     width: 100%;
+     height: auto;
+   }
+
+   .al-media img {
+     height: auto;
+     width: 100%;
+   }
+   .al-download {
+     padding: 0;
+   }
+   .al-download .platform {
+     padding: 100px 0;
+   }
+   .al-bg-blue .al-download .platform.desktop-view {
+     padding: 0;
+   }
+   .al-download .desktop-view.platform {
+     display: block !important;
+   }
+
+   .al-download .platform.touch-view {
+     display: none !important;
+   }
+
+   .no-support-content.touch-view {
+     display: block !important;
+   }
+   .al-bg-blue.touch-view {
+     display: none;
+   }
+   .download-sec .download-sec-media {
+     margin-bottom: 80px;
+   }
+   .download-sec .download-sec-media, .download-sec .download-sec-cnt {
+     width: 100%;
+   }
 }
