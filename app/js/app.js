@@ -210,6 +210,10 @@ var setDownloadLink = function() {
   if (!$.ua.device.type) {
     targetPlatformClass += ' desktop-view';
     $('.no-support-content').addClass('desktop-view');
+  } else {
+    targetPlatformClass += ' touch-view';
+    $('.no-support-content').addClass('touch-view');
+    $('.al-bg-blue').addClass('touch-view');
   }
   platformEle.addClass(targetPlatformClass);
   platformEle.show();
