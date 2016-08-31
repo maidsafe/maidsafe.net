@@ -717,7 +717,7 @@ header.invert .nav-dropdown.open > a .icn {
 .home-bnr .home-bnr-b .download-lnk-btn a {
   color: #5592d7;
   display: block;
-  padding: 0 16px 0 50px;
+  padding: 0 16px 0 56px;
   text-transform: uppercase;
   position: relative;
   cursor: pointer;
@@ -2463,7 +2463,7 @@ header.invert .nav-dropdown.open > a .icn {
 
 .al-download-lnk a {
   display: inline-block;
-  padding: 0 16px 0 50px;
+  padding: 0 16px 0 56px;
   background-color: #5891CC;
   line-height: 44px;
   text-transform: uppercase;
