@@ -78,11 +78,31 @@
   .home-bnr:after {
     display: none;
   }
+
+  .home-bnr .home-bnr-b .downloads.desktop-view {
+    margin-top: 100px;
+  }
+
   .home-bnr .home-bnr-b .download-lnk-btn, .home-bnr .home-bnr-b .download-i .desc {
     display: none;
   }
-  .home-bnr .home-bnr-b .no-support-content {
-    display: block;
+
+  .home-bnr .home-bnr-b .downloads.desktop-view .download-i {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .home-bnr .home-bnr-b .downloads.desktop-view .download-lnk-btn, .home-bnr .home-bnr-b .downloads.desktop-view .download-i .desc {
+    display: inline-block;
+  }
+
+  .no-support-content {
+    display: block !important;
+  }
+  .no-support-content.desktop-view {
+    display: none !important;
+  }
+  .home-bnr .home-bnr-b .downloads.desktop-view ~ .no-support-content {
+    display: none !important;
   }
   /* #Home Banner */
 
@@ -553,10 +573,66 @@
     margin: 0 0 20px;
   }
   /* list content */
-  .platform.unix-platform .win,  .platform.unix-platform .osx, .platform.unix-platform .unix {
-    display: none !important;
-  }
   .platform.unix-platform .mob-alert {
     display: block;
+  }
+
+  .al-download {
+    padding: 0;
+  }
+
+  .al-download .platform {
+    display: none !important;
+  }
+
+  .al-download .desktop-view.platform {
+    margin-top: 100px;
+    display: block !important;
+    padding: 0 0 140px;
+  }
+
+  .al-download .desktop-view .al-download-i {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .al-bg-blue .al-download .platform {
+    margin-top: 0;
+  }
+
+  .al-bg-blue .al-download .platform .al-download-i:last-child {
+    margin-bottom: 0;
+  }
+  .al-media {
+    width: 100%;
+    height: auto;
+  }
+
+  .al-media img {
+    height: auto;
+    width: 100%;
+  }
+  .al-banner:after {
+    background-image: url(../img/alpha_mobile.png);
+  }
+  .al-banner:before {
+    display: none;
+  }
+  .download-sec .download-sec-media {
+    margin-bottom: 80px;
+  }
+  .download-sec .download-sec-media, .download-sec .download-sec-cnt {
+    width: 100%;
+  }
+  .downloading-banner:before {
+    display: none;
+  }
+  .al-bg-blue.touch-view {
+    display: none;
+  }
+  .al-bg-blue .al-download .platform.desktop-view {
+    padding: 0;
+  }
+  .downloading-banner:after {
+    background-image: url(../img/alpha_mobile.png);
   }
 }
