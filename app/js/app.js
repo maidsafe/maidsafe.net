@@ -209,6 +209,7 @@ var setDownloadLink = function() {
   var targetPlatformClass = PLATFORM_CLASSNAMES[ $.ua.os.name ] || PLATFORM_CLASSNAMES.UNIX;
   if (!$.ua.device.type) {
     targetPlatformClass += ' desktop-view';
+    $('.no-support-content').addClass('desktop-view');
   }
   platformEle.addClass(targetPlatformClass);
   platformEle.show();

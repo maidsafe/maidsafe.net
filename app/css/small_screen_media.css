@@ -33,6 +33,14 @@
     margin-top: 70px;
   }
 
+  .no-support-content {
+    display: none !important;
+  }
+
+  .no-support-content.desktop-view {
+    display: none !important;
+  }
+  
   /* Typing Effect */
   .typing.lg {
     line-height: 50px;

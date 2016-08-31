@@ -76,6 +76,10 @@
     display: inline-block;
   }
 
+  .no-support-content.desktop-view {
+    display: none !important;
+  }
+
   .no-support-content {
     display: block;
   }
@@ -496,5 +500,11 @@
    }
    .download-sec .download-sec-media, .download-sec .download-sec-cnt {
      width: 100%;
+   }
+   .downloading-banner:before {
+     display: none;
+   }
+   .downloading-banner:after {
+     background-image: url(../img/alpha_mobile.png);
    }
 }
