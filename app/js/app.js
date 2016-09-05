@@ -2,6 +2,14 @@
 if (window.location.protocol !== 'https:') {
   window.location = window.location.toString().replace(/^http:/, 'https:');
 }
+
+var CAROUSEL_INTERVAL = 5000;
+var carouselIndex = 1;
+var carouselTimer = null;
+var carouselBase = $('.carousel .carousel-b');
+var carouselNav = $('.carousel .carousel-nav');
+var windowWidth = window.screen.width;
+
 window.platform = null;
 window.OS = {
   'Mac OS': 'osx',
@@ -258,6 +266,35 @@ var downloadDemoApp = function(e) {
   }
 };
 
+var handleCarousel = function(index) {
+  if (!carouselBase.is('.carousel .carousel-b')) {
+    return;
+  }
+  var items = carouselBase.children();
+  carouselBase.css('visibility', 'visible');
+  carouselIndex = index || carouselIndex;
+  carouselBase.width(windowWidth * items.length);
+  $(carouselBase.children()).width(windowWidth);
+  carouselTimer = setInterval(function () {
+    setCarousel(carouselIndex);
+    carouselIndex++;
+    if (carouselIndex === items.length) {
+      carouselIndex = 0;
+    }
+  }, CAROUSEL_INTERVAL);
+};
+
+var setCarousel = function(index, stopTimer) {
+  carouselBase.css('margin-left', windowWidth * index * -1);
+  var navs = carouselNav.children();
+  navs.removeClass('active');
+  $(navs[index]).addClass('active');
+  if (stopTimer) {
+    clearInterval(carouselTimer);
+    handleCarousel(index);
+  }
+};
+
 $(function() {
   typingEffect();
   accordian();
@@ -266,6 +303,12 @@ $(function() {
   loadTeamBanner();
   setPlatform();
   setDownloadLink();
+  handleCarousel();
+
+  carouselNav.children().on('click', function(e) {
+    var index = carouselNav.children().index(e.target);
+    setCarousel(index, true);
+  });
 
   var downloadTokens = window.location.hash.split('?');
   if ((downloadTokens.length === 2) && (downloadTokens.pop() === 'download')) {
