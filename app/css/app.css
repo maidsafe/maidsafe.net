@@ -650,8 +650,8 @@ header.invert .nav-dropdown.open > a .icn {
 .home-bnr .home-bnr-b .content .title {
   margin: 0;
   font-size: 28px;
-  font-weight: 600;
-  text-align: left;
+  font-weight: normal;
+  text-align: center;
 }
 
 .home-bnr .home-bnr-b .content p {
@@ -2748,6 +2748,7 @@ header.invert .nav-dropdown.open > a .icn {
   background-color: rgba(85,147,215, 0.5);
   border-radius: 50%;
   border: 2px solid #5593d7;
+  cursor: pointer;
 }
 
 .carousel-nav .carousel-nav-i.active {
@@ -2798,8 +2799,8 @@ header.invert .nav-dropdown.open > a .icn {
 .b2f-bnr .sub-title {
   margin: 60px auto 0;
   font-size: 28px;
-  font-weight: 600;
-  text-align: left;
+  font-weight: normal;
+  text-align: center;
   color: #FFF;
 }
 

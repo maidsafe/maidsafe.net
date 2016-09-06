@@ -296,7 +296,7 @@ setCarousel = function(index, stopTimer) {
   $(navs[index]).addClass('active');
   if (stopTimer) {
     clearInterval(carouselTimer);
-    handleCarousel(index);
+    // handleCarousel(index);
   }
 };
 
