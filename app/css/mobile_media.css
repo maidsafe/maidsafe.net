@@ -635,6 +635,9 @@
   .downloading-banner:after {
     background-image: url(../img/alpha_mobile.png);
   }
+  .b2f-bnr .bnr-img {
+    margin: 100px 0;
+  }
   .b2f-bnr .bnr-img img {
     width: 100%;
   }
