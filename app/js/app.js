@@ -2,6 +2,15 @@
 if (window.location.protocol !== 'https:') {
   window.location = window.location.toString().replace(/^http:/, 'https:');
 }
+
+var CAROUSEL_INTERVAL = 5000;
+var carouselIndex = 1;
+var carouselTimer = null;
+var carouselBase = null;
+var carouselNav = null;
+var windowWidth = 0;
+var setCarousel = null;
+
 window.platform = null;
 window.OS = {
   'Mac OS': 'osx',
@@ -209,10 +218,10 @@ var setDownloadLink = function() {
   var targetPlatformClass = PLATFORM_CLASSNAMES[ $.ua.os.name ] || PLATFORM_CLASSNAMES.UNIX;
   if (!$.ua.device.type) {
     targetPlatformClass += ' desktop-view';
-    $('.no-support-content').addClass('desktop-view');
+    $('.no-support-content').removeClass('touch-view').addClass('desktop-view');
   } else {
     targetPlatformClass += ' touch-view';
-    $('.no-support-content').addClass('touch-view');
+    $('.no-support-content').removeClass('desktop-view').addClass('touch-view');
     $('.al-bg-blue').addClass('touch-view');
   }
   platformEle.addClass(targetPlatformClass);
@@ -258,6 +267,46 @@ var downloadDemoApp = function(e) {
   }
 };
 
+var handleCarousel = function(index) {
+  carouselBase = $('.carousel .carousel-b');
+  if (!carouselBase.is('.carousel .carousel-b')) {
+    return;
+  }
+  windowWidth = $(window).width();
+  carouselNav = $('.carousel .carousel-nav');
+  var items = carouselBase.children();
+  carouselBase.css('visibility', 'visible');
+  carouselBase.width(windowWidth * items.length);
+  $(carouselBase.children()).width(windowWidth);
+  carouselIndex = index || carouselIndex;
+
+  carouselTimer = setInterval(function() {
+    setCarousel(carouselIndex);
+    carouselIndex++;
+    if (carouselIndex === items.length) {
+      carouselIndex = 0;
+    }
+  }, CAROUSEL_INTERVAL);
+};
+
+setCarousel = function(index, stopTimer) {
+  carouselBase.css('margin-left', windowWidth * index * -1);
+  var navs = carouselNav.children();
+  navs.removeClass('active');
+  $(navs[index]).addClass('active');
+  if (stopTimer) {
+    clearInterval(carouselTimer);
+    // handleCarousel(index);
+  }
+};
+
+var resetCarousel = function() {
+  clearInterval(carouselTimer);
+  carouselIndex = 1;
+  carouselBase.css('margin-left', 0);
+  handleCarousel();
+};
+
 $(function() {
   typingEffect();
   accordian();
@@ -266,6 +315,12 @@ $(function() {
   loadTeamBanner();
   setPlatform();
   setDownloadLink();
+  handleCarousel();
+
+  carouselNav.children().on('click', function(e) {
+    var index = carouselNav.children().index(e.target);
+    setCarousel(index, true);
+  });
 
   var downloadTokens = window.location.hash.split('?');
   if ((downloadTokens.length === 2) && (downloadTokens.pop() === 'download')) {
@@ -347,6 +402,9 @@ $(window).on('hashchange load', function() {
 
 $(window).resize(function() {
   loadTeamBanner();
+  setPlatform();
+  setDownloadLink();
+  resetCarousel();
 });
 /**
  * Change header on scroll

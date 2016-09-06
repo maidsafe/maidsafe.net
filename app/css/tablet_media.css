@@ -50,9 +50,6 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-  .home-bnr .home-bnr-b .content .title, .home-bnr .home-bnr-b .content p {
-    text-align: left;
-  }
   .home-bnr:before {
     background-image: url(../img/safe_network_bg.png);
   }
@@ -513,5 +510,15 @@
    }
    .downloading-banner:after {
      background-image: url(../img/alpha_mobile.png);
+   }
+   .b2f-bnr .bnr-img img {
+     width: 100%;
+   }
+
+   .b2f-bnr:before {
+     background-image: url(../img/safe_network_bg.png);
+   }
+   .b2f-bnr:after {
+     display: none;
    }
 }

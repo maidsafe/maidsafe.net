@@ -650,8 +650,8 @@ header.invert .nav-dropdown.open > a .icn {
 .home-bnr .home-bnr-b .content .title {
   margin: 0;
   font-size: 28px;
-  font-weight: 600;
-  text-align: left;
+  font-weight: normal;
+  text-align: center;
 }
 
 .home-bnr .home-bnr-b .content p {
@@ -2711,3 +2711,118 @@ header.invert .nav-dropdown.open > a .icn {
   position: relative;
   z-index: 1;
 }
+
+.carousel {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.carousel .carousel-b {
+  display: table;
+  visibility: hidden;
+  transition: margin .5s ease;
+}
+
+.carousel .carousel-b .carousel-i {
+  display: table-cell;
+  position: relative;
+}
+
+.carousel-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-nav {
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.carousel-nav .carousel-nav-i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  background-color: rgba(85,147,215, 0.5);
+  border-radius: 50%;
+  border: 2px solid #5593d7;
+  cursor: pointer;
+}
+
+.carousel-nav .carousel-nav-i.active {
+  background-color: #5593d7;
+  width: 20px;
+  height: 20px;
+  margin-bottom: -3px;
+}
+
+/* B2F banner */
+.b2f-bnr {
+  background-color: #6557AA;
+}
+
+.b2f-bnr:after, .b2f-bnr:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/safe_launcher_home_bg_transparent.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto;
+}
+
+.b2f-bnr:before {
+  transform: rotateY(180deg);
+  transform-origin: center;
+}
+
+.b2f-bnr-b {
+  padding-top: 150px;
+  position: relative;
+  z-index: 1;
+}
+
+.b2f-bnr .title {
+  margin: 0;
+  padding: 0;
+  font-size: 56px;
+  font-weight: normal;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.b2f-bnr .sub-title {
+  margin: 60px auto 0;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  color: #FFF;
+}
+
+.b2f-bnr .bnr-img {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.b2f-bnr .bnr-img img {
+  width: 600px;
+}
+
+.b2f-bnr-b .foot {
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.b2f-bnr-b .foot .al-btn {
+  color: #6557AA !important;
+}
+
+.b2f-bnr-b .foot .al-btn:hover {
+  color: #FFF !important;
+}
+/* B2F banner */
