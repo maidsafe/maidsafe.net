@@ -218,10 +218,10 @@ var setDownloadLink = function() {
   var targetPlatformClass = PLATFORM_CLASSNAMES[ $.ua.os.name ] || PLATFORM_CLASSNAMES.UNIX;
   if (!$.ua.device.type) {
     targetPlatformClass += ' desktop-view';
-    $('.no-support-content').addClass('desktop-view');
+    $('.no-support-content').removeClass('touch-view').addClass('desktop-view');
   } else {
     targetPlatformClass += ' touch-view';
-    $('.no-support-content').addClass('touch-view');
+    $('.no-support-content').removeClass('desktop-view').addClass('touch-view');
     $('.al-bg-blue').addClass('touch-view');
   }
   platformEle.addClass(targetPlatformClass);
@@ -402,7 +402,8 @@ $(window).on('hashchange load', function() {
 
 $(window).resize(function() {
   loadTeamBanner();
-  // setCarousel(0, true);
+  setPlatform();
+  setDownloadLink();
   resetCarousel();
 });
 /**
