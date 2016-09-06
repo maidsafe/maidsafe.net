@@ -16,6 +16,11 @@
   /* base */
   .base-1 {
     width: 1170px;
+    display: block;
+  }
+
+  .no-support-content {
+    display: none;
   }
   /* base */
 

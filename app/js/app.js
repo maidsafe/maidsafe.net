@@ -6,9 +6,10 @@ if (window.location.protocol !== 'https:') {
 var CAROUSEL_INTERVAL = 5000;
 var carouselIndex = 1;
 var carouselTimer = null;
-var carouselBase = $('.carousel .carousel-b');
-var carouselNav = $('.carousel .carousel-nav');
-var windowWidth = window.screen.width;
+var carouselBase = null;
+var carouselNav = null;
+var windowWidth = 0;
+var setCarousel = null;
 
 window.platform = null;
 window.OS = {
@@ -267,15 +268,19 @@ var downloadDemoApp = function(e) {
 };
 
 var handleCarousel = function(index) {
+  carouselBase = $('.carousel .carousel-b');
   if (!carouselBase.is('.carousel .carousel-b')) {
     return;
   }
+  windowWidth = $(window).width();
+  carouselNav = $('.carousel .carousel-nav');
   var items = carouselBase.children();
   carouselBase.css('visibility', 'visible');
-  carouselIndex = index || carouselIndex;
   carouselBase.width(windowWidth * items.length);
   $(carouselBase.children()).width(windowWidth);
-  carouselTimer = setInterval(function () {
+  carouselIndex = index || carouselIndex;
+
+  carouselTimer = setInterval(function() {
     setCarousel(carouselIndex);
     carouselIndex++;
     if (carouselIndex === items.length) {
@@ -284,7 +289,7 @@ var handleCarousel = function(index) {
   }, CAROUSEL_INTERVAL);
 };
 
-var setCarousel = function(index, stopTimer) {
+setCarousel = function(index, stopTimer) {
   carouselBase.css('margin-left', windowWidth * index * -1);
   var navs = carouselNav.children();
   navs.removeClass('active');
@@ -293,6 +298,13 @@ var setCarousel = function(index, stopTimer) {
     clearInterval(carouselTimer);
     handleCarousel(index);
   }
+};
+
+var resetCarousel = function() {
+  clearInterval(carouselTimer);
+  carouselIndex = 1;
+  carouselBase.css('margin-left', 0);
+  handleCarousel();
 };
 
 $(function() {
@@ -390,6 +402,8 @@ $(window).on('hashchange load', function() {
 
 $(window).resize(function() {
   loadTeamBanner();
+  // setCarousel(0, true);
+  resetCarousel();
 });
 /**
  * Change header on scroll
