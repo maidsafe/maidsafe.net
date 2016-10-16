@@ -315,12 +315,12 @@ $(function() {
   loadTeamBanner();
   setPlatform();
   setDownloadLink();
-  handleCarousel();
+  // handleCarousel();
 
-  carouselNav.children().on('click', function(e) {
-    var index = carouselNav.children().index(e.target);
-    setCarousel(index, true);
-  });
+  // carouselNav.children().on('click', function(e) {
+  //   var index = carouselNav.children().index(e.target);
+  //   setCarousel(index, true);
+  // });
 
   var downloadTokens = window.location.hash.split('?');
   if ((downloadTokens.length === 2) && (downloadTokens.pop() === 'download')) {
@@ -404,7 +404,7 @@ $(window).resize(function() {
   loadTeamBanner();
   setPlatform();
   setDownloadLink();
-  resetCarousel();
+  // resetCarousel();
 });
 /**
  * Change header on scroll
