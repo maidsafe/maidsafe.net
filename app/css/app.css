@@ -2826,3 +2826,140 @@ header.invert .nav-dropdown.open > a .icn {
   color: #FFF !important;
 }
 /* B2F banner */
+
+
+/* timeline */
+.timeline {
+  display: table;
+  margin-top: 60px;
+}
+.timeline .title,
+.timeline .cntr {
+  display: table-cell;
+  vertical-align: top;
+}
+.timeline .title {
+  width: 280px;
+  margin: 0;
+  padding: 0;
+  font-size: 38px;
+  font-weight: 600;
+  color: #606060;
+}
+.timeline .timeline-i {
+  position: relative;
+  padding-left: 68px;
+  padding-bottom: 40px;
+}
+.timeline .timeline-i:after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.timeline .timeline-i.completed:after {
+  background-image: url(../img/complete.svg);
+}
+.timeline .timeline-i.in-progress:after {
+  background-image: url(../img/in_progress.svg);
+}
+.timeline .timeline-i.pending:after {
+  background-image: url(../img/pending.svg);
+}
+.timeline .timeline-i > h3 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-weight: bold;
+  color: #606060;
+}
+.timeline .timeline-i > h4 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-weight: 600;
+  font-style: italic;
+  color: #757575;
+}
+.timeline .timeline-i > p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #606060;
+}
+.timeline .timeline-i:before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 12px;
+  width: 6px;
+  height: 100%;
+  background-color: #5592D7;
+}
+.timeline .timeline-i .highlight {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.timeline .timeline-i .highlight > h3,
+.timeline .timeline-i .highlight > p,
+.timeline .timeline-i .highlight > p a {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+}
+.timeline .timeline-i .highlight > p {
+  margin-top: 20px;
+}
+.timeline .timeline-i .highlight > p a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.timeline.white {
+  margin-top: 0;
+}
+.timeline.white .title, 
+.timeline.white .timeline-i > h3,
+.timeline.white .timeline-i > h4,
+.timeline.white .timeline-i > p {
+  color: #FFF;
+}
+.timeline.white .title {
+  padding-top: 60px;
+}
+.timeline.white .timeline-i > h4 {
+  opacity: 0.8;
+}
+.timeline.white .timeline-i:before {
+  background-color: #FFF;
+}
+.timeline-connect {
+  height: 60px;
+  position: relative;
+}
+.timeline-connect:before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 12px;
+  width: 6px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.timeline .timeline-i.end:before {
+  display: none;
+}
+/* timeline */
+
+/* utils */
+.bg-blue {
+  background-color: #5891CC; 
+  overflow: hidden;
+}
+/* utils */
