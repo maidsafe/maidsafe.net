@@ -112,6 +112,7 @@ var loadTeamBanner = function() {
     'Bartlomiej': './img/team/Bartlomiej.JPG',
     'Benjamin': './img/team/Benjamin.jpg',
     'David': './img/team/david.jpg',
+    'Diggory': './img/team/diggory.png',
     'Fraser': './img/team/fraser.jpg',
     'Krishna': './img/team/krishna.jpg',
     'Nick': './img/team/nick.jpg',
