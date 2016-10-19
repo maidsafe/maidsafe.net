@@ -473,6 +473,8 @@
   }
   .timeline .timeline-i .highlight {
     position: relative;
+    padding-left: 0;
+    padding-right: 0;
     z-index: 1;
   }
   .timeline .timeline-i .highlight:before, .timeline .timeline-i .highlight:after {
