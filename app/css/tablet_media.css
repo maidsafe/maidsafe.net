@@ -521,4 +521,54 @@
    .b2f-bnr:after {
      display: none;
    }
+
+   /* timeline */
+  .timeline {
+    display: block;
+    margin-top: 40px;
+    position: relative;
+  }
+  .timeline .title,
+  .timeline .cntr {
+    display: block;
+  }
+  .timeline .title {
+    margin-bottom: 40px;
+    padding-left: 58px;
+  }
+  .timeline .cntr {
+    padding-left: 2px; 
+  }
+  .timeline .timeline-i {
+    padding-left: 58px;
+  }
+  .timeline-connect {
+    position: absolute;
+    width: 100%;
+    min-height: 200px;
+    top: 0;
+    left: 2px;
+  }
+  .timeline .timeline-i .highlight {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+  }
+  .timeline .timeline-i .highlight:before, .timeline .timeline-i .highlight:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+  .timeline .timeline-i .highlight:before {
+    left: -100%;
+  }
+  .timeline .timeline-i .highlight:after {
+    right: -100%;
+  }
+  /* timeline */
 }

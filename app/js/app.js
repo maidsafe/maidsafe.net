@@ -109,17 +109,18 @@ var loadTeamBanner = function() {
   var teamArr = {
     'Adam': './img/team/adam.JPG',
     'Andreas': './img/team/Andreas.jpg',
-    'Andrew': './img/team/andrew.jpg',
+    'Bartlomiej': './img/team/Bartlomiej.JPG',
+    'Benjamin': './img/team/Benjamin.jpg',
     'David': './img/team/david.jpg',
+    'Diggory': './img/team/diggory.jpg',
     'Fraser': './img/team/fraser.jpg',
     'Krishna': './img/team/krishna.jpg',
     'Nick': './img/team/nick.jpg',
-    'Paige': './img/team/paige.jpg',
+    'Nikita': './img/team/Nikita.jpg',
     'Qi': './img/team/qi.jpg',
     'Ross': './img/team/ross.jpg',
     'Scott': './img/team/scott.jpg',
     'Shankar': './img/team/Shankar.jpg',
-    'Shona': './img/team/shona.jpg',
     'Spandan': './img/team/spandan.jpg',
     'Vinicius': './img/team/vinicius.jpg',
     'Viv': './img/team/viv.jpg'
@@ -315,12 +316,12 @@ $(function() {
   loadTeamBanner();
   setPlatform();
   setDownloadLink();
-  handleCarousel();
+  // handleCarousel();
 
-  carouselNav.children().on('click', function(e) {
-    var index = carouselNav.children().index(e.target);
-    setCarousel(index, true);
-  });
+  // carouselNav.children().on('click', function(e) {
+  //   var index = carouselNav.children().index(e.target);
+  //   setCarousel(index, true);
+  // });
 
   var downloadTokens = window.location.hash.split('?');
   if ((downloadTokens.length === 2) && (downloadTokens.pop() === 'download')) {
@@ -404,7 +405,7 @@ $(window).resize(function() {
   loadTeamBanner();
   setPlatform();
   setDownloadLink();
-  resetCarousel();
+  // resetCarousel();
 });
 /**
  * Change header on scroll

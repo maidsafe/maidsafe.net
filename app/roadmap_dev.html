@@ -3,104 +3,118 @@ layout: base
 title: MaidSafe - Roadmap
 description: MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.
 keywords: Distributed Platform, MaidSafe
-rootClass: sub-page
+rootClass: sub-page no-bottom-padding
 headerClass: invert
 ---
 
 <div class="content-1">
   <h3>Development Roadmap</h3>
   <p>
-    The purpose of this roadmap is to provide a snap shot of the SAFE Network
-    planned release process, MaidSafe’s development progress and the current
-    set of features that are available to both end users and developers. For
-    a more detailed picture, you can <a href="roadmap.html">view the full roadmap</a>
+    The purpose of the development roadmap is to provide an indication 
+    of the SAFE Network’s release history, rollout strategy, as well as 
+    our near term development focus.
   </p>
 </div>
 
-<div class="list-content type-1">
-  <div class="list-content-b">
-    <h3 class="title">The release process</h3>
-    <p class="p">
-      The purpose of the development roadmap is to provide an indication of the
-      SAFE Network’s up and coming features. There are no timescales at this
-      stage as the speed at which MaidSafe will iterate through the alpha
-      testing stage is unknown and is dependent upon how well the network
-      performs during testing. However, it is anticipated that
-      having the core network in place will make it signiﬁcantly easier to test
-      the addition of new features than ever before. It may become possible to
-      be more speciﬁc with timescales as we enter beta phase.
-    </p>
-    <h4 class="sub-title">The main phases of the release process are:</h4>
-    <ul class="list bullet-1">
-      <li>Alpha – the core network and fundamental functionality is provided via an initial implementation, this is the first public testing phase.</li>
-      <li>Beta – alpha implementations are reiterated and improved, based on user feedback.</li>
-      <li>Release candidate – the fundamental feature set is stabilised to provide greater security, resilience and efficiency.</li>
-      <li>Release – privacy, security, freedom!</li>
-    </ul>
-  </div>
-</div>
-
-<div class="list-content type-2">
-  <div class="list-content-b">
-    <h3 class="title">Initial set of features</h3>
-    <h4 class="sub-title">The ﬁrst alpha release (alpha 1) provides:</h4>
-    <ul class="list bullet-2">
-      <li>Public ID management.</li>
-      <li>Public and private data storage.</li>
-      <li>Vault conﬁguration.</li>
-      <li>Desktop installers (64 bit Windows, Mac and Linux).</li>
-    </ul>
-    <div class="quote clearfix">
-      <!-- <span>See the full list of alpha features and their development progress.</span> -->
-      <a href="#" class="al-btn">GET THE ALPHA</a>
+<!-- Past milestones -->
+<div class="base-1">
+  <div class="timeline">
+    <h3 class="title">Past milestones:</h3>
+    <div class="cntr">
+      <!-- test-1 -->
+      <div class="timeline-i completed">
+        <h3>Test 1:&nbsp;</h3>
+        <h4>Feb 26th 2016</h4>
+        <p>
+          Client test. The release of the SAFE Launcher and the SAFE Demo App 
+          enabling users to create their own account, and to store/retrieve private data.
+        </p>
+      </div>
+      <!-- test-3 -->
+      <div class="timeline-i completed">
+        <h3>Test 3:&nbsp;</h3>
+        <h4>May 17th 2016</h4>
+        <p>
+          The first iteration of enabling users run vaults.
+        </p>
+      </div>
+      <!-- Alpha 1 -->
+      <div class="timeline-i completed">
+        <h3>Alpha 1:&nbsp;</h3>
+        <h4>Aug 12th 2016</h4>
+        <p>
+          Release of the alpha network and API version 0.5.
+        </p>
+      </div>
+      <!-- Alpha 1 -->
+      <div class="timeline-i completed">
+        <h3>Test 9:&nbsp;</h3>
+        <h4>Sep 16th 2016</h4>
+        <p>
+          Enable users to send and receive SAFE Email. This new functionality also serves as the first developer tutorial. 
+        </p>
+      </div>
     </div>
   </div>
 </div>
-
-<div class="list-content type-3">
-  <div class="list-content-b">
-    <h4 class="sub-title">The fundamental features, beyond the alpha 1 release, have been deﬁned as:</h4>
-    <ul class="list bullet-3">
-      <li>Contact Management.</li>
-      <li>Messaging.</li>
-      <li>Test safecoin.</li>
-      <li>Vaults running on ARM architectures.</li>
-      <li>Launcher UI.</li>
-      <li>Safecoin wallet.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="list-content type-2">
-  <div class="list-content-b">
-    <p class="p">
-      In tandem with this release cycle, both users and developers can expect
-      the ongoing release of APIs that reﬂect access to ever increasing network
-      functionality, as well as example applications that will showcase
-      features of the network to end users, that also act as tutorials
-      to developers.
-    </p>
-  </div>
-</div>
-
-<div class="list-content type-4">
-  <div class="list-content-b">
-    <div class="quote clearfix">
-      <span>Check out our full roadmap for more detail on our progress and development goals.</span>
-      <a href="./roadmap.html" class="al-btn invert">VIEW FULL ROADMAP</a>
+<div class="bg-blue">
+  <div class="base-1">
+    <div class="timeline white">
+      <h3 class="title">Upcoming Releases:</h3>
+      <div class="cntr">
+        <div class="timeline-connect"></div>
+        <!-- Alpha -->
+        <div class="timeline-i in-progress">
+          <h3>Alpha:&nbsp;</h3>
+          <h4>In Progress</h4>
+          <p>
+            The core network and fundamental functionality is provided via an initial 
+            implementation. This is the first public testing phase.
+          </p>
+          <div class="highlight">
+            <h3>Future roadmap</h3>
+            <p>
+              Our current development focus within the network is to enable user run Vaults 
+              and to combine the current data centre hosted alpha network and Test 10.
+            </p>
+            <p>
+              The high level tasks to enable this objective are to complete the implementation 
+              of <a href="https://github.com/maidsafe/rfcs/blob/master/text/0037-disjoint-groups/0037-disjoint-groups.md" target="_blank">
+              disjoint groups</a> and to complete the design and implementation of the 
+              <a href="https://github.com/maidsafe/rfcs/blob/master/text/0045-node-ageing/0045-node-ageing.md" target="_blank">
+              node aging RFC</a>. Following the completion of this primary objective, we will then focus on the implementation 
+              of <a href="https://github.com/maidsafe/rfcs/blob/master/text/0029-data-chains.md/0029-data-chains.md" target="_blank">
+              data chains</a>, which it is anticipated will provide data republish capability.
+            </p>
+            <p>
+              Within the SAFE Client, we will continue to release <a href="https://safe-dev-tutorials.pubstorm.site/" target="_blank">
+              developer focussed tutorials</a> as new functionality is released via the Launcher APIs. 
+            </p>
+          </div>
+        </div>
+        <!-- Beta -->
+        <div class="timeline-i pending">
+          <h3>Beta:</h3>
+          <p>
+            Alpha implementations are reiterated and improved, based on user feedback.
+          </p>
+        </div>
+        <!-- Beta -->
+        <div class="timeline-i pending">
+          <h3>Release candidate:</h3>
+          <p>
+            The fundamental feature set is stabilised to provide greater security, 
+            resilience and efficiency.
+          </p>
+        </div>
+        <!-- Release -->
+        <div class="timeline-i pending end">
+          <h3>Release:</h3>
+          <p>
+            Privacy, security, freedom!
+          </p>
+        </div>
+      </div>
     </div>
-    <h3 class="title">Out of Beta and Moving Forward</h3>
-    <p class="p">
-      Beyond release candidate 1 MaidSafe, either alone or working in
-      partnership with other developers, will start to develop some of
-      features below that will oﬀer both developers and end users access to
-      some exciting new tools, such as:
-    </p>
-    <ul class="list bullet-4">
-      <li>Smart contracts.</li>
-      <li>Pay the producer.</li>
-      <li>Autonomous updates.</li>
-      <li>Computation handling.</li>
-    </ul>
   </div>
 </div>

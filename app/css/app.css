@@ -2177,6 +2177,7 @@ header.invert .nav-dropdown.open > a .icn {
 .team-img {
   width: 100%;
   min-height: 150px;
+  background-color: #DDE9F7;
 }
 .team-img:after {
   content: '';
@@ -2195,51 +2196,58 @@ header.invert .nav-dropdown.open > a .icn {
 .team-img .team-img-i img {
   width: 100%;
 }
-.team-img .team-img-i img[title='Andrew'] {
-  background-color: #92725e;
-}
-.team-img .team-img-i img[title='David'] {
-  background-color: #518ac5;
-}
-.team-img .team-img-i img[title='Viv'] {
-  background-color: #444444;
-}
-.team-img .team-img-i img[title='Krishna'] {
-  background-color: #ab9643;
-}
-.team-img .team-img-i img[title='Shankar'] {
-  background-color: #ab9643;
+.team-img .team-img-i img[title='Adam'] {
+  background-color: #687c74;
 }
 .team-img .team-img-i img[title='Andreas'] {
   background-color: #795055;
 }
-.team-img .team-img-i img[title='Ross'] {
-  background-color: #dbf280;
+.team-img .team-img-i img[title='Bartlomiej'] {
+  background-color: #98a837;
+}
+.team-img .team-img-i img[title='Benjamin'] {
+  background-color: #646464;
+}
+.team-img .team-img-i img[title='David'] {
+  background-color: #518ac5;
+}
+.team-img .team-img-i img[title='Diggory'] {
+  background-color: #996c5a;
 }
 .team-img .team-img-i img[title='Fraser'] {
   background-color: #c09da4;
 }
+.team-img .team-img-i img[title='Krishna'] {
+  background-color: #ab9643;
+}
 .team-img .team-img-i img[title='Nick'] {
   background-color: #939393;
 }
-.team-img .team-img-i img[title='Paige'] {
-  background-color: #dbad7c;
-}
-.team-img .team-img-i img[title='Shona'] {
-  background-color: #e66d76;
-}
-.team-img .team-img-i img[title='Vinicius'] {
-  background-color: #48bd8d;
-}
-.team-img .team-img-i img[title='Spandan'] {
-  background-color: #7b8a8f;
-}
-.team-img .team-img-i img[title='Scott'] {
-  background-color: #983c37;
+.team-img .team-img-i img[title='Nikita'] {
+  background-color: #6387a1;
 }
 .team-img .team-img-i img[title='Qi'] {
   background-color: #f76051;
 }
+.team-img .team-img-i img[title='Ross'] {
+  background-color: #dbf280;
+}
+.team-img .team-img-i img[title='Scott'] {
+  background-color: #983c37;
+}
+.team-img .team-img-i img[title='Shankar'] {
+  background-color: #d8648b;
+}
+.team-img .team-img-i img[title='Spandan'] {
+  background-color: #7b8a8f;
+}
+.team-img .team-img-i img[title='Vinicius'] {
+  background-color: #48bd8d;
+}
+.team-img .team-img-i img[title='Viv'] {
+  background-color: #444444;
+}
+
 /* #Team images */
 /* Box 3 */
 .box-3 {
@@ -2826,3 +2834,143 @@ header.invert .nav-dropdown.open > a .icn {
   color: #FFF !important;
 }
 /* B2F banner */
+
+
+/* timeline */
+.timeline {
+  display: table;
+  margin-top: 60px;
+}
+.timeline .title,
+.timeline .cntr {
+  display: table-cell;
+  vertical-align: top;
+}
+.timeline .title {
+  width: 280px;
+  margin: 0;
+  padding: 0;
+  font-size: 38px;
+  font-weight: 600;
+  color: #606060;
+}
+.timeline .timeline-i {
+  position: relative;
+  padding-left: 68px;
+  padding-bottom: 40px;
+}
+.timeline .timeline-i:after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.timeline .timeline-i.completed:after {
+  background-image: url(../img/complete.svg);
+}
+.timeline .timeline-i.in-progress:after {
+  background-image: url(../img/in_progress.svg);
+}
+.timeline .timeline-i.pending:after {
+  background-image: url(../img/pending.svg);
+}
+.timeline .timeline-i > h3 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-weight: bold;
+  color: #606060;
+}
+.timeline .timeline-i > h4 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-weight: 600;
+  font-style: italic;
+  color: #757575;
+}
+.timeline .timeline-i > p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #606060;
+}
+.timeline .timeline-i:before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 12px;
+  width: 6px;
+  height: 100%;
+  background-color: #5592D7;
+}
+.timeline .timeline-i .highlight {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.timeline .timeline-i .highlight > h3,
+.timeline .timeline-i .highlight > p,
+.timeline .timeline-i .highlight > p a {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+}
+.timeline .timeline-i .highlight > p {
+  margin-top: 20px;
+}
+.timeline .timeline-i .highlight > p a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.timeline .timeline-i .highlight > p a:hover {
+  text-decoration: underline;
+}
+.timeline.white {
+  margin-top: 0;
+}
+.timeline.white .title, 
+.timeline.white .timeline-i > h3,
+.timeline.white .timeline-i > h4,
+.timeline.white .timeline-i > p {
+  color: #FFF;
+}
+.timeline.white .title {
+  padding-top: 60px;
+}
+.timeline.white .timeline-i > h4 {
+  opacity: 0.8;
+}
+.timeline.white .timeline-i:before {
+  background-color: #FFF;
+}
+.timeline-connect {
+  height: 60px;
+  position: relative;
+}
+.timeline-connect:before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 12px;
+  width: 6px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.timeline .timeline-i.end:before {
+  display: none;
+}
+/* timeline */
+
+/* utils */
+.bg-blue {
+  background-color: #5891CC; 
+  overflow: hidden;
+}
+/* utils */
