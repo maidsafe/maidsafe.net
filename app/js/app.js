@@ -109,7 +109,7 @@ var loadTeamBanner = function() {
   var teamArr = {
     'Adam': './img/team/adam.JPG',
     'Andreas': './img/team/Andreas.jpg',
-    'Bartlomiej': './img/team/Bartlomiej.jpg',
+    'Bartlomiej': './img/team/Bartlomiej.JPG',
     'Benjamin': './img/team/Benjamin.jpg',
     'David': './img/team/david.jpg',
     'Diggory': './img/team/diggory.jpg',
