@@ -2177,6 +2177,7 @@ header.invert .nav-dropdown.open > a .icn {
 .team-img {
   width: 100%;
   min-height: 150px;
+  background-color: #DDE9F7;
 }
 .team-img:after {
   content: '';
