@@ -662,7 +662,7 @@ header.invert .nav-dropdown.open > a .icn {
   text-align: left;
 }
 .home-bnr .home-bnr-b .content-2 {
-  padding: 100px 0 150px;
+  padding: 0 0 150px;
 }
 
 .home-bnr .home-bnr-b .content-2 img {
@@ -673,10 +673,10 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .home-bnr .home-bnr-b .content-2 h4 {
-  padding: 20px 0 0;
+  padding: 60px 0 0;
   text-align: center;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 36px;
+  line-height: 48px;
   font-weight: 600;
   color: #FFF;
   margin: 0;
