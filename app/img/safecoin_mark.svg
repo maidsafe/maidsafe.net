@@ -1,14 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="14173.23px" height="14173.23px" viewBox="0 0 14173.23 14173.23" enable-background="new 0 0 14173.23 14173.23"
-	 xml:space="preserve">
-<polygon fill="#6EAADC" points="7086.617,3633.422 4096.064,5360.018 4096.064,6571.439 4096.197,6571.516 4096.113,6571.66 
-	5527.561,7398.131 5527.561,7986.741 7086.615,8886.857 8220.668,8232.114 5527.561,6677.242 5527.561,6677.554 4762.205,6235.663 
-	4762.205,5744.615 7086.617,4402.616 9411.023,5744.615 9411.023,6628.686 10077.164,7013.283 10077.164,5360.02 "/>
-<polygon fill="#5892CD" points="10077.232,7602.532 10077.164,7602.492 10077.164,7602.18 9411.023,7217.582 9411.023,7217.885 
-	8645.67,6775.995 8645.67,6186.494 7086.617,5286.373 5952.559,5941.121 7852.885,7038.276 7852.64,7038.7 9411.023,7938.46 
-	9411.023,8428.615 7086.613,9770.611 4762.205,8428.615 4762.205,7544.934 4096.064,7160.338 4096.064,8813.213 7086.615,10539.807 
-	10077.164,8813.213 10077.164,7602.65 "/>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="173.20508" height="200.0000" viewBox="0 0 173.20508 200.0000">
+<title>safecoin_mark</title>
+<desc>SAFEcoin Symbol @100 base units
+
+Basic shape is that of a Hexagon 
+
+The unit size of the image is the radial length of the hexagon and set to 100.0000  All other points
+have been calculated from this.
+
+The two halves are identical with different colours and one is rotated in relation to the other
+in order to form the hexagon shape.
+
+NOTE: - These points have been recalculated from the previous version which had numereous extra points 
+        and errors.  It would appear this was the result of the version before that being editted using
+	    a graphics program
+
+
+</desc>
+
+<g transform="translate(86.60254 100.0000)" >
+<g transform="rotate(180)"> <polygon fill="#5892CD" points="
+0.00000 -100.00000 
+-86.60254 -50.00000 
+-86.60254 -17.04200 
+-43.30127 7.95800 
+-43.30127 25.00000 
+.00000 50.00000 
+31.69873 31.69873 
+-67.31154 -25.46488 
+-67.31154 -38.86234 
+.00000 -77.72467 
+67.31154 -38.86234 
+67.31154 -11.13766 
+86.60254 0.00000 
+86.60254 -50.00000 
+ "/>
+</g>
+
+<polygon fill="#6EAADC" points="
+0.00000 -100.00000 
+-86.60254 -50.00000 
+-86.60254 -17.04200 
+-43.30127 7.95800 
+-43.30127 25.00000 
+.00000 50.00000 
+31.69873 31.69873 
+-67.31154 -25.46488 
+-67.31154 -38.86234 
+.00000 -77.72467 
+67.31154 -38.86234 
+67.31154 -11.13766 
+86.60254 0.00000 
+86.60254 -50.00000 
+ "/>
+</g>
+
 </svg>
+
