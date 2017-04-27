@@ -2847,9 +2847,15 @@ header.invert .nav-dropdown.open > a .icn {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+.timeline .timeline-i .highlight > ul {
+  margin-top: 16px;
+}
+
 .timeline .timeline-i .highlight > h3,
 .timeline .timeline-i .highlight > p,
-.timeline .timeline-i .highlight > p a {
+.timeline .timeline-i .highlight > p a,
+.timeline .timeline-i .highlight > ul li {
   margin: 0;
   padding: 0;
   color: #FFF;
