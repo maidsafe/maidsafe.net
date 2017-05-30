@@ -571,4 +571,17 @@
     right: -100%;
   }
   /* timeline */
+  .bnr-1 .bnr-1-i a {
+    width: 480px;
+    padding-bottom: 200px;
+  }
+  .bnr-1 .bnr-1-i a .botton-img {
+    width: 480px;
+    margin-left: -240px;
+    height: 200px;
+  }
+
+  .bnr-1 .bnr-1-i a .left-img, .bnr-1 .bnr-1-i a .right-img {
+    display: none;
+  }
 }
