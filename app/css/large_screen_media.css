@@ -165,4 +165,26 @@
     margin-left: 496px;
     background-image: url("../img/banner-assets/max_right.svg");
   }
+
+  .bnr-2-i {
+    padding-top: 60px;
+  }
+  .bnr-2-i .label-1 {
+    font-size: 44px;
+    padding-bottom: 50px;
+  }
+  .bnr-2-i .label-2 {
+    font-size: 32px;
+    padding-bottom: 35px;
+  }
+  .bnr-2-i .label-2 span {
+    font-size: 62px;
+  }
+  .bnr-2-i .label-3 {
+    font-size: 20px;
+  }
+  .bnr-2-i .botton-img {
+    height: 300px;
+    background-image: url("../img/banner-assets/LARGE-BUBBLES.svg");
+  }
 }

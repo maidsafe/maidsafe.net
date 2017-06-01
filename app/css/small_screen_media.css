@@ -523,4 +523,31 @@
     margin-left: 266px;
     background-image: url("../img/banner-assets/small_right.svg");
   }
+
+  .bnr-2-i {
+    padding-top: 35px;
+  }
+  .bnr-2-i .base-1 {
+    padding-bottom: 120px;
+  }
+  .bnr-2-i .label-1 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .bnr-2-i .label-2 {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .bnr-2-i .label-2 span {
+    font-size: 32px;
+  }
+  .bnr-2-i .label-3 {
+    font-size: 14px;
+    width: 60%;
+    margin:  0 auto;
+  }
+  .bnr-2-i .botton-img {
+    height: 200px;
+    background-image: url("../img/banner-assets/SMALL-BUBBLES.svg");
+  }
 }

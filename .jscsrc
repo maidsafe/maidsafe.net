@@ -9,6 +9,7 @@
   "disallowSpacesInFunction": {
     "beforeOpeningRoundBrace": true
   },
+  "disallowMultipleLineBreaks": true,
   "disallowSpacesInsideObjectBrackets": null,
   "disallowSpacesInsideArrayBrackets": null,
   "requireSpacesInsideObjectBrackets": "all",
