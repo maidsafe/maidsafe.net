@@ -2912,3 +2912,150 @@ header.invert .nav-dropdown.open > a .icn {
   overflow: hidden;
 }
 /* utils */
+
+/* banner 1 */
+.bnr-1 {
+
+}
+.bnr-1 .bnr-1-b {
+  background-color: #5593d7;
+  padding-top: 70px;
+}
+.bnr-1 .bnr-1-i {
+  width: 100%;
+  text-align: center;
+  background-color: #85f9e6;
+  position: relative;
+  overflow: hidden;
+}
+.bnr-1 .bnr-1-i a {
+  width: 585px;
+  display: block;
+  padding-top: 45px;
+  padding-bottom: 250px;
+}
+.bnr-1 .bnr-1-i a .heading {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 300;
+  color: #5593d7;
+}
+.bnr-1 .bnr-1-i a .desc {
+  margin: 14px 0 0;
+  padding: 0 0 20px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #767573;
+}
+.bnr-1 .bnr-1-i a .botton-img {
+  width: 585px;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -292.5px;
+  background-image: url("../img/banner-assets/large_middle.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+.bnr-1 .bnr-1-i a .left-img {
+  width: 230px;
+  height: 98%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -538.5px;
+  background-image: url("../img/banner-assets/large_left.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+}
+.bnr-1 .bnr-1-i a .right-img {
+  width: 100%;
+  height: 96%;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  margin-left: 308.5px;
+  background-image: url("../img/banner-assets/large_right.svg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+/* /banner 1 */
+
+/* banner 2 */
+.bnr-2-i {
+  padding-top: 45px;
+  background-color: #FFF;
+  text-align: center;
+}
+.bnr-2-i .base-1 {
+  position: relative;
+  padding-bottom: 250px;
+  z-index: 1;
+}
+.bnr-2-i .label-1 {
+  margin: 0;
+  padding: 0 0 35px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #5593d7;
+}
+.bnr-2-i .label-2 {
+  margin: 0;
+  padding: 0 0 25px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #5593d7;
+}
+.bnr-2-i .label-2 span {
+  font-size: 45px;
+}
+.bnr-2-i .label-3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: #757575;
+}
+.bnr-2-i .label-3 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #757575;
+}
+.bnr-2-i .botton-img {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+  background-image: url("../img/banner-assets/LAPTOP-BUBBLES.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  z-index: 0;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+  overflow:  hidden;
+}
+.slider .slider-b {
+  height: auto;
+  background-color: white;
+  transition: margin-left 1s ease;
+}
+.slider .slider-b:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.slider .slider-b .slider-i {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+/* /banner 2 */
