@@ -138,5 +138,53 @@
     width: 1170px;
   }
 
+  .bnr-1 .bnr-1-i a {
+    padding-top: 60px;
+    width: 960px;
+  }
 
+  .bnr-1 .bnr-1-i a .heading {
+    font-size: 44px;
+  }
+
+  .bnr-1 .bnr-1-i a .desc {
+    font-size: 28px;
+  }
+
+  .bnr-1 .bnr-1-i a .botton-img {
+    width: 960px;
+    margin-left: -484px;
+    background-image: url("../img/banner-assets/max_middle.svg");
+  }
+  .bnr-1 .bnr-1-i a .left-img {
+    width: 250px;
+    margin-left: -750px;
+    background-image: url("../img/banner-assets/max_left.svg");
+  }
+  .bnr-1 .bnr-1-i a .right-img {
+    margin-left: 496px;
+    background-image: url("../img/banner-assets/max_right.svg");
+  }
+
+  .bnr-2-i {
+    padding-top: 60px;
+  }
+  .bnr-2-i .label-1 {
+    font-size: 44px;
+    padding-bottom: 50px;
+  }
+  .bnr-2-i .label-2 {
+    font-size: 32px;
+    padding-bottom: 35px;
+  }
+  .bnr-2-i .label-2 span {
+    font-size: 62px;
+  }
+  .bnr-2-i .label-3 {
+    font-size: 20px;
+  }
+  .bnr-2-i .botton-img {
+    height: 300px;
+    background-image: url("../img/banner-assets/LARGE-BUBBLES.svg");
+  }
 }

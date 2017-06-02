@@ -370,81 +370,81 @@
     font-weight: 600;
   }
   .al-content {
-     width: 585px;
-   }
+    width: 585px;
+  }
 
-   /* list content */
-   .list-content .list-content-b {
-     width: 585px;
-     margin: 0 auto;
-   }
-   .list-content .quote {
-     text-align: center;
-   }
-   .list-content .quote span, .list-content .quote button {
-     float: none;
-   }
-   .list-content .quote span {
-     display: block;
-     line-height: 24px;
-   }
-   .list-content .quote button {
-     margin-top: 20px;
-   }
-   .list-content .tbl-view {
-     display: block;
-   }
-   .list-content .tbl-c {
-     width: 100% !important;
-     display: block !important;
-     /*border: none !important;
-     padding: 0 !important;
-     margin: 0 !important;*/
-   }
-   /*.list-content .tbl-c:not(:last-child) {
-     padding-bottom: 60px !important;
-   }*/
+  /* list content */
+  .list-content .list-content-b {
+    width: 585px;
+    margin: 0 auto;
+  }
+  .list-content .quote {
+    text-align: center;
+  }
+  .list-content .quote span, .list-content .quote button {
+    float: none;
+  }
+  .list-content .quote span {
+    display: block;
+    line-height: 24px;
+  }
+  .list-content .quote button {
+    margin-top: 20px;
+  }
+  .list-content .tbl-view {
+    display: block;
+  }
+  .list-content .tbl-c {
+    width: 100% !important;
+    display: block !important;
+    /*border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;*/
+  }
+  /*.list-content .tbl-c:not(:last-child) {
+    padding-bottom: 60px !important;
+  }*/
 
-   /* list content */
-   .al-media {
-     width: 100%;
-     height: auto;
-   }
+  /* list content */
+  .al-media {
+    width: 100%;
+    height: auto;
+  }
 
-   .al-media img {
-     height: auto;
-     width: 100%;
-   }
-   .al-download {
-     padding: 0;
-   }
-   .al-download .platform {
-     padding: 100px 0;
-   }
-   .al-bg-blue .al-download .platform.desktop-view {
-     padding: 0;
-   }
-   .al-download .desktop-view.platform {
-     display: block !important;
-   }
+  .al-media img {
+    height: auto;
+    width: 100%;
+  }
+  .al-download {
+    padding: 0;
+  }
+  .al-download .platform {
+    padding: 100px 0;
+  }
+  .al-bg-blue .al-download .platform.desktop-view {
+    padding: 0;
+  }
+  .al-download .desktop-view.platform {
+    display: block !important;
+  }
 
-   .al-download .platform.touch-view {
-     display: none !important;
-   }
+  .al-download .platform.touch-view {
+    display: none !important;
+  }
 
-   .no-support-content.touch-view {
-     display: block !important;
-   }
-   .al-bg-blue.touch-view {
-     display: none;
-   }
-   .download-sec .download-sec-media {
-     margin-bottom: 80px;
-   }
-   .download-sec .download-sec-media, .download-sec .download-sec-cnt {
-     width: 100%;
-   }
-   /* timeline */
+  .no-support-content.touch-view {
+    display: block !important;
+  }
+  .al-bg-blue.touch-view {
+    display: none;
+  }
+  .download-sec .download-sec-media {
+    margin-bottom: 80px;
+  }
+  .download-sec .download-sec-media, .download-sec .download-sec-cnt {
+    width: 100%;
+  }
+  /* timeline */
   .timeline {
     display: block;
     margin-top: 40px;
@@ -459,7 +459,7 @@
     padding-left: 58px;
   }
   .timeline .cntr {
-    padding-left: 2px; 
+    padding-left: 2px;
   }
   .timeline .timeline-i {
     padding-left: 58px;
@@ -493,4 +493,61 @@
     right: -100%;
   }
   /* timeline */
+
+  .bnr-1 .bnr-1-i a {
+    padding-top: 35px;
+    width: 500px;
+    padding-bottom: 200px;
+  }
+
+  .bnr-1 .bnr-1-i a .heading {
+    font-size: 24px;
+  }
+
+  .bnr-1 .bnr-1-i a .desc {
+    font-size: 15px;
+  }
+
+  .bnr-1 .bnr-1-i a .botton-img {
+    width: 500px;
+    height: 200px;
+    margin-left: -250px;
+    background-image: url("../img/banner-assets/small_middle.svg");
+  }
+  .bnr-1 .bnr-1-i a .left-img {
+    width: 200px;
+    margin-left: -466px;
+    background-image: url("../img/banner-assets/small_left.svg");
+  }
+  .bnr-1 .bnr-1-i a .right-img {
+    margin-left: 266px;
+    background-image: url("../img/banner-assets/small_right.svg");
+  }
+
+  .bnr-2-i {
+    padding-top: 35px;
+  }
+  .bnr-2-i .base-1 {
+    padding-bottom: 120px;
+  }
+  .bnr-2-i .label-1 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .bnr-2-i .label-2 {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .bnr-2-i .label-2 span {
+    font-size: 32px;
+  }
+  .bnr-2-i .label-3 {
+    font-size: 14px;
+    width: 60%;
+    margin:  0 auto;
+  }
+  .bnr-2-i .botton-img {
+    height: 200px;
+    background-image: url("../img/banner-assets/SMALL-BUBBLES.svg");
+  }
 }

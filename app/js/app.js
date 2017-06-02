@@ -11,6 +11,8 @@ var carouselNav = null;
 var windowWidth = 0;
 var setCarousel = null;
 
+var sliderTimer = null;
+
 window.platform = null;
 window.OS = {
   'Mac OS': 'osx',
@@ -24,7 +26,7 @@ var updateHeader = function() {
   var supportPageOffset = window.pageXOffset !== undefined;
   var isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
   var y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop :
-    document.body.scrollTop;
+      document.body.scrollTop;
   $('#navDropdown').removeClass('open');
   if (y > 0) {
     $('header').addClass('invert onScroll');
@@ -308,6 +310,28 @@ setCarousel = function(index, stopTimer) {
 //   handleCarousel();
 // };
 
+var runSlider = function() {
+  clearInterval(sliderTimer);
+  var speed = 5000;
+  var sliderBase = $('.slider .slider-b');
+  var windowWidth = $(window).width();
+  var sliderChildren = sliderBase.children().length;
+  var totalWidth = windowWidth * sliderChildren;
+  var sliderMargin = 0;
+  sliderBase.css('margin-left', 0);
+  sliderBase.width(totalWidth);
+  sliderBase.children().width(windowWidth);
+  var index = 0;
+  sliderTimer = setInterval(function() {
+    if (index === sliderChildren - 1) {
+      index = -1;
+    }
+    index++;
+    sliderMargin = index * windowWidth;
+    sliderBase.css('margin-left', -sliderMargin);
+  }, speed);
+};
+
 $(function() {
   typingEffect();
   accordian();
@@ -317,6 +341,7 @@ $(function() {
   setPlatform();
   setDownloadLink();
   // handleCarousel();
+  runSlider();
 
   // carouselNav.children().on('click', function(e) {
   //   var index = carouselNav.children().index(e.target);
@@ -406,6 +431,7 @@ $(window).resize(function() {
   setPlatform();
   setDownloadLink();
   // resetCarousel();
+  runSlider();
 });
 /**
  * Change header on scroll
