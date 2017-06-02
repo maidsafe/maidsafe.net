@@ -2992,6 +2992,9 @@ header.invert .nav-dropdown.open > a .icn {
   background-color: #FFF;
   text-align: center;
 }
+.bnr-2-i a {
+  text-decoration: none;
+}
 .bnr-2-i .base-1 {
   position: relative;
   padding-bottom: 250px;
@@ -3021,7 +3024,7 @@ header.invert .nav-dropdown.open > a .icn {
   font-weight: 300;
   color: #757575;
 }
-.bnr-2-i .label-3 a {
+.bnr-2-i .label-3 b {
   text-decoration: none;
   font-weight: bold;
   color: #757575;
