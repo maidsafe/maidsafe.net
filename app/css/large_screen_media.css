@@ -139,6 +139,7 @@
   }
 
   .bnr-1 .bnr-1-i a {
+    padding-bottom: 310px;
     padding-top: 60px;
     width: 960px;
   }
@@ -168,6 +169,9 @@
 
   .bnr-2-i {
     padding-top: 60px;
+  }
+  .bnr-2-i .base-1 {
+    padding-bottom: 247px;
   }
   .bnr-2-i .label-1 {
     font-size: 44px;
