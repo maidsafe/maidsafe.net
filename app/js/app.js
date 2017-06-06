@@ -310,6 +310,16 @@ setCarousel = function(index, stopTimer) {
 //   handleCarousel();
 // };
 
+var setSliderNavActive = function(index) {
+  var navItem = $('.slider .slider-nav .slider-nav-b span');
+  navItem.removeClass('active');
+  $(navItem[index]).addClass('active');
+};
+
+var stopSlider = function() {
+  clearInterval(sliderTimer);
+};
+
 var runSlider = function() {
   clearInterval(sliderTimer);
   var speed = 5000;
@@ -322,14 +332,24 @@ var runSlider = function() {
   sliderBase.width(totalWidth);
   sliderBase.children().width(windowWidth);
   var index = 0;
+  setSliderNavActive(index);
   sliderTimer = setInterval(function() {
     if (index === sliderChildren - 1) {
       index = -1;
     }
     index++;
+    setSliderNavActive(index);
     sliderMargin = index * windowWidth;
     sliderBase.css('margin-left', -sliderMargin);
   }, speed);
+};
+
+var navSlider = function(index) {
+  var sliderBase = $('.slider .slider-b');
+  var windowWidth = $(window).width();
+  var sliderMargin = index * windowWidth;
+  setSliderNavActive(index);
+  sliderBase.css('margin-left', -sliderMargin);
 };
 
 $(function() {
@@ -357,6 +377,12 @@ $(function() {
     }
     window.location.hash = downloadTokens[0];
   }
+
+  $('.slider .slider-nav .slider-nav-b span').on('click', function(e) {
+    var index = e.target.dataset.index;
+    stopSlider();
+    navSlider(index - 1);
+  });
 
   // $(document).on('click', '.al-download-tab .al-download-tab-nav ul li', function() {
   //   var target = $(this).data('target');

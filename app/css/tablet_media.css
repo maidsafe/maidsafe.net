@@ -573,12 +573,12 @@
   /* timeline */
   .bnr-1 .bnr-1-i a {
     width: 480px;
-    padding-bottom: 200px;
+    padding-bottom: 122px;
   }
   .bnr-1 .bnr-1-i a .botton-img {
     width: 480px;
     margin-left: -240px;
-    height: 200px;
+    height: 122px;
   }
 
   .bnr-1 .bnr-1-i a .left-img, .bnr-1 .bnr-1-i a .right-img {
@@ -589,7 +589,7 @@
     padding-top: 40px;
   }
   .bnr-2-i .base-1 {
-    padding-bottom: 150px;
+    padding-bottom: 156px;
   }
   .bnr-2-i .label-1 {
     font-size: 22px;
@@ -608,7 +608,7 @@
     margin:  0 auto;
   }
   .bnr-2-i .botton-img {
-    height: 200px;
+    height: 180px;
     background-image: url("../img/banner-assets/TABLET-BUBBLES.svg");
   }
 }
