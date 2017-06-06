@@ -310,13 +310,13 @@ setCarousel = function(index, stopTimer) {
 //   handleCarousel();
 // };
 
-var setSliderNavActive = function (index) {
+var setSliderNavActive = function(index) {
   var navItem = $('.slider .slider-nav .slider-nav-b span');
   navItem.removeClass('active');
   $(navItem[index]).addClass('active');
 };
 
-var stopSlider = function () {
+var stopSlider = function() {
   clearInterval(sliderTimer);
 };
 
@@ -344,7 +344,7 @@ var runSlider = function() {
   }, speed);
 };
 
-var navSlider = function (index) {
+var navSlider = function(index) {
   var sliderBase = $('.slider .slider-b');
   var windowWidth = $(window).width();
   var sliderMargin = index * windowWidth;
@@ -378,8 +378,7 @@ $(function() {
     window.location.hash = downloadTokens[0];
   }
 
-  $('.slider .slider-nav .slider-nav-b span').on('click', function (e) {
-    console.log(e.target.dataset.index);
+  $('.slider .slider-nav .slider-nav-b span').on('click', function(e) {
     var index = e.target.dataset.index;
     stopSlider();
     navSlider(index - 1);
