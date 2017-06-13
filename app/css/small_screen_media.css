@@ -550,4 +550,25 @@
     height: 200px;
     background-image: url("../img/banner-assets/SMALL-BUBBLES.svg");
   }
+  .safe-coins .title {
+    font-size: 36px;
+    padding-bottom: 36px;
+  }
+
+  .safe-coins .desc {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .safe-coins .exchanges .exchange .icn {
+    height: 120px;
+    line-height: 120px;
+  }
+  .safe-coins .exchanges .exchange {
+    width: 50%;
+  }
+  .safe-coins .exchanges .exchange p {
+    margin-top: 120px;
+    font-size: 13px;
+    min-height: 120px;
+  }
 }
