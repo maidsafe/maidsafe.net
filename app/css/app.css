@@ -3090,3 +3090,71 @@ header.invert .nav-dropdown.open > a .icn {
   background-color: #5593d7;
 }
 /* /banner 2 */
+
+/*safe-coins*/
+.safe-coins {}
+.safe-coins .title {
+  text-align: center;
+  font-size: 48px;
+  color: #5593d7;
+  margin: 0;
+  padding: 72px 0;
+}
+.safe-coins .desc {
+  margin: 0;
+  padding: 0 0 41px;
+  font-size: 18px;
+  color: #555555;
+}
+.safe-coins .exchanges {}
+.safe-coins .exchanges:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.safe-coins .exchanges .exchange {
+  width: 33.33%;
+  display: inline-block;
+  float: left;
+  position: relative;
+  text-align: left;
+  margin: 12px 0 0;
+  padding: 0 6px;
+}
+.safe-coins .exchanges .exchange a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 30px;
+  background-color: #e2e0e0;
+  position: relative;
+}
+.safe-coins .exchanges .exchange a:hover {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.safe-coins .exchanges .exchange .icn {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 145px;
+  left: 0;
+  top: 0;
+  line-height: 145px;
+  padding: 0 30px;
+}
+.safe-coins .exchanges .exchange .icn img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 145px;
+}
+
+.safe-coins .exchanges .exchange p {
+  margin: 145px 0 0;
+  padding: 0;
+  font-size: 16px;
+  color: #555555;
+  min-height: 130px;
+}
+/*safe-coins*/

@@ -734,4 +734,34 @@
     left: 2%;
     background-image: url("../img/banner-assets/MOBILE-BUBBLES.svg");
   }
+
+  .safe-coins .title {
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 30px;
+  }
+
+  .safe-coins .desc {
+    font-size: 16px;
+    padding-bottom: 27px;
+  }
+  .safe-coins .exchanges .exchange {
+    width: 100%;
+    padding: 0;
+  }
+  .safe-coins .exchanges .exchange a {
+    padding: 20px 20px 12px;
+  }
+  .safe-coins .exchanges .exchange .icn {
+    height: 70px;
+    line-height: 70px;
+  }
+  .safe-coins .exchanges .exchange .icn img {
+    max-height: 60px;
+  }
+  .safe-coins .exchanges .exchange p {
+    margin-top: 70px;
+    font-size: 13px;
+    min-height: inherit;
+  }
 }
