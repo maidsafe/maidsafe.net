@@ -114,17 +114,19 @@ var loadTeamBanner = function() {
     'Bartlomiej': './img/team/Bartlomiej.JPG',
     'Benjamin': './img/team/Benjamin.jpg',
     'David': './img/team/david.jpg',
-    'Diggory': './img/team/diggory.jpg',
+    'Francis': './img/team/francis-brunelle.jpg',
     'Fraser': './img/team/fraser.jpg',
+    'Gabriel': './img/team/gabriel.jpg',
+    'Hunter': './img/team/Hunter.jpg',
+    'Kumar': './img/team/Krishna_kumar.jpg',
     'Krishna': './img/team/krishna.jpg',
+    'Michael': './img/team/michael.jpg',
     'Nick': './img/team/nick.jpg',
     'Nikita': './img/team/Nikita.jpg',
     'Qi': './img/team/qi.jpg',
-    'Ross': './img/team/ross.jpg',
-    'Scott': './img/team/scott.jpg',
     'Shankar': './img/team/Shankar.jpg',
+    'Shona': './img/team/shona.JPG',
     'Spandan': './img/team/spandan.jpg',
-    'Vinicius': './img/team/vinicius.jpg',
     'Viv': './img/team/viv.jpg'
   };
   var teamImgItemHg = parseFloat(teamImgWidth / itemCount);
