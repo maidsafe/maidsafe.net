@@ -400,7 +400,7 @@ header.invert .nav-dropdown.open > a .icn {
   clear: both;
 }
 .app-footer .app-footer-r.top {
-  width: 585px;
+  width: 651px;
   text-align: center;
   margin: 0 auto;
 }
@@ -485,6 +485,13 @@ header.invert .nav-dropdown.open > a .icn {
 
 .app-footer-btns-b .app-footer-btns.meetup:hover {
   background-position: -290.999999px -58px;
+}
+
+.app-footer-btns-b .app-footer-btns.telegram {
+  background-image: url("../img/footer/telegram.png");
+  background-size: 53px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .app-footer .spliter {
