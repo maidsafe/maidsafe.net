@@ -428,7 +428,7 @@ header.invert .nav-dropdown.open > a .icn {
   background-color: transparent;
   margin: 20px 16.5px;
   background-image: url(../img/footer/footer_btns.svg);
-  background-size: 352px;
+  background-size: 426px;
 }
 
 .app-footer-btns-b .app-footer-btns a {
@@ -444,54 +444,55 @@ header.invert .nav-dropdown.open > a .icn {
 }
 
 .app-footer-btns-b .app-footer-btns.community:hover {
-  background-position: 0 -58px;
+  background-position: 0 -60px;
 }
 
 .app-footer-btns-b .app-footer-btns.slack {
-  background-position: -58.999999px 1px;
+  background-position: -61px 1px;
 }
 
 .app-footer-btns-b .app-footer-btns.slack:hover {
-  background-position: -58.999999px -58px;
+  background-position: -61px -60px;
 }
 
 .app-footer-btns-b .app-footer-btns.youtube {
-  background-position: -116.999999px 1px;
+  background-position: -122px 1px;
 }
 
 .app-footer-btns-b .app-footer-btns.youtube:hover {
-  background-position: -116.999999px -58px;
+  background-position: -122px -60px;
 }
 
 .app-footer-btns-b .app-footer-btns.reddit {
-  background-position: -174.999999px 1px;
+  background-position: -183px 1px;
 }
 
 .app-footer-btns-b .app-footer-btns.reddit:hover {
-  background-position: -174.999999px -58px;
+  background-position: -183px -60px;
 }
 
 .app-footer-btns-b .app-footer-btns.twitter {
-  background-position: -232.999999px 1px;
+  background-position: -244px 1px;
 }
 
 .app-footer-btns-b .app-footer-btns.twitter:hover {
-  background-position: -232.999999px -58px;
+  background-position: -244px -60px;
 }
 
 .app-footer-btns-b .app-footer-btns.meetup {
-  background-position: -290.999999px 1px;
+  background-position: -305px 1px;
 }
 
 .app-footer-btns-b .app-footer-btns.meetup:hover {
-  background-position: -290.999999px -58px;
+  background-position: -305px -60px;
 }
 
 .app-footer-btns-b .app-footer-btns.telegram {
-  background-image: url("../img/footer/telegram.png");
-  background-size: 53px;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: -366px 1px;
+}
+
+.app-footer-btns-b .app-footer-btns.telegram:hover {
+  background-position: -366px -60px;
 }
 
 .app-footer .spliter {
