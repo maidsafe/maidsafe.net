@@ -110,7 +110,7 @@ var loadTeamBanner = function() {
   }
   var teamArr = {
     'Adam': './img/team/adam.JPG',
-    'Andreas': './img/team/Andreas.jpg',
+    'Andrew': './img/team/Andrew.jpg',
     'Bartlomiej': './img/team/Bartlomiej.JPG',
     'Benjamin': './img/team/Benjamin.jpg',
     'David': './img/team/david.jpg',
@@ -118,15 +118,19 @@ var loadTeamBanner = function() {
     'Fraser': './img/team/fraser.jpg',
     'Gabriel': './img/team/gabriel.jpg',
     'Hunter': './img/team/Hunter.jpg',
-    'Kumar': './img/team/Krishna_kumar.jpg',
+    'Josh': './img/team/Josh.jpeg',
     'Krishna': './img/team/krishna.jpg',
+    'Marcin': './img/team/Marcin.jpg',
     'Michael': './img/team/michael.jpg',
     'Nick': './img/team/nick.jpg',
     'Nikita': './img/team/Nikita.jpg',
     'Qi': './img/team/qi.jpg',
     'Shankar': './img/team/Shankar.jpg',
+    'Sharon': './img/team/Sharon.jpg',
     'Shona': './img/team/shona.JPG',
     'Spandan': './img/team/spandan.jpg',
+    'Srini': './img/team/Srini.jpg',
+    'Victoria': './img/team/Victoria.jpg',
     'Viv': './img/team/viv.jpg'
   };
   var teamImgItemHg = parseFloat(teamImgWidth / itemCount);
