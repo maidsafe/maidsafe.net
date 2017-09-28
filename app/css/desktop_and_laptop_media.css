@@ -16,6 +16,14 @@
     width: 100%;
   }
 
+  .base-1 {
+    display: block;
+  }
+
+  .no-support-content {
+    display: none;
+  }
+  
   .layout-1 .left-sec {
     width: 22% !important;
     margin: 0;

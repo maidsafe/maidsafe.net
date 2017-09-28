@@ -69,20 +69,37 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-  .home-bnr .home-bnr-b .content .title, .home-bnr .home-bnr-b .content p {
-    text-align: left;
-  }
   .home-bnr:before {
     background-image: url(../img/safe_network_bg.png);
   }
   .home-bnr:after {
     display: none;
   }
+
+  .home-bnr .home-bnr-b .downloads.desktop-view {
+    margin-top: 100px;
+  }
+
   .home-bnr .home-bnr-b .download-lnk-btn, .home-bnr .home-bnr-b .download-i .desc {
     display: none;
   }
-  .home-bnr .home-bnr-b .no-support-content {
-    display: block;
+
+  .home-bnr .home-bnr-b .downloads.desktop-view .download-i {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .home-bnr .home-bnr-b .downloads.desktop-view .download-lnk-btn, .home-bnr .home-bnr-b .downloads.desktop-view .download-i .desc {
+    display: inline-block;
+  }
+
+  .no-support-content {
+    display: block !important;
+  }
+  .no-support-content.desktop-view {
+    display: none !important;
+  }
+  .home-bnr .home-bnr-b .downloads.desktop-view ~ .no-support-content {
+    display: none !important;
   }
   /* #Home Banner */
 
@@ -410,8 +427,8 @@
     overflow: hidden;
   }
   .roadmap .roadmapNav.open {
-     left: 0 !important;
-   }
+    left: 0 !important;
+  }
   .roadmap .roadmapNav .roadmapNav-b {
     width: 80%;
     padding-top: 70px;
@@ -553,10 +570,198 @@
     margin: 0 0 20px;
   }
   /* list content */
-  .platform.unix-platform .win,  .platform.unix-platform .osx, .platform.unix-platform .unix {
-    display: none !important;
-  }
   .platform.unix-platform .mob-alert {
     display: block;
+  }
+
+  .al-download {
+    padding: 0;
+  }
+
+  .al-download .platform {
+    display: none !important;
+  }
+
+  .al-download .desktop-view.platform {
+    margin-top: 100px;
+    display: block !important;
+    padding: 0 0 140px;
+  }
+
+  .al-download .desktop-view .al-download-i {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .al-bg-blue .al-download .platform {
+    margin-top: 0;
+  }
+
+  .al-bg-blue .al-download .platform .al-download-i:last-child {
+    margin-bottom: 0;
+  }
+  .al-media {
+    width: 100%;
+    height: auto;
+  }
+
+  .al-media img {
+    height: auto;
+    width: 100%;
+  }
+  .al-banner:after {
+    background-image: url(../img/alpha_mobile.png);
+  }
+  .al-banner:before {
+    display: none;
+  }
+  .download-sec .download-sec-media {
+    margin-bottom: 80px;
+  }
+  .download-sec .download-sec-media, .download-sec .download-sec-cnt {
+    width: 100%;
+  }
+  .downloading-banner:before {
+    display: none;
+  }
+  .al-bg-blue.touch-view {
+    display: none;
+  }
+  .al-bg-blue .al-download .platform.desktop-view {
+    padding: 0;
+  }
+  .downloading-banner:after {
+    background-image: url(../img/alpha_mobile.png);
+  }
+  .b2f-bnr .bnr-img img {
+    width: 100%;
+  }
+  .b2f-bnr:before {
+    background-image: url(../img/safe_network_bg.png);
+  }
+  .b2f-bnr:after {
+    display: none;
+  }
+
+  /* timeline */
+  .timeline {
+    display: block;
+    margin-top: 40px;
+    position: relative;
+  }
+  .timeline .title,
+  .timeline .cntr {
+    display: block;
+  }
+  .timeline .title {
+    margin-bottom: 40px;
+    padding-left: 58px;
+  }
+  .timeline .cntr {
+    padding-left: 2px;
+  }
+  .timeline .timeline-i {
+    padding-left: 58px;
+  }
+  .timeline-connect {
+    position: absolute;
+    width: 100%;
+    min-height: 200px;
+    top: 0;
+    left: 2px;
+  }
+  .timeline .timeline-i .highlight {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+  }
+  .timeline .timeline-i .highlight:before, .timeline .timeline-i .highlight:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+  .timeline .timeline-i .highlight:before {
+    left: -100%;
+  }
+  .timeline .timeline-i .highlight:after {
+    right: -100%;
+  }
+  /* timeline */
+  .bnr-1 .bnr-1-i a {
+    width: 100%;
+    padding-bottom: 117px;
+  }
+  .bnr-1 .bnr-1-i a .botton-img {
+    width: 96%;
+    margin-left: 0;
+    left: 2%;
+    height: 117px;
+  }
+
+  .bnr-1 .bnr-1-i a .left-img, .bnr-1 .bnr-1-i a .right-img {
+    display: none;
+  }
+
+  .bnr-2-i {
+    padding-top: 28px;
+  }
+  .bnr-2-i .base-1 {
+    padding-bottom: 174px;
+  }
+  .bnr-2-i .label-1 {
+    font-size: 18px;
+    padding-bottom: 22px;
+  }
+  .bnr-2-i .label-2 {
+    font-size: 17px;
+    padding-bottom: 22px;
+  }
+  .bnr-2-i .label-2 span {
+    font-size: 32px;
+  }
+  .bnr-2-i .label-3 {
+    font-size: 14px;
+    width: 60%;
+    margin:  0 auto;
+  }
+  .bnr-2-i .botton-img {
+    width: 96%;
+    height: 150px;
+    left: 2%;
+    background-image: url("../img/banner-assets/MOBILE-BUBBLES.svg");
+  }
+
+  .safe-coins .title {
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 30px;
+  }
+
+  .safe-coins .desc {
+    font-size: 16px;
+    padding-bottom: 27px;
+  }
+  .safe-coins .exchanges .exchange {
+    width: 100%;
+    padding: 0;
+  }
+  .safe-coins .exchanges .exchange a {
+    padding: 20px 20px 12px;
+  }
+  .safe-coins .exchanges .exchange .icn {
+    height: 70px;
+    line-height: 70px;
+  }
+  .safe-coins .exchanges .exchange .icn img {
+    max-height: 60px;
+  }
+  .safe-coins .exchanges .exchange p {
+    margin-top: 70px;
+    font-size: 13px;
+    min-height: inherit;
   }
 }
