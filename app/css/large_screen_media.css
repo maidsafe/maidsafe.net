@@ -191,4 +191,11 @@
     height: 300px;
     background-image: url("../img/banner-assets/LARGE-BUBBLES.svg");
   }
+
+  .safe-coins .exchanges {
+    text-align: center;
+  }
+  .safe-coins .exchanges .exchange.float-none {
+    float: none !important;
+  }
 }

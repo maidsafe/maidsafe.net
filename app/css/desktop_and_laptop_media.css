@@ -23,7 +23,7 @@
   .no-support-content {
     display: none;
   }
-  
+
   .layout-1 .left-sec {
     width: 22% !important;
     margin: 0;
@@ -66,5 +66,12 @@
   }
   .roadmapChartMobile-b {
     display: none;
+  }
+
+  .safe-coins .exchanges {
+    text-align: center;
+  }
+  .safe-coins .exchanges .exchange.float-none {
+    float: none !important;
   }
 }
