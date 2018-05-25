@@ -1913,6 +1913,7 @@ header.invert .nav-dropdown.open > a .icn {
   width: 960px;
   text-align: left;
   margin: 60px auto 0;
+  overflow: hidden;
 }
 
 .content-3.type-1 {
@@ -1933,8 +1934,47 @@ header.invert .nav-dropdown.open > a .icn {
   line-height: 26px;
   font-weight: normal;
   color: #606060;
+  margin-bottom: 16px;
 }
 .content-3 .p > a {
+  text-align: left;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #5b94d9;
+}
+.content-3 ul {
+  list-style: disc;
+  margin-top: 16px;
+}
+.content-3 ul li {
+  padding: 8px 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #606060;
+}
+.content-3 .tbl {
+  width: 100%;
+  overflow-x: auto;
+}
+.content-3 .tbl table {
+  width: 100%;
+}
+.content-3 .tbl table tr {
+  border: 0;
+}
+.content-3 .tbl table tr td {
+  /* border-bottom: 1px solid #eee; */
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: normal;
+  padding: 8px;
+  text-align: justify;
+  vertical-align: top;
+}
+.content-3 .tbl table tr td a {
   text-align: left;
   font-size: 18px;
   line-height: 26px;
