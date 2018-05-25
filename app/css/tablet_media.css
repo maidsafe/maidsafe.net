@@ -333,6 +333,14 @@
   .content-3 {
     width: 480px;
   }
+  .content-3 .title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .content-3 .p {
+    font-size: 16px;
+    line-height: 24px;
+  }
   /* #Content 3 */
 
   /* Roadmap */
