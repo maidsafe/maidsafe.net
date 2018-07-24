@@ -1,0 +1,58 @@
+.home
+  .home-b
+    .home-bnr
+      background-color: $colr-sandle
+      padding: get-vw(90px) 0
+      position: relative
+      &:after
+        content: ''
+        display: block
+        width: 50%
+        height: 100%
+        background-image: url($url-home-bnr-bg)
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: center
+        position: absolute
+        top: 0
+        right: get-vw(50px)
+        z-index: 0
+      .home-bnr-b
+        .home-bnr-para
+          width: 50%
+          position: relative
+          padding-bottom: 32px
+          z-index: 1
+          &:after
+            content: ''
+            display: inline-block
+            width: 20%
+            height: 8px
+            background-color: $colr-yellow
+            position: absolute
+            bottom: 0
+            left: 0
+            z-index: 1
+    .home-intro
+      padding: get-vw(90px) 0
+      .home-intro-b
+        .home-intro-p
+          width: 80%
+    .home-safenet
+      padding: get-vw(90px) 0
+      background-color: $colr-blue-2
+      .home-safenet-b
+        +clearfix()
+        .home-safenet-med
+          width: 40%
+          float: left
+          img
+            width: 80%
+        .home-safenet-p
+          width: 60%
+          float: right
+          color: $colr-white
+          a
+            color: inherit
+            text-decoration: underline
+
