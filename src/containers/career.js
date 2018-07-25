@@ -7,7 +7,7 @@ class Career extends React.Component {
   render() {
     return (
       <div className="career">
-        <div class="content-1">
+        <div className="content-1">
           <h3>Join our team</h3>
           <p>
             We are an eclectic and multicultural group of passionate, focussed and
@@ -19,10 +19,10 @@ class Career extends React.Component {
     </p>
         </div>
 
-        <div class="list-content type-5">
-          <div class="list-content-b">
-            <h4 class="sub-title">Reasons to Work With Us:</h4>
-            <ul class="list bullet-5">
+        <div className="list-content type-5">
+          <div className="list-content-b">
+            <h4 className="sub-title">Reasons to Work With Us:</h4>
+            <ul className="list bullet-5">
               <li>Competitive salary.</li>
               <li>Share in our employee beneﬁt trust scheme that shares out 25% of the company amongst our small team.</li>
               <li>Flexibility and the opportunity to work remotely.</li>

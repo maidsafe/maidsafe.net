@@ -7,19 +7,19 @@ class Disclaimer extends React.Component {
   render() {
     return (
       <div className="disclaimer">
-        <div class="content-1">
+        <div className="content-1">
           <h3>Disclaimer</h3>
         </div>
-        <div class="content-3">
+        <div className="content-3">
           <h3>1. Use of website.</h3>
           <p>
             1.1 You are permitted to use our website for your own purposes and to print and download material from it.
-        Unless otherwise noted, all content is licensed under the <a class="inline" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        Unless otherwise noted, all content is licensed under the <a className="inline" href="http://creativecommons.org/licenses/by-sa/4.0/">
               Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0)</a>.
     </p>
         </div>
 
-        <div class="content-3">
+        <div className="content-3">
           <h3>2. Visitor conduct.</h3>
           <p>2.1 With the exception of personally identifiable information, the use of which is covered under our Privacy Statement, any material you send or post to this website shall be considered non-proprietary and not confidential. Unless you advise
         to the contrary we will be free to copy, disclose, distribute, incorporate and otherwise use such material for any and all purposes.</p>
@@ -28,7 +28,7 @@ class Disclaimer extends React.Component {
         United Kingdom.</p>
         </div>
 
-        <div class="content-3">
+        <div className="content-3">
           <h3>3. Site uptime.</h3>
           <p>3.1 We take all reasonable steps to ensure that this website is available 24 hours every day, 365 days per year.
         However, websites do sometimes encounter downtime due to server and other technical issues. Therefore we will
@@ -36,7 +36,7 @@ class Disclaimer extends React.Component {
     </p>
         </div>
 
-        <div class="content-3">
+        <div className="content-3">
           <h3>4. Links to and from other websites.</h3>
           <p>
             4.1 Any links to third party websites located on this website are provided for your convenience only. We have not
@@ -44,7 +44,7 @@ class Disclaimer extends React.Component {
     </p>
         </div>
 
-        <div class="content-3">
+        <div className="content-3">
           <h3>5. Exclusion of liability.</h3>
           <p>
             5.1 We take all reasonable steps to ensure that the information on this website is correct. However, we do not
@@ -56,7 +56,7 @@ class Disclaimer extends React.Component {
     </p>
         </div>
 
-        <div class="content-3">
+        <div className="content-3">
           <h3>6. Law and jurisdiction.</h3>
           <p>
             This Legal Notice shall be governed by and construed in accordance with Scottish law. Any dispute(s) arising in
@@ -64,7 +64,7 @@ class Disclaimer extends React.Component {
     </p>
         </div>
 
-        <div class="content-3">
+        <div className="content-3">
           <h3>Our Details.</h3>
           <p>MaidSafe.net Limited<br />
           6 Forbes Drive<br />

@@ -7,12 +7,12 @@ class Terms extends React.Component {
   render() {
     return (
       <div className="terms">
-        <div class="content-1">
-          <h3 class="title">Terms and Conditions</h3>
+        <div className="content-1">
+          <h3 className="title">Terms and Conditions</h3>
         </div>
-        <div class="content-3">
-          <h3 class="title">BACKGROUND</h3>
-          <p class="p">
+        <div className="content-3">
+          <h3 className="title">BACKGROUND</h3>
+          <p className="p">
             This website
         <a href="https://maidsafe.net/">https://maidsafe.net</a> (“Our Site”) uses Cookies and similar technologies in order to distinguish you from other
         users. By using Cookies, We are able to provide you with a better experience and to improve Our Site by better understanding
@@ -21,12 +21,12 @@ class Terms extends React.Component {
         to Our Cookie Policy, please stop using Our Site immediately.
     </p>
         </div>
-        <div class="content-3">
-          <h3 class="title">1. Definitions and Interpretation</h3>
-          <p class="p">
+        <div className="content-3">
+          <h3 className="title">1. Definitions and Interpretation</h3>
+          <p className="p">
             In this Cookie Policy, unless the context otherwise requires, the following expressions have the following meanings:
     </p>
-          <div class="tbl">
+          <div className="tbl">
             <table>
               <tr>
                 <td>
@@ -68,9 +68,9 @@ class Terms extends React.Component {
           </div>
         </div>
 
-        <div class="content-3">
-          <h3 class="title">2. Information About Us</h3>
-          <div class="tbl no-border">
+        <div className="content-3">
+          <h3 className="title">2. Information About Us</h3>
+          <div className="tbl no-border">
             <table>
               <tr>
                 <td>
@@ -102,9 +102,9 @@ class Terms extends React.Component {
             </table>
           </div>
         </div>
-        <div class="content-3">
-          <h3 class="title">3. How Does Our Site Use Cookies?</h3>
-          <div class="tbl no-border">
+        <div className="content-3">
+          <h3 className="title">3. How Does Our Site Use Cookies?</h3>
+          <div className="tbl no-border">
             <table>
               <tr>
                 <td>
@@ -137,8 +137,8 @@ class Terms extends React.Component {
                 </td>
               </tr>
               <tr>
-                <td colspan="2">
-                  <div class="inner-tbl">
+                <td colSpan="2">
+                  <div className="inner-tbl">
                     <table>
                       <tr>
                         <td>
@@ -264,9 +264,9 @@ class Terms extends React.Component {
             </table>
           </div>
         </div>
-        <div class="content-3">
-          <h3 class="title">4. What Cookies Does Our Site Use?</h3>
-          <div class="tbl no-border">
+        <div className="content-3">
+          <h3 className="title">4. What Cookies Does Our Site Use?</h3>
+          <div className="tbl no-border">
             <table>
               <tr>
                 <td>
@@ -277,8 +277,8 @@ class Terms extends React.Component {
                 </td>
               </tr>
               <tr>
-                <td colspan="2">
-                  <div class="tbl">
+                <td colSpan="2">
+                  <div className="tbl">
                     <table>
                       <tr>
                         <th width="15%">
@@ -357,8 +357,8 @@ class Terms extends React.Component {
                     </td>
               </tr>
               <tr>
-                <td colspan="2">
-                  <div class="tbl">
+                <td colSpan="2">
+                  <div className="tbl">
                     <table>
                       <tr>
                         <th width="5%">
@@ -869,8 +869,8 @@ class Terms extends React.Component {
                             </td>
               </tr>
               <tr>
-                <td colspan="2">
-                  <div class="tbl">
+                <td colSpan="2">
+                  <div className="tbl">
                     <table>
                       <tr>
                         <th width="15%">
@@ -940,9 +940,9 @@ class Terms extends React.Component {
             </table>
           </div>
         </div>
-        <div class="content-3">
-          <h3 class="title">5. Consent and Control</h3>
-          <div class="tbl no-border">
+        <div className="content-3">
+          <h3 className="title">5. Consent and Control</h3>
+          <div className="tbl no-border">
             <table>
               <tr>
                 <td>
@@ -1035,9 +1035,9 @@ class Terms extends React.Component {
             </table>
           </div>
         </div>
-        <div class="content-3">
-          <h3 class="title">6. Changes to this Cookie Policy</h3>
-          <div class="tbl no-border">
+        <div className="content-3">
+          <h3 className="title">6. Changes to this Cookie Policy</h3>
+          <div className="tbl no-border">
             <table>
               <tr>
                 <td>
@@ -1061,9 +1061,9 @@ class Terms extends React.Component {
             </table>
           </div>
         </div>
-        <div class="content-3">
-          <h3 class="title">7. Further Information</h3>
-          <div class="tbl no-border">
+        <div className="content-3">
+          <h3 className="title">7. Further Information</h3>
+          <div className="tbl no-border">
             <table>
               <tr>
                 <td>
