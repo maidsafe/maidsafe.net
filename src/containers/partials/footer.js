@@ -38,14 +38,14 @@ export default class Footer extends React.Component {
           <div className="app-footer-r bottom">
             <div className="footer-hz-li">
               <ul>
-                <li><a href="./terms_and_conditions.html">Terms & Conditions</a></li>
-                <li><a href="./disclaimer.html">Disclaimer</a></li>
-                <li><a href="./privacy.html">Privacy</a></li>
-                <li><a href="./credits.html">Credits</a></li>
+                <li><Link to={CONST.footer.legal.terms}>Terms & Conditions</Link></li>
+                <li><Link to={CONST.footer.legal.disclaimer}>Disclaimer</Link></li>
+                <li><Link to={CONST.footer.legal.privacy}>Privacy</Link></li>
+                <li><Link to={CONST.footer.legal.credits}>Credits</Link></li>
                 <li>
-                  <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+                  <Link to="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
                     <img src={LicenseButton} alt="License Button" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

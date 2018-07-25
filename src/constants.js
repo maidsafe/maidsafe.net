@@ -8,6 +8,12 @@ export default {
       twitter: 'https://twitter.com/maidsafe',
       meetup: 'https://safenetwork.org/meetup-groups/',
       telegram: 'https://t.me/safenetwork'
+    },
+    legal: {
+      terms: '/terms_and_conditions',
+      disclaimer: '/disclaimer',
+      privacy: '/privacy',
+      credits: '/credits'
     }
   }
 }

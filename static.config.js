@@ -25,6 +25,22 @@ export default {
         component: 'src/containers/contact',
       },
       {
+        path: '/terms_and_conditions',
+        component: 'src/containers/terms',
+      },
+      {
+        path: '/privacy',
+        component: 'src/containers/privacy',
+      },
+      {
+        path: '/disclaimer',
+        component: 'src/containers/disclaimer',
+      },
+      {
+        path: '/credits',
+        component: 'src/containers/credits',
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },
