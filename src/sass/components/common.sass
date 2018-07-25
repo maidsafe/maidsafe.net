@@ -10,7 +10,7 @@ body
   width: $base-width
   margin: 0 auto
 
-header
+.m-hdr
   height: 70px
   .m-hdr-b
     +clearfix()
@@ -23,6 +23,33 @@ header
     .m-hdr-nav
       float: right
       .m-hdr-nav-b
+        .m-hdr-nav-mob
+          display: none
+          .btn
+            width: auto
+            font-size: 16px
+            line-height: 70px
+            color: $colr-blue
+            padding: 0 40px 0 20px
+            display: inline-block
+            outline: none
+            border: 0
+            background-color: transparent
+            cursor: pointer
+            position: relative
+            &:after
+              content: ''
+              display: block
+              width: 18px
+              height: 18px
+              position: absolute
+              top: 50%
+              right: 20px
+              background-image: url($url-drop-arrow-blue)
+              background-repeat: no-repeat
+              background-position: center
+              transform: translate(0, -50%) rotateZ(180deg)
+              transform-origin: center
         nav
           padding-right: 20px
           a
@@ -48,3 +75,19 @@ header
     height: 50px
     background-size: contain
 
+.team-img
+  display: flex
+  flex-wrap: wrap
+  transform: translate(0, -5px)
+
+.about,
+.contact
+  padding-bottom: 200px
+
+.career
+  padding-bottom: 400px
+
+.content-3 .sub-title
+  margin-bottom: 8px
+.content-3 .btn-list .al-btn
+  margin-right: 8px

@@ -13,6 +13,18 @@ export default {
         component: 'src/containers/home',
       },
       {
+        path: '/about',
+        component: 'src/containers/about',
+      },
+      {
+        path: '/career',
+        component: 'src/containers/career',
+      },
+      {
+        path: '/contact',
+        component: 'src/containers/contact',
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },

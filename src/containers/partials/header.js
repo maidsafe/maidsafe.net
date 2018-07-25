@@ -3,26 +3,39 @@ import { Link } from 'react-static';
 import SiteLogo from '../../assets/imgs/site_logo.svg';
 
 export default class Header extends React.Component {
+  constructor() {
+    super();
+  }
+
+  toggleNav(e) {
+    const mainNav = document.getElementById('MainNav');
+    if (mainNav.classList.contains('open')) {
+      mainNav.classList.remove('open');
+      return;
+    }
+    mainNav.classList.add('open');
+  }
   render() {
     return (
-      <header>
+      <section className="m-hdr">
         <div className="m-hdr-b">
           <div className="m-hdr-logo">
             <div className="m-hdr-logo-b">
-              <img src={SiteLogo} alt="MaidSafe.net logo" />
+              <Link to="/"><img src={SiteLogo} alt="MaidSafe.net logo" /></Link>
             </div>
           </div>
-          <div className="m-hdr-nav">
+          <div className="m-hdr-nav" id="MainNav">
             <div className="m-hdr-nav-b">
+              <div className="m-hdr-nav-mob"><button className="btn" onClick={() => {this.toggleNav()}}>Menu</button></div>
               <nav>
-                <Link to="/">About Us</Link>
-                <Link to="/">Careers</Link>
-                <Link to="/">Contact</Link>
+                <Link to="/about">About Us</Link>
+                <Link to="/career">Careers</Link>
+                <Link to="/contact">Contact</Link>
               </nav>
             </div>
           </div>
         </div>
-      </header>
+      </section>
     );
   }
 }

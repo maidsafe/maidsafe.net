@@ -1,11 +1,11 @@
 @media screen and (max-width: $sm-width - 1)
-  .home
-    .home-b
-      .home-bnr,
-      .home-intro,
-      .home-safenet
+  .hm
+    .hm-b
+      .hm-bnr,
+      .hm-intro,
+      .hm-safenet
         padding: 76px 0
-      .home-bnr
+      .hm-bnr
         padding-bottom: 0
         &:after
           width: 80%
@@ -13,29 +13,30 @@
           position: relative
           margin: 0 auto
           transform: translate(0, 20px)
-        .home-bnr-b
-          .home-bnr-para
+        .hm-bnr-b
+          .hm-bnr-para
             width: 100%
             &:after
               width: 50%
-      .home-intro
-        .home-intro-b
-          .home-intro-p
+      .hm-intro
+        .hm-intro-b
+          .hm-intro-p
             width: 100%
-      .home-safenet
+      .hm-safenet
         padding-bottom: 120px
-        .home-safenet-b
-          .home-safenet-med
+        .hm-safenet-b
+          .hm-safenet-med
             width: 100%
             img
               width: 50%
               min-width: 290px
-          .home-safenet-p
+          .hm-safenet-p
             width: 80%
             margin-top: 40px
             float: left
             position: relative
             .arrow-red
               position: absolute
-              bottom: 0
-              left: 100%
+              top: 100%
+              left: 0
+              transform: translate(0, 10px)

@@ -2,10 +2,42 @@
   .base
     width: $base-xs-width
     padding: 0 40px
-  header
+  .m-hdr
     .m-hdr-b
       .m-hdr-nav
+        &.open
+          .m-hdr-nav-b
+            .m-hdr-nav-mob
+              background-color: $colr-blue
+              .btn
+                color: $colr-white
+                &:after
+                  background-image: url($url-drop-arrow-white)
+                  transform: translate(0, -50%) rotateZ(0)
+            nav
+              display: block
         .m-hdr-nav-b
+          position: relative
+          .m-hdr-nav-mob
+            display: block
           nav
+            display: none
+            min-width: 240px
+            width: 100%
+            position: absolute
+            right: 0
+            top: 100%
+            z-index: 9
+            background-color: $colr-blue
+            padding: 10px 0
             a
               font-size: 16px
+              display: block
+              color: $colr-white
+              line-height: 50px
+  .location
+    &.map
+      display: block !important
+    &.img
+      display: none !important
+
