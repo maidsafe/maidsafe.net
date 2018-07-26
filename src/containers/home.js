@@ -2,6 +2,7 @@ import React from 'react'
 import { withSiteData } from 'react-static'
 //
 import SafeNetworkLogo from '../assets/imgs/safenetwork_logo.svg';
+import CONST from '../constants';
 import Base from './partials/base_wrapper';
 
 class Banner extends React.Component {
@@ -63,5 +64,5 @@ class Home extends React.Component {
 }
 
 export default withSiteData(() => (
-  Base(Home)
+  Base(Home, CONST.meta.home)
 ));

@@ -2,6 +2,7 @@ import React from 'react';
 import { withSiteData } from 'react-static'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 //
+import CONST from '../constants';
 import Base from './partials/base_wrapper';
 import MapLocationSmall from '../../public/_temp/img/maps_bg_small.png'
 class Contact extends React.Component {
@@ -112,5 +113,5 @@ class Contact extends React.Component {
 }
 
 export default withSiteData(() => (
-  Base(Contact)
+  Base(Contact, CONST.meta.contact)
 ));

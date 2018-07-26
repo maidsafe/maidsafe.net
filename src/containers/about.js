@@ -1,6 +1,7 @@
 import React from 'react';
 import { withSiteData } from 'react-static'
 
+import CONST from '../constants';
 import Base from './partials/base_wrapper';
 
 class About extends React.Component {
@@ -138,4 +139,4 @@ class About extends React.Component {
 	}
 }
 
-export default withSiteData(() => (Base(About)));
+export default withSiteData(() => (Base(About, CONST.meta.about)));

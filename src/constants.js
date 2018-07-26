@@ -1,4 +1,22 @@
 export default {
+  meta: {
+    home: {
+      title: `MaidSafe - The New Decentralized Internet`,
+      desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
+    },
+    about: {
+      title: `MaidSafe - About`,
+      desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
+    },
+    contact: {
+      title: `MaidSafe - Contact`,
+      desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
+    },
+    career: {
+      title: `MaidSafe - Career`,
+      desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
+    },
+  },
   footer: {
     community: {
       forum: 'https://safenetforum.org/',
