@@ -34,6 +34,7 @@ class About extends React.Component {
 			'Sarah Pentland': '/_temp/img/team/sarah_pentland.jpg',
 			'Jim Collinson': '/_temp/img/team/jim_collinson.JPG',
 			'Nadia Burborough': '/_temp/img/team/nadia_burborough.png',
+			'David Geddes': '/_temp/img/team/david_geddes.png',
 		};
 		this.state = {
 			teamItems: []
