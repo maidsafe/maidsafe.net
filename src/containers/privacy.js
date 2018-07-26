@@ -129,7 +129,7 @@ class Privacy extends React.Component {
         </div>
         <div className="content-3">
           <h3 className="title">How does the organisation protect data? </h3>
-          <p className="p"> The organisation takes the security of your data seriously. It has internal policies and controls in place to ensure that your data is not lost, accidentally destroyed, misused or disclosed, and is not accessed except by our employees in the proper performance of their duties. The organisation stores all job applicant data on Google Drive where only the people listed above can access and view documents. Hard copies of employee data is stored in a locked cupboard with only Human Resources and Finance having access.</p>
+          <p className="p"> The organisation takes the security of your data seriously. It has internal policies and controls in place to ensure that your data is not lost, accidentally destroyed, misused or disclosed, and is not accessed except by our employees in the proper performance of their duties. The organisation stores all job applicant data on Google Drive where only the people listed above can access and view documents. Hard copies of employee data are stored in a locked cupboard with only Human Resources and Finance having access.</p>
         </div>
         <div className="content-3">
           <h3 className="title">For how long does the organisation keep data?</h3>
