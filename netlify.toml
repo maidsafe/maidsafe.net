@@ -1,7 +1,3 @@
 [[redirects]]
-  from = "career.html"
-  to = "/"
-
-[[redirects]]
-  from = "assets.html"
-  to = "/"
+  from = "*.html"
+  to = "/about"
