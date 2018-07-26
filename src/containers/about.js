@@ -11,7 +11,6 @@ class About extends React.Component {
 			'Adam': '/_temp/img/team/adam.JPG',
 			'Andrew': '/_temp/img/team/Andrew.jpg',
 			'Bartlomiej': '/_temp/img/team/Bartlomiej.JPG',
-			'Benjamin': '/_temp/img/team/Benjamin.jpg',
 			'David': '/_temp/img/team/david.jpg',
 			'Francis': '/_temp/img/team/francis-brunelle.jpg',
 			'Fraser': '/_temp/img/team/fraser.jpg',
@@ -20,7 +19,6 @@ class About extends React.Component {
 			'Josh': '/_temp/img/team/Josh.jpeg',
 			'Krishna': '/_temp/img/team/krishna.jpg',
 			'Marcin': '/_temp/img/team/Marcin.jpg',
-			'Michael': '/_temp/img/team/michael.jpg',
 			'Nick': '/_temp/img/team/nick.jpg',
 			'Nikita': '/_temp/img/team/Nikita.jpg',
 			'Qi': '/_temp/img/team/qi.jpg',
@@ -30,7 +28,12 @@ class About extends React.Component {
 			'Spandan': '/_temp/img/team/spandan.jpg',
 			'Srini': '/_temp/img/team/Srini.jpg',
 			'Victoria': '/_temp/img/team/Victoria.jpg',
-			'Viv': '/_temp/img/team/viv.jpg'
+			'Viv': '/_temp/img/team/viv.jpg',
+			'Stephen': '/_temp/img/team/stephen.jpg',
+			'Pierre Chevalier': '/_temp/img/team/pierre_chevalier.jpg',
+			'Sarah Pentland': '/_temp/img/team/sarah_pentland.jpg',
+			'Jim Collinson': '/_temp/img/team/jim_collinson.JPG',
+			'Nadia Burborough': '/_temp/img/team/nadia_burborough.png',
 		};
 		this.state = {
 			teamItems: []
@@ -65,7 +68,7 @@ class About extends React.Component {
 			)
 		}
 		const teamItems = [];
-		teamItems.push(Object.keys(this.teams).map((key, i) => prepareImgItem(key, this.teams[key])));
+		teamItems.push(Object.keys(this.teams).sort().map((key, i) => prepareImgItem(key, this.teams[key])));
 		this.setState({
 			teamItems: teamItems
 		});
@@ -104,33 +107,13 @@ class About extends React.Component {
 						<div className="post-3-cont-i">
 							<h3>What drives us</h3>
 							<p>
-								MaidSafe's aim is to provide privacy, security and freedom to everyone on the
-  planet. This has been our unwavering ambition since we started on this journey
-  in 2006, and it remains our driving force today.
-  </p>
+							MaidSafe's aim is to provide privacy, security and freedom to everyone on the planet. This has been our unwavering ambition since we started on this journey in 2006, and it remains our driving force today.
+							</p>
 							<p>
-								Online data has become so insecure and data thefts so commonplace that our trust
-  in companies securing our data is almost entirely eroded. An estimated 1.1
-  billion personal and sensitive records were stolen during 2014 with 8 incidents
-  reported every single day. A new way of managing data is required, and MaidSafe
-  combines several features that we believe provide a level of security not
-  possible using existing methods.
-  </p>
-							<p>
-								Data security not only allows us to keep our credit card details safe, or our
-  medical records secure, but only with security do we achieve privacy. Privacy is
-  misunderstood by many. Too often people believe that demanding privacy is
-  identical to protecting secrets, or hiding something that we shouldn’t be doing.
-  Some would have us believe that, in some way, by not wanting to share everything
-  with the world, we are involved in an unlawful act.
-  </p>
-							<p>
-								But in truth, this is not what privacy is about. Privacy is simply the ability
-  to choose which personal thoughts, communications and actions you wish to share
-  with others. Without privacy one's ability to communicate, explore, act or even
-  think freely is restrained. Only in an environment of adequate privacy can
-  creativity, new ideas and forms of expression flourish.
-  </p>
+							Online data has become so insecure and data thefts so commonplace that our trust in companies securing our data is almost entirely eroded. More than 2.5 billion personal data records were stolen in 2017.  A new way of managing data is required, and MaidSafe combines several features that provide a level of security not possible using existing methods.</p>
+							<p>Data security not only allows us to keep our credit card details safe, or our medical records secure, but also brings us  privacy. Privacy is misunderstood by many.</p>
+							<p>It’s not simply about protecting secrets or even hiding the things that we shouldn’t be doing. Privacy is simply protecting your ability to choose which personal thoughts, communications and actions you want to share with others. Without privacy, one's ability to communicate, explore, act or even think freely is restrained. We need privacy to enable creativity, and to allow new ideas and forms of expression to flourish.</p>
+							<p>In our quest to provide privacy, security and freedom to everyone, we are creating an Open Source decentralised data network called the SAFE Network - and everyone’s welcome. Join us at <a href="https://safenetwork.tech">safenetwork.tech</a> </p>
 						</div>
 					</div>
 				</div>

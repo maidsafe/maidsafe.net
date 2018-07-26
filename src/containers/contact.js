@@ -61,7 +61,7 @@ class Contact extends React.Component {
           <p className="p">
             There are currently Meetups in countries all over the world,
     including Australia, Canada, Hungary, Netherlands, UK and the US.
-    If you would like to get involved please contact them directly for more information.
+    If you would like to get involved, please contact them directly for more information.
   </p>
           <ul className="list top-pad">
             <li><a href="http://www.meetup.com/maidsafe/" target="_blank">Amsterdam</a></li>
