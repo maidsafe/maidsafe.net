@@ -38,5 +38,5 @@ class Career extends React.Component {
 }
 
 export default withSiteData(() => (
-  Base(Career, CONST.meta.career)
+  Base(Career, CONST.meta.career, CONST.nav.CAREER)
 ));

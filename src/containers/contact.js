@@ -113,5 +113,5 @@ class Contact extends React.Component {
 }
 
 export default withSiteData(() => (
-  Base(Contact, CONST.meta.contact)
+  Base(Contact, CONST.meta.contact, CONST.nav.CONTACT)
 ));

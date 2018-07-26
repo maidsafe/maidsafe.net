@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-static';
+import Classnames from 'classnames';
+//
+import CONST from '../../constants';
 import SiteLogo from '../../assets/imgs/site_logo.svg';
 
 export default class Header extends React.Component {
@@ -28,9 +31,15 @@ export default class Header extends React.Component {
             <div className="m-hdr-nav-b">
               <div className="m-hdr-nav-mob"><button className="btn" onClick={() => {this.toggleNav()}}>Menu</button></div>
               <nav>
-                <Link to="/about">About Us</Link>
-                <Link to="/career">Careers</Link>
-                <Link to="/contact">Contact</Link>
+                <Link className={Classnames({
+                  selected: this.props.page === CONST.nav.ABOUT
+                })} to="/about">About Us</Link>
+                <Link className={Classnames({
+                  selected: this.props.page === CONST.nav.CAREER
+                })} to="/career">Careers</Link>
+                <Link className={Classnames({
+                  selected: this.props.page === CONST.nav.CONTACT
+                })} to="/contact">Contact</Link>
               </nav>
             </div>
           </div>

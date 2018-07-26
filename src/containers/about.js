@@ -139,4 +139,4 @@ class About extends React.Component {
 	}
 }
 
-export default withSiteData(() => (Base(About, CONST.meta.about)));
+export default withSiteData(() => (Base(About, CONST.meta.about, CONST.nav.ABOUT)));

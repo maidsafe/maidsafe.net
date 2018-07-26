@@ -33,5 +33,10 @@ export default {
       privacy: '/privacy',
       credits: '/credits'
     }
+  },
+  nav: {
+    CAREER: 'career',
+    CONTACT: 'contact',
+    ABOUT: 'about'
   }
 }
