@@ -56,17 +56,6 @@ class Contact extends React.Component {
   </p>
         </div>
         <div className="content-3">
-          <h3 className="title">Brand Assets and Logos</h3>
-          <p className="p">
-            For the MaidSafe and project’s logos please visit out brand assets page
-    where you can also ﬁnd a selection of images which we use on this site
-    and across social media.
-  </p>
-          <ul className="list top-pad">
-            <li><a href="./assets.html">MaidSafe Brand Assets</a></li>
-          </ul>
-        </div>
-        <div className="content-3">
           <h3 className="title">Meetups</h3>
           <p className="p">
             There are currently Meetups in countries all over the world,
