@@ -31,7 +31,7 @@ class Disclaimer extends React.Component {
         <div className="content-3">
           <h3>3. Site uptime.</h3>
           <p>3.1 We take all reasonable steps to ensure that this website is available 24 hours every day, 365 days per year.
-        However, websites do sometimes encounter downtime due to server and other technical issues. Therefore we will
+        However, websites do sometimes encounter downtime due to server and other technical issues. Therefore, we will
         not be liable if this website is unavailable at any time.
     </p>
         </div>
