@@ -1,3 +1,55 @@
 [[redirects]]
-  from = "*.html"
+  from = "career.html"
+  to = "/"
+
+[[redirects]]
+  from = "assets.html"
+  to = "/"
+
+[[redirects]]
+  from = "features.html"
+  to = "/"
+
+[[redirects]]
+  from = "safecoin.html"
+  to = "/"
+
+[[redirects]]
+  from = "buy_maidsafecoin.html"
+  to = "/"
+
+[[redirects]]
+  from = "company.html"
   to = "/about"
+
+[[redirects]]
+  from = "index.html"
+  to = "/"
+
+[[redirects]]
+  from = "assets.html"
+  to = "/"
+
+[[redirects]]
+  from = "contact.html"
+  to = "/"
+
+[[redirects]]
+  from = "terms_and_conditions.html"
+  to = "/terms_and_conditions"
+
+[[redirects]]
+  from = "disclaimer.html"
+  to = "/disclaimer"
+
+[[redirects]]
+  from = "disclaimer.html"
+  to = "/disclaimer"
+
+[[redirects]]
+  from = "privacy.html"
+  to = "/privacy"
+
+[[redirects]]
+  from = "credits.html"
+  to = "/credits"
