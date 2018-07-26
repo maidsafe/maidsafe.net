@@ -5,8 +5,6 @@ import Header from './header';
 import Footer from './footer';
 
 export default function BaseWrapper(WrappedComponent, meta) {
-  const { title, desc } = meta;
-  console.log('meta', meta)
 
   class Wrapper extends React.Component {
     render() {
@@ -15,8 +13,8 @@ export default function BaseWrapper(WrappedComponent, meta) {
           {
             meta ? (
               <Head>
-                <title>{title}</title>
-                <meta name="description" content={desc} />
+                <title>{meta.title}</title>
+                <meta name="description" content={meta.desc} />
               </Head>
             ) : null
           }
