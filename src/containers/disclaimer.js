@@ -14,7 +14,7 @@ class Disclaimer extends React.Component {
           <h3>1. Use of website.</h3>
           <p>
             1.1 You are permitted to use our website for your own purposes and to print and download material from it.
-        Unless otherwise noted, all content is licensed under the <a className="inline" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        Unless otherwise noted, all content is licensed under the <a className="inline" href="//creativecommons.org/licenses/by-sa/4.0/" target="_blank">
               Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0)</a>.
     </p>
         </div>
