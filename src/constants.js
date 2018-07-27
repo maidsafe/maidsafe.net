@@ -32,7 +32,8 @@ export default {
       disclaimer: '/disclaimer',
       privacy: '/privacy',
       credits: '/credits'
-    }
+    },
+    creative_commons: 'https://creativecommons.org/licenses/by-sa/4.0/'
   },
   nav: {
     CAREER: 'career',
