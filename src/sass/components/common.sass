@@ -1,0 +1,108 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  font-family: 'Open Sans'
+
+.base
+  width: $base-width
+  margin: 0 auto
+
+.m-hdr
+  height: 70px
+  .m-hdr-b
+    +clearfix()
+    .m-hdr-logo
+      float: left
+      .m-hdr-logo-b
+        padding: 10px 0 20px 20px
+        img
+          height: 40px
+    .m-hdr-nav
+      float: right
+      .m-hdr-nav-b
+        .m-hdr-nav-mob
+          display: none
+          .btn
+            width: auto
+            font-size: 16px
+            line-height: 70px
+            color: $colr-blue
+            padding: 0 40px 0 20px
+            display: inline-block
+            outline: none
+            border: 0
+            background-color: transparent
+            cursor: pointer
+            position: relative
+            &:after
+              content: ''
+              display: block
+              width: 18px
+              height: 18px
+              position: absolute
+              top: 50%
+              right: 20px
+              background-image: url($url-drop-arrow-blue)
+              background-repeat: no-repeat
+              background-position: center
+              transform: translate(0, -50%) rotateZ(180deg)
+              transform-origin: center
+        nav
+          padding-right: 20px
+          a
+            +link()
+            width: auto
+            font-size: get-vw(16px)
+            line-height: 70px
+            color: $colr-blue
+            padding: 0 20px
+            display: inline-block
+            &:hover
+              background-color: $colr-blue-2
+              color: $colr-white
+            &.selected
+              color: $colr-blue
+              background-color: $colr-light-blue
+
+.arrow-red
+  display: inline-block
+  background-image: url($url-arrow-red)
+  background-position: center
+  background-repeat: no-repeat
+  transform: translate(30px, 25%)
+  &.sm
+    width: 50px
+    height: 50px
+    background-size: contain
+
+.team-img
+  display: flex
+  flex-wrap: wrap
+  transform: translate(0, -5px)
+
+.about,
+.contact,
+.privacy,
+.disclaimer,
+.credits,
+.terms
+  padding-bottom: 200px
+
+.career
+  padding-bottom: 400px
+
+.content-3 .sub-title
+  margin-bottom: 8px
+.content-3 .btn-list .al-btn
+  margin-right: 8px
+
+.credits-logo
+  margin-top: 0
+
+.post-3-cont-i
+  p
+    a
+      font-weight: 600
