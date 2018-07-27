@@ -64,13 +64,13 @@ class Contact extends React.Component {
     If you would like to get involved, please contact them directly for more information.
   </p>
           <ul className="list top-pad">
-            <li><a href="http://www.meetup.com/maidsafe/" target="_blank">Amsterdam</a></li>
-            <li><a href="http://www.meetup.com/Project-SAFE-Boston/" target="_blank">Boston</a></li>
-            <li><a href="http://www.meetup.com/De-Central-Budapest/" target="_blank">Budapest</a></li>
-            <li><a href="http://www.meetup.com/Project-SAFE-London/" target="_blank">London</a></li>
-            <li><a href="https://montreal.safenetwork.org/" target="_blank">Montreal</a></li>
-            <li><a href="http://www.meetup.com/Project-SAFE-San-Francisco/" target="_blank">San Francisco</a></li>
-            <li><a href="http://www.meetup.com/Sydney-Project-SAFE/" target="_blank">Sydney</a></li>
+            <li><a href="//www.meetup.com/maidsafe/" target="_blank">Amsterdam</a></li>
+            <li><a href="//www.meetup.com/Project-SAFE-Boston/" target="_blank">Boston</a></li>
+            <li><a href="//www.meetup.com/De-Central-Budapest/" target="_blank">Budapest</a></li>
+            <li><a href="//www.meetup.com/Project-SAFE-London/" target="_blank">London</a></li>
+            <li><a href="//montreal.safenetwork.org/" target="_blank">Montreal</a></li>
+            <li><a href="//www.meetup.com/Project-SAFE-San-Francisco/" target="_blank">San Francisco</a></li>
+            <li><a href="//www.meetup.com/Sydney-Project-SAFE/" target="_blank">Sydney</a></li>
           </ul>
           <p className="p">
             Alternatively, if there is no meet up in your area, or you would like to set up your own please contact:&nbsp;
