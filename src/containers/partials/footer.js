@@ -43,7 +43,7 @@ export default class Footer extends React.Component {
                 <li><Link to={CONST.footer.legal.privacy}>Privacy</Link></li>
                 <li><Link to={CONST.footer.legal.credits}>Credits</Link></li>
                 <li>
-                  <Link to="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+                  <Link to={CONST.footer.creative_commons} target="_blank">
                     <img src={LicenseButton} alt="License Button" />
                   </Link>
                 </li>

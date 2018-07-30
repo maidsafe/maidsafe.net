@@ -13,7 +13,7 @@ export default {
       desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
     },
     career: {
-      title: `MaidSafe - Career`,
+      title: `MaidSafe - Careers`,
       desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
     },
   },
@@ -32,10 +32,11 @@ export default {
       disclaimer: '/disclaimer',
       privacy: '/privacy',
       credits: '/credits'
-    }
+    },
+    creative_commons: 'https://creativecommons.org/licenses/by-sa/4.0/'
   },
   nav: {
-    CAREER: 'career',
+    CAREER: 'careers',
     CONTACT: 'contact',
     ABOUT: 'about'
   }

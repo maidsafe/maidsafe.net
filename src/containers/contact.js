@@ -45,7 +45,7 @@ class Contact extends React.Component {
         <div className="content-3">
           <h3 className="title">Community Support</h3>
           <p className="p">
-            If you are seeking support with SAFE Network testnets, or have questions about where and how to acquire MaidSafeCoin, you can browse and raise a support thread on the community run forum:
+            If you are seeking support with SAFE Network testnets, or have questions about where and how to acquire MaidSafeCoin, you can browse and raise a support thread on the community run forum:&nbsp;
     <a href="https://safenetforum.org/c/support" target="_blank">https://safenetforum.org/c/support</a>.
   </p>
         </div>
@@ -64,16 +64,18 @@ class Contact extends React.Component {
     If you would like to get involved, please contact them directly for more information.
   </p>
           <ul className="list top-pad">
-            <li><a href="http://www.meetup.com/maidsafe/" target="_blank">Amsterdam</a></li>
-            <li><a href="http://www.meetup.com/Project-SAFE-Boston/" target="_blank">Boston</a></li>
-            <li><a href="http://www.meetup.com/De-Central-Budapest/" target="_blank">Budapest</a></li>
-            <li><a href="http://www.meetup.com/Project-SAFE-London/" target="_blank">London</a></li>
-            <li><a href="https://montreal.safenetwork.org/" target="_blank">Montreal</a></li>
-            <li><a href="http://www.meetup.com/Project-SAFE-San-Francisco/" target="_blank">San Francisco</a></li>
-            <li><a href="http://www.meetup.com/Sydney-Project-SAFE/" target="_blank">Sydney</a></li>
+            <li><a href="//www.meetup.com/SAFE-Network-Amsterdam/" target="_blank">Amsterdam</a></li>
+            <li><a href="//www.meetup.com/Project-SAFE-Boston/" target="_blank">Boston</a></li>
+            <li><a href="www.meetup.com/SAFEnetwork-Chicago/" target="_blank">Chicago</a></li>
+            <li><a href="//www.meetup.com/Project-SAFE-London/" target="_blank">London</a></li>
+            <li><a href="//montreal.safenetwork.org/" target="_blank">Montreal</a></li>
+            <li><a href="//www.meetup.com/Project-SAFE-San-Francisco/" target="_blank">San Francisco</a></li>
+            <li><a href="//www.meetup.com/Sydney-Project-SAFE/" target="_blank">Sydney</a></li>
+            <li><a href="//www.meetup.com/SAFE-Network-Cordoba/" target="_blank">Córdoba</a></li>
+            <li><a href="//www.meetup.com/SAFE-Network-Melbourne/" target="_blank">Melbourne</a></li>
           </ul>
           <p className="p">
-            Alternatively, if there is no meet up in your area, or you would like to set up your own please contact:
+            Alternatively, if there is no meet up in your area, or you would like to set up your own please contact:&nbsp;
     <a href="mailto:outreach@maidsafe.net">outreach@maidsafe.net</a>.
   </p>
         </div>

@@ -158,7 +158,7 @@ class Privacy extends React.Component {
         </div>
         <div className="content-3">
           <h3 className="title">How do I make a complaint?</h3>
-          <p className="p"> You have the right to make a complaint about anything regarding processing, storage, retention of your data. We would hope to resolve any complaint internally and if you would like to lodge a complaint with us in the first instance please contact gdpr@maidsafe.net. However, you also have the right to lodge a complaint at any time to the Information Commissioner (ICO) in respect of our processing of your personal data. Information can be found at <a href="www.ico.org.uk" target="_blank">www.ico.org.uk</a>.</p>
+          <p className="p"> You have the right to make a complaint about anything regarding processing, storage, retention of your data. We would hope to resolve any complaint internally and if you would like to lodge a complaint with us in the first instance please contact gdpr@maidsafe.net. However, you also have the right to lodge a complaint at any time to the Information Commissioner (ICO) in respect of our processing of your personal data. Information can be found at <a href="https://ico.org.uk" target="_blank">https://ico.org.uk</a>.</p>
         </div>
 
       </div>

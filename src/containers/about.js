@@ -97,7 +97,7 @@ class About extends React.Component {
   </p>
 							<div className="ques">
 								<span>Interested in joining our diverse and growing team, either in Ayr or remotely?</span>
-								<a href="./careers.html" className="al-btn invert">VIEW OPEN POSITIONS</a>
+								<a href="./careers" className="al-btn invert">VIEW OPEN POSITIONS</a>
 							</div>
 						</div>
 					</div>

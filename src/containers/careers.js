@@ -4,7 +4,7 @@ import { withSiteData } from 'react-static'
 import CONST from '../constants';
 import Base from './partials/base_wrapper';
 
-class Career extends React.Component {
+class Careers extends React.Component {
   render() {
     return (
       <div className="career">
@@ -38,5 +38,5 @@ class Career extends React.Component {
 }
 
 export default withSiteData(() => (
-  Base(Career, CONST.meta.career, CONST.nav.CAREER)
+  Base(Careers, CONST.meta.career, CONST.nav.CAREER)
 ));

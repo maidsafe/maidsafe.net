@@ -17,8 +17,8 @@ export default {
         component: 'src/containers/about',
       },
       {
-        path: '/career',
-        component: 'src/containers/career',
+        path: '/careers',
+        component: 'src/containers/careers',
       },
       {
         path: '/contact',
