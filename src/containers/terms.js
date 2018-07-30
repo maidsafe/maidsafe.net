@@ -13,8 +13,7 @@ class Terms extends React.Component {
         <div className="content-3">
           <h3 className="title">BACKGROUND</h3>
           <p className="p">
-            This website
-        <a href="https://maidsafe.net/">https://maidsafe.net</a> (“Our Site”) uses Cookies and similar technologies in order to distinguish you from other
+            This website <a href="https://maidsafe.net/">https://maidsafe.net</a> (“Our Site”) uses Cookies and similar technologies in order to distinguish you from other
         users. By using Cookies, we are able to provide you with a better experience and to improve Our Site by better understanding
         how you use it. Please read this Cookie Policy carefully and ensure that you understand it. Your acceptance of Our
         Cookie Policy is deemed to occur when you press the accept button on Our Cookie banner pop up. If you do not agree
