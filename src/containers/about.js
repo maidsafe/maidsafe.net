@@ -17,7 +17,7 @@ class About extends React.Component {
 			'Gabriel': '/_temp/img/team/gabriel.jpg',
 			'Hunter': '/_temp/img/team/Hunter.jpg',
 			'Josh': '/_temp/img/team/Josh.jpeg',
-			'Krishna': '/_temp/img/team/krishna.jpg',
+			'Krishna': '/_temp/img/team/krishna.jpeg',
 			'Marcin': '/_temp/img/team/Marcin.jpg',
 			'Nick': '/_temp/img/team/nick.jpg',
 			'Nikita': '/_temp/img/team/Nikita.jpg',
@@ -35,6 +35,9 @@ class About extends React.Component {
 			'Jim Collinson': '/_temp/img/team/jim_collinson.JPG',
 			'Nadia Burborough': '/_temp/img/team/nadia_burborough.png',
 			'David Geddes': '/_temp/img/team/david_geddes.png',
+			'Andreas Fackler': '/_temp/img/team/andreas.jpg',
+			'Ashwin': '/_temp/img/team/ashwin.jpg',
+			'Lionel Faber': '/_temp/img/team/lionel.jpeg',
 		};
 		this.state = {
 			teamItems: []
