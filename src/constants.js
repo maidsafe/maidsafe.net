@@ -25,7 +25,9 @@ export default {
       reddit: 'https://www.reddit.com/r/safenetwork/',
       twitter: 'https://twitter.com/maidsafe',
       meetup: 'https://safenetwork.org/meetup-groups/',
-      telegram: 'https://t.me/safenetwork'
+      telegram: 'https://t.me/safenetwork',
+      facebook: 'https://www.facebook.com/GetMaidSafe/',
+      medium: 'https://medium.com/safenetwork',
     },
     legal: {
       terms: '/terms_and_conditions',
