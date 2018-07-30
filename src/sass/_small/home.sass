@@ -1,0 +1,39 @@
+@media screen and (min-width: $sm-width) and (max-width: $md-width - 1)
+  .hm
+    .hm-b
+      .hm-bnr,
+      .hm-intro,
+      .hm-safenet
+        padding: get-sm-vw(76px) 0
+      .hm-bnr
+        padding-bottom: 0
+        &:after
+          width: 600px
+          height: 300px
+          position: relative
+          margin: 0 auto
+          transform: translate(0, 20px)
+        .hm-bnr-b
+          .hm-bnr-para
+            width: 80%
+      .hm-intro
+        .hm-intro-b
+          .hm-intro-p
+            width: 100%
+      .hm-safenet
+        padding-bottom: get-sm-vw(120px)
+        .hm-safenet-b
+          .hm-safenet-med
+            width: 100%
+            min-width: 290px
+            img
+              width: 50%
+          .hm-safenet-p
+            width: 80%
+            margin-top: get-sm-vw(50px)
+            float: left
+            position: relative
+            .arrow-red
+              position: absolute
+              bottom: 0
+              left: 100%
