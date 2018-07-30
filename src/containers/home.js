@@ -11,7 +11,7 @@ class Banner extends React.Component {
       <section className="hm-bnr">
         <div className="hm-bnr-b base">
           <p className="hm-bnr-para typo-bold-para-1">
-            Started in 2006 by Scottish engineer David Irvine, MaidSafe is a small team, comprised of: thinkers, inventors, tinkerers, engineers and designers. Although based in Ayr, Scotland, we have drawn talents from many different cultures and countries, reflecting the users that we serve. Despite this variety, we all share a mission: a desire to provide security and privacy for everyone.
+            MaidSafe, builders of <a href="https://safenetwork.tech">the SAFE Network</a>, are a small team of: thinkers, inventors, tinkerers, engineers and designers started by Scottish engineer David Irvine in 2006.
           </p>
         </div>
       </section>
@@ -26,7 +26,7 @@ class Intro extends React.Component {
         <div className="hm-intro-b base">
           <h3 className="hm-intro-h typo-head-1">Intro to MaidSafe</h3>
           <p className="hm-intro-p typo-para-1">
-            MaidSafe's aim is to provide privacy, security and freedom to everyone on the planet. This has been our unwavering ambition since we started on this journey in 2006, and it remains our driving force today.
+            Based in Ayr, Scotland, MaidSafe have drawn talents from many cultures and countries, reflecting the users that we serve. Despite this variety, we all share a mission: a desire to provide security and privacy for everyone on the planet. This has been our unwavering ambition since we started on this journey in 2006, and it remains our driving force today.
           </p>
         </div>
       </section>
