@@ -248,8 +248,7 @@ class Terms extends React.Component {
                         </td>
                 <td>
                   For more details of the personal data that We collect and use, the measures we have in place to protect personal data, your
-                            legal rights, and our legal obligations, please refer to our
-                            <a href="./privacy.html">Privacy Policy</a>
+                            legal rights, and our legal obligations, please refer to our <a href="./privacy.html">Privacy Policy</a>
                 </td>
               </tr>
               <tr>
