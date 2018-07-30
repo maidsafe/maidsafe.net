@@ -30,14 +30,14 @@ class About extends React.Component {
 			'Victoria': '/_temp/img/team/Victoria.jpg',
 			'Viv': '/_temp/img/team/viv.jpg',
 			'Stephen': '/_temp/img/team/stephen.jpg',
-			'Pierre Chevalier': '/_temp/img/team/pierre_chevalier.jpg',
-			'Sarah Pentland': '/_temp/img/team/sarah_pentland.jpg',
-			'Jim Collinson': '/_temp/img/team/jim_collinson.JPG',
-			'Nadia Burborough': '/_temp/img/team/nadia_burborough.png',
+			'Pierre': '/_temp/img/team/pierre_chevalier.jpg',
+			'Sarah': '/_temp/img/team/sarah_pentland.jpg',
+			'Jim': '/_temp/img/team/jim_collinson.JPG',
+			'Nadia': '/_temp/img/team/nadia_burborough.png',
 			'David Geddes': '/_temp/img/team/david_geddes.png',
-			'Andreas Fackler': '/_temp/img/team/andreas.jpg',
+			'Andreas': '/_temp/img/team/andreas.jpg',
 			'Ashwin': '/_temp/img/team/ashwin.jpg',
-			'Lionel Faber': '/_temp/img/team/lionel.jpeg',
+			'Lionel': '/_temp/img/team/lionel.jpeg',
 		};
 		this.state = {
 			teamItems: []
