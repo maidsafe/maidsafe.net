@@ -66,7 +66,7 @@ class Contact extends React.Component {
           <ul className="list top-pad">
             <li><a href="//www.meetup.com/SAFE-Network-Amsterdam/" target="_blank">Amsterdam</a></li>
             <li><a href="//www.meetup.com/Project-SAFE-Boston/" target="_blank">Boston</a></li>
-            <li><a href="www.meetup.com/SAFEnetwork-Chicago/" target="_blank">Chicago</a></li>
+            <li><a href="//www.meetup.com/SAFEnetwork-Chicago/" target="_blank">Chicago</a></li>
             <li><a href="//www.meetup.com/Project-SAFE-London/" target="_blank">London</a></li>
             <li><a href="//montreal.safenetwork.org/" target="_blank">Montreal</a></li>
             <li><a href="//www.meetup.com/Project-SAFE-San-Francisco/" target="_blank">San Francisco</a></li>
