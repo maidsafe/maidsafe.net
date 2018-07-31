@@ -60,19 +60,19 @@ class Contact extends React.Component {
           <h3 className="title">Meetups</h3>
           <p className="p">
             There are currently Meetups in countries all over the world,
-    including Australia, Canada, Hungary, Netherlands, UK and the US.
+    including Argentina, Australia, Canada, Netherlands, UK and the US.
     If you would like to get involved, please contact them directly for more information.
   </p>
           <ul className="list top-pad">
             <li><a href="//www.meetup.com/SAFE-Network-Amsterdam/" target="_blank">Amsterdam</a></li>
             <li><a href="//www.meetup.com/Project-SAFE-Boston/" target="_blank">Boston</a></li>
             <li><a href="//www.meetup.com/SAFEnetwork-Chicago/" target="_blank">Chicago</a></li>
+            <li><a href="//www.meetup.com/SAFE-Network-Cordoba/" target="_blank">Córdoba</a></li>
             <li><a href="//www.meetup.com/Project-SAFE-London/" target="_blank">London</a></li>
+            <li><a href="//www.meetup.com/SAFE-Network-Melbourne/" target="_blank">Melbourne</a></li>
             <li><a href="//montreal.safenetwork.org/" target="_blank">Montreal</a></li>
             <li><a href="//www.meetup.com/Project-SAFE-San-Francisco/" target="_blank">San Francisco</a></li>
             <li><a href="//www.meetup.com/Sydney-Project-SAFE/" target="_blank">Sydney</a></li>
-            <li><a href="//www.meetup.com/SAFE-Network-Cordoba/" target="_blank">Córdoba</a></li>
-            <li><a href="//www.meetup.com/SAFE-Network-Melbourne/" target="_blank">Melbourne</a></li>
           </ul>
           <p className="p">
             Alternatively, if there is no meet up in your area, or you would like to set up your own please contact:&nbsp;
