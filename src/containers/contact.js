@@ -45,8 +45,7 @@ class Contact extends React.Component {
         <div className="content-3">
           <h3 className="title">Community Support</h3>
           <p className="p">
-            If you are seeking support with SAFE Network testnets, or have questions about where and how to acquire MaidSafeCoin, you can browse and raise a support thread on the community run forum:&nbsp;
-    <a href="https://safenetforum.org/c/support" target="_blank">https://safenetforum.org/c/support</a>.
+            If you are seeking support with SAFE Network testnets, or have questions about where and how to acquire MaidSafeCoin, you can browse and raise a support thread on the community run forum: <a href="https://safenetforum.org/c/support" target="_blank">https://safenetforum.org/c/support</a>.
   </p>
         </div>
         <div className="content-3">
