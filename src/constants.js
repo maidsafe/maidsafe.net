@@ -1,20 +1,20 @@
 export default {
   meta: {
     home: {
-      title: `MaidSafe - The New Decentralized Internet`,
-      desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
+      title: `Providing Privacy, Security and Freedom | MaidSafe`,
+      desc: `MaidSafe developed the SAFE Network to provide privacy and security to everyone`
     },
     about: {
-      title: `MaidSafe - About`,
-      desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
+      title: `About Us | MaidSafe`,
+      desc: `Learn more about MaidSafe and their mission to provide privacy and security for everyone`
     },
     contact: {
-      title: `MaidSafe - Contact`,
-      desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
+      title: `Contact Us | MaidSafe`,
+      desc: `Contact the MaidSafe team at their Scottish HQ`
     },
     career: {
-      title: `MaidSafe - Careers`,
-      desc: `MaidSafe's distributed platform enables the creation of fast and secure applications that help ensure digital privacy, security and freedom for all.`
+      title: `Join the Team | MaidSafe`,
+      desc: `Interested in joining our diverse and growing team, either in Ayr or remotely?`
     },
   },
   footer: {
@@ -25,7 +25,9 @@ export default {
       reddit: 'https://www.reddit.com/r/safenetwork/',
       twitter: 'https://twitter.com/maidsafe',
       meetup: 'https://safenetwork.org/meetup-groups/',
-      telegram: 'https://t.me/safenetwork'
+      telegram: 'https://t.me/safenetwork',
+      facebook: 'https://www.facebook.com/GetMaidSafe/',
+      medium: 'https://medium.com/safenetwork',
     },
     legal: {
       terms: '/terms_and_conditions',

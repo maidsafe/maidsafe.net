@@ -32,6 +32,12 @@ export default class Footer extends React.Component {
               <div className="app-footer-btns telegram">
                 <Link to={CONST.footer.community.telegram} target="_blank" />
               </div>
+              <div className="app-footer-btns facebook">
+                <Link to={CONST.footer.community.facebook} target="_blank" />
+              </div>
+              <div className="app-footer-btns medium">
+                <Link to={CONST.footer.community.medium} target="_blank" />
+              </div>
             </div>
           </div>
           <div className="spliter"></div>

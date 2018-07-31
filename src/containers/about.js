@@ -17,7 +17,7 @@ class About extends React.Component {
 			'Gabriel': '/_temp/img/team/gabriel.jpg',
 			'Hunter': '/_temp/img/team/Hunter.jpg',
 			'Josh': '/_temp/img/team/Josh.jpeg',
-			'Krishna': '/_temp/img/team/krishna.jpg',
+			'Krishna': '/_temp/img/team/krishna.jpeg',
 			'Marcin': '/_temp/img/team/Marcin.jpg',
 			'Nick': '/_temp/img/team/nick.jpg',
 			'Nikita': '/_temp/img/team/Nikita.jpg',
@@ -30,11 +30,14 @@ class About extends React.Component {
 			'Victoria': '/_temp/img/team/Victoria.jpg',
 			'Viv': '/_temp/img/team/viv.jpg',
 			'Stephen': '/_temp/img/team/stephen.jpg',
-			'Pierre Chevalier': '/_temp/img/team/pierre_chevalier.jpg',
-			'Sarah Pentland': '/_temp/img/team/sarah_pentland.jpg',
-			'Jim Collinson': '/_temp/img/team/jim_collinson.JPG',
-			'Nadia Burborough': '/_temp/img/team/nadia_burborough.png',
+			'Pierre': '/_temp/img/team/pierre_chevalier.jpg',
+			'Sarah': '/_temp/img/team/sarah_pentland.jpg',
+			'Jim': '/_temp/img/team/jim_collinson.JPG',
+			'Nadia': '/_temp/img/team/nadia_burborough.png',
 			'David Geddes': '/_temp/img/team/david_geddes.png',
+			'Andreas': '/_temp/img/team/andreas.jpg',
+			'Ashwin': '/_temp/img/team/ashwin.jpg',
+			'Lionel': '/_temp/img/team/lionel.jpeg',
 		};
 		this.state = {
 			teamItems: []
@@ -97,7 +100,7 @@ class About extends React.Component {
   </p>
 							<div className="ques">
 								<span>Interested in joining our diverse and growing team, either in Ayr or remotely?</span>
-								<a href="./careers" className="al-btn invert">VIEW OPEN POSITIONS</a>
+								<a href="/careers" className="al-btn invert">VIEW OPEN POSITIONS</a>
 							</div>
 						</div>
 					</div>
