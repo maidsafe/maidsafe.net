@@ -46,9 +46,9 @@ class Credits extends React.Component {
           </div>
           <div className="content-3">
             <div className="row">
-              <img src="/_temp/img/third-party-logo/github-octocat.png" className="credits-logo" alt="Github" />
+              <img src="/_temp/img/third-party-logo/github-octocat.png" className="credits-logo" alt="GitHub" />
               <div className="card">
-                <h3>Github</h3>
+                <h3>GitHub</h3>
                 <p>
                   Powerful collaboration, code review and code management for open source and private projects.
                 </p>

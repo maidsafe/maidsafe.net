@@ -25,9 +25,9 @@ class Contact extends React.Component {
         </div>
         <div className="content-3">
           <h3 className="title">Technical Enquiries</h3>
-          <h4 className="sub-title">Github:</h4>
+          <h4 className="sub-title">GitHub:</h4>
           <ul className="list">
-            <li><a href="https://github.com/maidsafe" target="_blank">Github</a></li>
+            <li><a href="https://github.com/maidsafe" target="_blank">GitHub</a></li>
           </ul>
           <p className="p">
             If have questions regarding code contributions, or would like to get in
@@ -35,7 +35,7 @@ class Contact extends React.Component {
   </p>
           <div className="btn-list">
             <a className="al-btn invert" href="https://github.com/maidsafe" target="_blank">
-              <span className="icn github"></span>Github
+              <span className="icn github"></span>GitHub
     </a>
             <a className="al-btn invert" href="https://forum.safedev.org/" target="_blank">
               <span className="icn forum"></span>Forum
