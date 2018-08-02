@@ -25,7 +25,7 @@ class Careers extends React.Component {
             <h4 className="sub-title">Reasons to Work With Us:</h4>
             <ul className="list bullet-5">
               <li>Competitive salary.</li>
-              <li>Share in our employee beneﬁt trust scheme that shares out 25% of the company amongst our small team.</li>
+              <li>Employee benefit trust scheme.</li>
               <li>Flexibility and the opportunity to work remotely.</li>
               <li>We're trying to change how data is managed on a global scale, join us to be part of something special.</li>
               <li>We're open source and believe in universal and free access to our software.</li>
