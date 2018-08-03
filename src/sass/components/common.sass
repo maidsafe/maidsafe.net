@@ -73,6 +73,9 @@ body
   background-position: center
   background-repeat: no-repeat
   transform: translate(30px, 25%)
+  transition: transform .2s ease
+  &:hover
+    transform: translate(40px, 25%)
   &.sm
     width: 50px
     height: 50px
@@ -125,6 +128,12 @@ body
     tr
       th
         text-align: left
+.list-content .tbl-view .tbl-c .tbl-cnt.open
+  display: block
+
+.list-content .p.desc
+  margin-bottom: 16px
+
 @media screen and (min-width: $lg-width)
   .app-footer .app-footer-r.top
     width: 840px

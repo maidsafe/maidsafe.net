@@ -59,26 +59,22 @@ class Disclaimer extends React.Component {
         <div className="content-3">
           <h3>6. Law and jurisdiction.</h3>
           <p>
-            This Legal Notice shall be governed by and construed in accordance with Scottish law. Any dispute(s) arising in
+            6.1 This Legal Notice shall be governed by and construed in accordance with Scottish law. Any dispute(s) arising in
         connection with this Legal Notice are subject to the exclusive jurisdiction of Scotland.
     </p>
         </div>
 
         <div className="content-3">
-          <h3>Our Details.</h3>
+          <h3>7. Our details.</h3>
           <p>MaidSafe.net Limited<br />
-          6 Forbes Drive<br />
-          Ayr<br />
-          Scotland<br />
-          KA8 9FG<br /><br />
-    </p>
-                    <p>
-                      Telephone : Scotland: 01292317311
-    </p>
-                    <p>
-                      Email : info@maidsafe.net
-    </p>
-</div>
+            6 Forbes Drive<br />
+            Ayr<br />
+            Scotland<br />
+            KA8 9FG<br /><br />
+          </p>
+          <p>Telephone: Scotland: <a href="tel:01292317311">01292317311</a></p>
+          <p>Email: <a href="mailto:info@maidsafe.net">info@maidsafe.net</a></p>
+        </div>
 
       </div>
     )
@@ -87,4 +83,3 @@ class Disclaimer extends React.Component {
 export default withSiteData(() => (
   Base(Disclaimer)
 ));
-
