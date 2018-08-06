@@ -40,6 +40,7 @@ class About extends React.Component {
 			'Lionel': '/_temp/img/team/lionel.jpeg',
 			'Ravi': '/_temp/img/team/ravi.jpg',
 			'Kayley': '/_temp/img/team/kayley.jpg',
+			'Povilas': '/_temp/img/team/povilas.png',
 		};
 		this.state = {
 			teamItems: []
