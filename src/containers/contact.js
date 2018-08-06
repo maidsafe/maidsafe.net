@@ -1,11 +1,35 @@
 import React from 'react';
 import { withSiteData } from 'react-static'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
+import OpenLayers from '../OpenLayers';
 //
 import CONST from '../constants';
 import Base from './partials/base_wrapper';
 import MapLocationSmall from '../../public/_temp/img/maps_bg_small.png'
 class Contact extends React.Component {
+  constructor() {
+    super();
+    this.map = {
+      lat: 55.4810467, lng: -4.6065731
+    };
+  }
+
+  componentDidMount() {
+    const map = new OpenLayers.Map(`Location`);
+    const mapnik         = new OpenLayers.Layer.OSM();
+    const fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+    const toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+    const position       = new OpenLayers.LonLat(this.map.lng, this.map.lat).transform( fromProjection, toProjection);
+    const zoom           = 16;
+    map.addLayer(mapnik);
+
+    const markers = new OpenLayers.Layer.Markers( "Markers" );
+
+    map.addLayer(markers);
+    markers.addMarker(new OpenLayers.Marker(position));
+    map.setCenter(position, zoom);
+  }
+
   render() {
     const myLatLng = { lat: 55.4810467, lng: -4.6065731 };
 
@@ -79,10 +103,10 @@ class Contact extends React.Component {
   </p>
         </div>
         <div id="Location" className="location map">
-          <MyMapComponent isMarkerShown googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6T_i5NuXGIOUjJQsWbMwqZH45mjcSnaU"
+          {/* <MyMapComponent isMarkerShown googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6T_i5NuXGIOUjJQsWbMwqZH45mjcSnaU"
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: `100%` }} />}
-            mapElement={<div style={{ height: `100%` }} />} />
+            mapElement={<div style={{ height: `100%` }} />} /> */}
         </div>
         <div className="location img">
           <img src={MapLocationSmall} alt="Maidsafe Map" />
