@@ -127,7 +127,8 @@ class Contact extends React.Component {
                 target="_blank">Locate us on Google Maps</a></li>
           </ul>
           <p className="p">
-            Tel: 01292317311<br />
+            Tel: <a href="tel:+44 (0) 1292317311">+44 (0) 1292317311</a><br />
+            Email: <a href="mailto:info@maidsafe.net">info@maidsafe.net</a><br />
             Company Registered in Scotland<br />
             No. SC297540
   </p>

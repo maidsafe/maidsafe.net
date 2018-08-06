@@ -72,7 +72,7 @@ class Disclaimer extends React.Component {
             Scotland<br />
             KA8 9FG<br /><br />
           </p>
-          <p>Telephone: Scotland: <a href="tel:01292317311">01292317311</a></p>
+          <p>Tel: <a href="tel:+44 (0) 1292317311">+44 (0) 1292317311</a></p>
           <p>Email: <a href="mailto:info@maidsafe.net">info@maidsafe.net</a></p>
         </div>
 
