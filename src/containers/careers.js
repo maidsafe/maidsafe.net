@@ -190,41 +190,41 @@ class Careers extends React.Component {
         }} />
 
         <Roles data={{
-          title: `Jenkins/Dev Ops`,
-          desc: `This is an exciting yet demanding role, based at MaidSafe’s Scottish HQ, working within the global technology sector. This is a brand new role created to join our newly formed Test and Release team and is well suited to individuals passionate and knowledgeable about autonomous networks, blockchain, distributed computing, decentralisation and cryptocurrencies.`,
+          title: `Marketing Strategist`,
+          desc: `This is an exciting yet demanding role, based at MaidSafe’s Scottish HQ, working within the global technology sector. This is a brand new role created to join our Marketing team and is well suited to individuals passionate and knowledgeable about autonomous networks, blockchain, distributed computing, decentralisation and cryptocurrencies.`,
           details: [
             {
               head: `Role and Responsibilities`,
               list: [
-                `Have sole responsibility for the setup of Jenkins to provide continuous integration and continuous delivery across a range of varying Github repositories.`,
-                `Manage and maintain the Jenkins server and agents after initial setup`,
-                `Write and maintain repository specific CI scripts`,
-                `Connect Jira and Slack to Jenkins for workflow management and visibility`,
-                `Use Jenkins to streamline and automate the build and deployment processes`,
-                `Work closely with our front and back end teams to define/add/update CI and CD requirements and scripts`,
-                `Work closely with our front and back end teams to keep on top of potential threats/patches`,
-                `Support all of our engineers to improve overall scalability, stability and reliability`,
+                `Responsibility for owning and delivering a variety of market research projects `,
+                `Carrying out analysis of data sources & synthesising information to extract insights, identify information gaps and determine priorities`,
+                `Building content strategies around the messages to drive adoption of the SAFE Network`,
+                `Creating summary documentation that drives team collaboration`,
+                `Laser-focused on articulating the differences between SAFE and other technologies `,
+                `Staying up to date with stories, trends and technologies that relate to SAFE`,
               ]
             }, {
-              head: `Requirements`,
+              head: `Essential`,
               list: [
-                `Specialist in the setup and maintenance of Jenkins for CI and CD`,
-                `Experience of Jenkins testing for Linux, OS X, Windows and Android environments`,
-                `Background in software engineering (e.g. QA, developer, DevOps)`,
-                `Expert at scripting tasks (Python, Bash, PowerShell or other)`,
-                `Network experience - setup, configuration, deployment.`,
-                `Excellent communication skills`,
-                `Experience with Travis and Appveyor`,
+                `Active interest in cryptocurrencies and decentralisation technologies`,
+                `Naturally curious/inquisitive with a high level of initiative`,
+                `Skilled in secondary marketing research `,
+                `Superior written and spoken communication skills`,
+                `Collaborative and open to incorporating the ideas of others (within the team and the community)`,
+                `High personal and professional integrity`,
+                `Detail-oriented, analytical and extremely organised`,
+                `Must be eligible to work in the UK`,
               ]
             }, {
-              head: `Desirable Skills:`,
+              head: `Preferable but not essential`,
               'sub-head': `(These are nice-to-haves - don’t be put oﬀ applying!)`,
               list: [
-                `Working within a remote team`,
-                `Experience of working with distributed networks`,
-                `Experience working within Interactive Agile development process`,
-                `Commits have been made to verifiable open source repositories`,
-                `Experience in either Ruby, C# or Java (in addition to Rust)`,
+                `Educated to University degree level or possessing extensive relevant expertise`,
+                `Experience with open source software platforms (e.g. GitHub etc)`,
+                `Existing SAFE community member`,
+                `Extensive online social footprint`,
+                `History of working with technology companies `,
+                `Previously run community events or meetups`,
               ]
             }
           ]
@@ -237,14 +237,14 @@ class Careers extends React.Component {
             {
               head: `Duties`,
               list: [
-                `Build, test and review code from GitHub repositories`,
-                `Work closely with our remote front and back end teams to plan and test a variety of technologies from the front end, through the API, to the back end`,
-                `Report bugs, push and track bugs to be solved`,
+                `Build, review and test code from GitHub repositories`,
+                `Work closely with our remote front and back end teams to plan and test a variety of technologies from the frontend, through the API, to the backend`,
+                `Report and track bugs to resolution`,
                 `Document a variety of processes and create how-to guides `,
-                `Write and script test tools to automate/script repetitive tasks`,
-                `Investigating new test tools and processes`,
+                `Write automated test scripts and create test tools to automate repetitive tasks`,
+                `Investigate new test tools and processes`,
                 `Work on a number of tasks and projects simultaneously`,
-                `Work within an Agile environment`,
+                `Work within an Agile environment, encouraging the Agile development methodology`,
                 `Ad hoc duties as required`,
               ]
             }, {
@@ -252,18 +252,18 @@ class Careers extends React.Component {
               list: [
                 `A minimum of 2 years experience in software testing`,
                 `Experience of using Python, Bash, PowerShell or other `,
-                `Ability to read code`,
-                `Comfortable with and have an interest in new and emerging technologies`,
-                `Excellent verbal and written skills`,
+                `Ability to read/understand code`,
+                `Comfortable with learning and have an interest in new and emerging technologies`,
+                `Excellent verbal and written communication skills`,
                 `Ability to multitask and prioritise workload`,
-                `Comfortable using terminal commands`,
+                `Comfortable using CLIs`,
               ]
             }, {
               head: `Desirable`,
               'sub-head': `(These are nice-to-haves - don’t be put oﬀ applying!)`,
               list: [
-                `Knowledge/experience of CI/CD is a big plus.`,
-                `Network experience - setup, configuration, deployment.`,
+                `Knowledge/experience of CI/CD is a big plus`,
+                `Varied testing background, from frontend through to backend testing`,
                 `Comfortable utilising JIRA & Confluence`,
               ]
             }
