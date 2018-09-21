@@ -270,6 +270,34 @@ class Careers extends React.Component {
           ]
         }} />
 
+        <Roles data={{
+          title: `Dev Ops Engineer`,
+          desc: `This is an exciting yet demanding role, based at MaidSafe’s Scottish HQ, working within the global technology sector. This is a brand new role created to join our newly formed Test and Release team and is well suited to individuals passionate and knowledgeable about autonomous networks, blockchain, distributed computing, decentralisation and cryptocurrencies.`,
+          details: [
+            {
+              head: `Roles and responsibilities`,
+              list: [
+                `Have sole responsibility for the setup, management and maintenance of a server to provide CI/CD across a range of varying GitHub repositories`,
+                `Improve workflow management and visibility`,
+                `Work closely with our front and back end teams to define/add/update CI and CD requirements and scripts along with keeping on top of potential threats/patches`,
+                `Support all of our engineers to improve overall scalability, stability and reliability`,
+                `Assess, maintain and improve network deployment and maintenance scripts and processes`,
+                `Work closely with various teams to make tasks more efficient`,
+              ]
+            }, {
+              head: `Requirements`,
+              list: [
+                `Specialist in the setup and maintenance of cross-platform CI and CD`,
+                `Background in software engineering (e.g. QA, developer, DevOps)`,
+                `Expert at scripting tasks (Python, Bash, PowerShell or other)`,
+                `Network experience - setup, configuration, deployment`,
+                `Excellent communication skills`,
+                `Experience with Travis CI and Appveyor`,
+              ]
+            }
+          ]
+        }} />
+
       </div>
     );
   }
