@@ -20,7 +20,7 @@ export default class Header extends React.Component {
   }
   render() {
     return (
-      <section className="m-hdr">
+      <div className="m-hdr">
         <div className="m-hdr-b">
           <div className="m-hdr-logo">
             <div className="m-hdr-logo-b">
@@ -44,7 +44,7 @@ export default class Header extends React.Component {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     );
   }
 }

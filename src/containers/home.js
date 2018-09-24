@@ -8,13 +8,13 @@ import Base from './partials/base_wrapper';
 class Banner extends React.Component {
   render() {
     return (
-      <section className="hm-bnr">
+      <div className="hm-bnr">
         <div className="hm-bnr-b base">
           <p className="hm-bnr-para typo-bold-para-1">
             MaidSafe, builders of <a href="https://safenetwork.tech">the SAFE Network</a>, are a small team of: thinkers, inventors, tinkerers, engineers and designers started by Scottish engineer David Irvine in 2006.
           </p>
         </div>
-      </section>
+      </div>
     )
   }
 }
@@ -37,14 +37,14 @@ class Intro extends React.Component {
 class SafeNet extends React.Component {
   render() {
     return (
-      <section className="hm-safenet">
+      <div className="hm-safenet">
         <div className="hm-safenet-b base">
           <div className="hm-safenet-med"><img src={SafeNetworkLogo} alt="SafeNetwork logo" /></div>
           <p className="hm-safenet-p typo-bold-para-2">
             We will do so by building the SAFE Network, the world’s first autonomous and decentralised data network. Be part of creating this new Internet, for the people by the people; visit <a href="https://safenetwork.tech">safenetwork.tech</a> to join us today.<a href="//safenetwork.tech"><span className="arrow-red sm"></span></a>
           </p>
         </div>
-      </section>
+      </div>
     )
   }
 }
