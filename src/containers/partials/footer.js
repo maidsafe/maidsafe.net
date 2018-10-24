@@ -44,7 +44,10 @@ export default class Footer extends React.Component {
           <div className="app-footer-r bottom">
             <div className="footer-hz-li">
               <ul>
+                {/* Remove Terms & Conditions as it was being used for the (non)
+                    Cookie Policy which is now handled in the Privacy page.
                 <li><Link to={CONST.footer.legal.terms}>Terms & Conditions</Link></li>
+                */}
                 <li><Link to={CONST.footer.legal.disclaimer}>Disclaimer</Link></li>
                 <li><Link to={CONST.footer.legal.privacy}>Privacy</Link></li>
                 <li><Link to={CONST.footer.legal.credits}>Credits</Link></li>
