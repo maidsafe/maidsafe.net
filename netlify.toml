@@ -35,8 +35,8 @@
   to = "/"
 
 [[redirects]]
-  from = "terms_and_conditions.html"
-  to = "/terms_and_conditions"
+  from = "cookies.html"
+  to = "/cookies"
 
 [[redirects]]
   from = "disclaimer.html"
