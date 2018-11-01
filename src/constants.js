@@ -30,7 +30,7 @@ export default {
       medium: 'https://medium.com/safenetwork',
     },
     legal: {
-      terms: '/terms_and_conditions',
+      cookies: '/cookies',
       disclaimer: '/disclaimer',
       privacy: '/privacy',
       credits: '/credits'

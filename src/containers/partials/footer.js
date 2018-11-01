@@ -44,7 +44,7 @@ export default class Footer extends React.Component {
           <div className="app-footer-r bottom">
             <div className="footer-hz-li">
               <ul>
-                <li><Link to={CONST.footer.legal.terms}>Terms & Conditions</Link></li>
+                <li><Link to={CONST.footer.legal.cookies}>Cookies</Link></li>
                 <li><Link to={CONST.footer.legal.disclaimer}>Disclaimer</Link></li>
                 <li><Link to={CONST.footer.legal.privacy}>Privacy</Link></li>
                 <li><Link to={CONST.footer.legal.credits}>Credits</Link></li>

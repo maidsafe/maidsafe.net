@@ -25,8 +25,8 @@ export default {
         component: 'src/containers/contact',
       },
       {
-        path: '/terms_and_conditions',
-        component: 'src/containers/terms',
+        path: '/cookies',
+        component: 'src/containers/cookies',
       },
       {
         path: '/privacy',

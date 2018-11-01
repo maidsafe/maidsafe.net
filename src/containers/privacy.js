@@ -1,9 +1,19 @@
+{/*
+  *
+  * @file
+  * This file details the privacy policy for maidsafe.net.
+  *
+  */}
 import React from 'react';
 import { withSiteData } from 'react-static';
 import Parser from 'html-react-parser';
 //
 import Base from './partials/base_wrapper';
 
+{/*
+  * Class to define the page's intro text.
+  * @extends React.Component
+  */}
 class Intro extends React.Component {
   render() {
     return (
@@ -17,6 +27,10 @@ class Intro extends React.Component {
   }
 }
 
+{/*
+  * Class to define the privacy policy text for any job applicants
+  * @extends React.Component
+  */}
 class JobApplicant extends React.Component {
   constructor() {
     super();
@@ -110,6 +124,12 @@ class JobApplicant extends React.Component {
           `As a result, whilst we try to protect your personal information, we cannot ensure the security of any information which you send to us, and you do so at your own risk.`,
         ]
       },
+      {
+        head: 'Alpha Test Phases',
+        para: [
+          'MaidSafe are building the SAFE Network, the world’s first autonomous and decentralised data network. For more information about how we use your personal information when participating throughout our Alpha phases visit our <a href="https://safenetwork.tech/privacy/">Privacy page</a> on the <a href="https://safenetwork.tech">SAFE Network website</a>.'
+        ]
+      },
     ];
   }
 
@@ -138,6 +158,10 @@ class JobApplicant extends React.Component {
   }
 }
 
+{/*
+  * Main class to define the contents of this privacy page
+  * @extends React.Component
+  */}
 class Privacy extends React.Component {
   render() {
     return (
@@ -151,6 +175,11 @@ class Privacy extends React.Component {
     )
   }
 }
+
+{/*
+  * Export the full page as defined by the Privacy class
+  *
+  */}
 export default withSiteData(() => (
   Base(Privacy)
 ));
