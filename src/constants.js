@@ -20,7 +20,7 @@ export default {
   footer: {
     community: {
       forum: 'https://safenetforum.org/',
-      slack: 'https://slack.safenetwork.org/',
+      riot: 'https://riot.im/app/#/room/#safenetwork:matrix.org',
       youTube: 'https://www.youtube.com/channel/UChDck5R_C9i6XTrS66tbwOw',
       reddit: 'https://www.reddit.com/r/safenetwork/',
       twitter: 'https://twitter.com/maidsafe',
