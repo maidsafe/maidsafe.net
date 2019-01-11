@@ -14,8 +14,8 @@ export default class Footer extends React.Component {
               <div className="app-footer-btns community">
                 <Link to={CONST.footer.community.forum} target="_blank" />
               </div>
-              <div className="app-footer-btns slack">
-                <Link to={CONST.footer.community.slack} target="_blank" />
+              <div className="app-footer-btns riot">
+                <Link to={CONST.footer.community.riot} target="_blank" />
               </div>
               <div className="app-footer-btns youtube">
                 <Link to={CONST.footer.community.youTube} target="_blank" />
