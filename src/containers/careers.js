@@ -40,12 +40,13 @@ class Careers extends React.Component {
           <h3>Join our team</h3>
           <p>
             We are an eclectic and multicultural group of passionate, focussed and
-      genuine individuals determined to release great software while making a
-      hugely positive impact on the world. If you would like to help, please
-      send your CV along with a covering letter detailing why you’re a great
-      ﬁt for the position to: <a href="mailto:careers@maidsafe.net">careers@maidsafe.net</a> and we will get back to you
-            as soon as we can.
-    </p>
+            genuine individuals determined to release great software while making a
+            hugely positive impact on the world. We are always interested to hear
+            from those who have a passion for making a positive impact through
+            the creation of software, especially experts in Rust. If you would like to
+            help, please send your CV along with a covering letter (in pdf format)
+            to: <a href="mailto:careers@maidsafe.net">careers@maidsafe.net</a> and we will get back to you as soon as we can.
+          </p>
         </div>
 
         <div className="list-content type-5">
