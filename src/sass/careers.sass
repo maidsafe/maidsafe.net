@@ -1,0 +1,150 @@
+@import '_xlarge/careers'
+@import '_large/careers'
+@import '_medium/careers'
+@import '_small/careers'
+@import '_xsmall/careers'
+
+.cta
+  background-color: $colr-white
+  border: 2px solid $colr-blue
+  border-radius: 20px
+  margin: 40px 0 40px -360px
+  min-height: 80px
+  width: 120px
+  word-wrap: normal
+  padding: 20px
+.careers
+  margin-top: 0px
+  .intro
+    margin-top: 0px
+    .intro-container
+      display: table
+      width: 100%
+      min-height: 360px
+      max-height: 360px
+      vertical-align: top
+      .email-button
+        margin: 10px 10px
+        text-transform: uppercase
+        padding: 8px 16px
+        line-height: 24px
+        background-color: $colr-sandle
+        font-size: 16px
+        font-weight: 600
+        color: $colr-blue
+        border-radius: 5px
+        border: 1px solid $colr-blue
+        &:hover
+          background-color: transparent
+          color: $colr-light-blue
+          border: 1px solid $colr-light-blue
+          cursor: pointer
+      .left-panel
+        display: table-cell
+        width: 35%
+        height: 100%
+        background-color: $colr-blue
+        background-image: url($url-careers-bnr-bg)
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: bottom
+        back
+        align-items: top | center
+        p
+          margin-top: 10px
+          margin-bottom: 260px
+          padding: 20px
+          color: $colr-light-blue
+          vertical-align: top
+      .right-panel
+        display: table-cell
+        width: 65%
+        height: 100%
+        background-image: url($url-careers-main-bg)
+        background-repeat: no-repeat
+        background-size: cover
+        vertical-align: top
+        text-align: right
+  .benefits
+    &.white
+      background-color: $colr-white
+    &.light-blue
+      background-color: $colr-light-blue
+    padding-top: 0px
+    padding-bottom: 40px
+    width: 100%
+    min-height: 120px
+    .benefits-b
+      @extend .list-content
+      text-align: center
+      margin-bottom: 40px
+      .benefit-i
+        display: inline-block
+        width: 15%
+        margin: 5px
+        padding-top: 62px
+        vertical-align: top
+        min-height: 92px
+        background-repeat: no-repeat
+        background-position: top
+        &.holiday
+          background-image: url($url-benefit-holidays)
+        &.pension
+          background-image: url($url-benefit-pension)
+        &.ebt
+          background-image: url($url-benefit-ebt)
+        &.cycle
+          background-image: url($url-benefit-cycle)
+        &.chillout
+          background-image: url($url-benefit-chillout)
+        &.casual
+          background-image: url($url-benefit-casual)
+        &.flexible
+          background-image: url($url-benefit-flexible)
+        &.remote
+          background-image: url($url-benefit-remote)
+        &.build
+          background-image: url($url-benefit-build)
+        &.workwith
+          background-image: url($url-benefit-workwith)
+        &.opensrc
+          background-image: url($url-benefit-opensrc)
+  .photostrip
+    background-position: center
+  .testimonials
+    width: 80%
+    text-align: center
+    min-height: 320px
+    margin-bottom: 80px
+    .testimonials-b
+      width: 100%
+      display: table
+      padding: 10px 80px
+      p
+        margin-top: 0px
+        font-size: 14px
+      .face
+        display: table-cell
+        width: 120px
+        height: 120px
+        max-height: 120px
+        background-position: center
+        background-repeat:  none
+        background-size: cover
+        background-clip: border-box
+        border: 1px solid transparent
+        border-radius: 50%
+        &.spandan
+          background-image: url($url-team-spandan)
+        &.marcin
+          background-image: url($url-team-marcin)
+        &.gabriel
+          background-image: url($url-team-gabriel)
+        &.hunter
+          background-image: url($url-team-hunter)
+      .quote
+        display: table-cell
+        width: calc(100% - 120px)
+        padding: 10px
+        vertical-align: top
+        text-align: justify
