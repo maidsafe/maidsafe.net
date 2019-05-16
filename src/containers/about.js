@@ -3,45 +3,52 @@ import { withSiteData } from 'react-static'
 
 import CONST from '../constants';
 import Base from './partials/base_wrapper';
+import TXT from "./contents/about_text"
 
 class About extends React.Component {
 	constructor() {
 		super();
 		this.teams = {
-			'Adam': '/_temp/img/team/adam.JPG',
-			'Bartlomiej': '/_temp/img/team/Bartlomiej.JPG',
+			'Adam': '/_temp/img/team/adam.jpg',
+			'Ashwin': '/_temp/img/team/ashwin.jpg',
+			'Bart': '/_temp/img/team/bartlomiej.jpg',
+			'Calum': '/_temp/img/team/calum.jpg',
+			'Ceilidh': '/_temp/img/team/ceilidh.jpg',
+			'Chris': '/_temp/img/team/chris.jpg',
 			'David': '/_temp/img/team/david.jpg',
-			'Francis': '/_temp/img/team/francis-brunelle.jpg',
+			'David_G': '/_temp/img/team/dgeddes.jpg',
+			'Dug': '/_temp/img/team/dug.jpg',
+			'Francis': '/_temp/img/team/francis.jpg',
 			'Fraser': '/_temp/img/team/fraser.jpg',
 			'Gabriel': '/_temp/img/team/gabriel.jpg',
-			'Hunter': '/_temp/img/team/Hunter.jpg',
-			'Josh': '/_temp/img/team/Josh.jpeg',
-			'Krishna': '/_temp/img/team/krishna.jpeg',
-			'Marcin': '/_temp/img/team/Marcin.jpg',
-			'Nick': '/_temp/img/team/nick.jpg',
-			'Nikita': '/_temp/img/team/Nikita.jpg',
-			'Qi': '/_temp/img/team/qi.jpg',
-			'Shankar': '/_temp/img/team/Shankar.jpg',
-			'Sharon': '/_temp/img/team/Sharon.jpg',
-			'Shona': '/_temp/img/team/shona.JPG',
-			'Spandan': '/_temp/img/team/spandan.jpg',
-			'Srini': '/_temp/img/team/Srini.jpg',
-			'Victoria': '/_temp/img/team/Victoria.jpg',
-			'Viv': '/_temp/img/team/viv.jpg',
-			'Stephen': '/_temp/img/team/stephen.jpg',
-			'Pierre': '/_temp/img/team/pierre_chevalier.jpg',
-			'Sarah': '/_temp/img/team/sarah_pentland.jpg',
-			'Jim': '/_temp/img/team/jim_collinson.JPG',
-			'Nadia': '/_temp/img/team/nadia_burborough.png',
-			'David Geddes': '/_temp/img/team/david_geddes.png',
-			'Andreas': '/_temp/img/team/andreas.jpg',
-			'Ashwin': '/_temp/img/team/ashwin.jpg',
-			'Lionel': '/_temp/img/team/lionel.jpeg',
-			'Ravi': '/_temp/img/team/ravi.jpg',
-			'Kayley': '/_temp/img/team/kayley.jpg',
-			'Povilas': '/_temp/img/team/povilas.png',
-			'Dug': '/_temp/img/team/dug.jpg',
+			'Hunter': '/_temp/img/team/hunter.jpg',
+			'Jean-Philippe': '/_temp/img/team/jean.jpg',
+			'Jim': '/_temp/img/team/jim.jpg',
 			'Jon': '/_temp/img/team/jon.jpg',
+			'Josh': '/_temp/img/team/josh.jpg',
+			'Kayley': '/_temp/img/team/kayley.jpg',
+			'Krishna': '/_temp/img/team/krishna.jpg',
+			'Lindsey': '/_temp/img/team/lindsey.jpg',
+			'Lionel': '/_temp/img/team/lionel.jpg',
+			'Marcin': '/_temp/img/team/marcin.jpg',
+			'Nadia': '/_temp/img/team/nadia.jpg',
+			'Nick': '/_temp/img/team/nick.jpg',
+			'Nikita': '/_temp/img/team/nikita.jpg',
+			'Pierre': '/_temp/img/team/pierre.jpg',
+			'Qi': '/_temp/img/team/qi.jpg',
+			'Ravinder': '/_temp/img/team/ravi.jpg',
+			'Sarah': '/_temp/img/team/sarah.jpg',
+			'Sharon': '/_temp/img/team/sharon.jpg',
+			'Siddique': '/_temp/img/team/siddique.jpg',
+			'Spandan': '/_temp/img/team/spandan.jpg',
+			'Srini': '/_temp/img/team/srini.jpg',
+			'Stephen': '/_temp/img/team/stephen.jpg',
+			'Shankar': '/_temp/img/team/shankar.jpg',
+			'Vinitha': '/_temp/img/team/vinitha.jpg',
+			'Victoria': '/_temp/img/team/victoria.jpg',
+			'Vignesh': '/_temp/img/team/vignesh.jpg',
+			'Viv': '/_temp/img/team/viv.jpg',
+			'Yogesh': '/_temp/img/team/yogesh.jpg',
 		};
 		this.state = {
 			teamItems: []
@@ -93,19 +100,14 @@ class About extends React.Component {
 				<div id="who-we-are" className="post-3">
 					<div className="post-3-cont">
 						<div className="post-3-cont-i">
-							<h3>Who we are</h3>
-							<p>
-								Started in 2006 by Scottish engineer David Irvine, MaidSafe is a small team,
-  comprised of: thinkers, inventors, tinkerers, PHDs, engineers and designers.
-  Although based in Ayr, Scotland, we have drawn talents from many different
-  cultures and countries, reflecting the users that we serve. Despite this
-  variety, we all share a mission: a desire to provide security and privacy for
-  everyone.
-  </p>
+							<h3>{TXT.who.title}</h3>
+							<p>{TXT.who.para}</p>
+							{/*
 							<div className="ques">
 								<span>Interested in joining our diverse and growing team, either in Ayr or remotely?</span>
 								<a href="/careers" className="al-btn invert">VIEW OPEN POSITIONS</a>
 							</div>
+							*/}
 						</div>
 					</div>
 				</div>
