@@ -7,7 +7,7 @@ import Role from './partials/career_role';
 import careerContent from './contents/career.content';
 
 // Text for page
-import TXT from "./contents/careers_text"
+import TXT from "./contents/careers"
 import TESTI from "./contents/testimonials"
 
 class Careers extends React.Component {

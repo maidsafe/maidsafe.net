@@ -3,7 +3,7 @@ import { withSiteData } from 'react-static'
 
 import CONST from '../constants';
 import Base from './partials/base_wrapper';
-import TXT from "./contents/about_text"
+import TXT from "./contents/about"
 
 class About extends React.Component {
 	constructor() {
@@ -16,7 +16,6 @@ class About extends React.Component {
 			'Ceilidh': '/_temp/img/team/ceilidh.jpg',
 			'Chris': '/_temp/img/team/chris.jpg',
 			'David': '/_temp/img/team/david.jpg',
-			'David_G': '/_temp/img/team/dgeddes.jpg',
 			'Dug': '/_temp/img/team/dug.jpg',
 			'Francis': '/_temp/img/team/francis.jpg',
 			'Fraser': '/_temp/img/team/fraser.jpg',
@@ -115,15 +114,12 @@ class About extends React.Component {
 				<div id="what-drives-us" className="post-3">
 					<div className="post-3-cont">
 						<div className="post-3-cont-i">
-							<h3>What drives us</h3>
-							<p>
-							MaidSafe's aim is to provide privacy, security and freedom to everyone on the planet. This has been our unwavering ambition since we started on this journey in 2006, and it remains our driving force today.
-							</p>
-							<p>
-							Online data has become so insecure and data thefts so commonplace that our trust in companies securing our data is almost entirely eroded. More than 2.5 billion personal data records were stolen in 2017.  A new way of managing data is required, and MaidSafe combines several features that provide a level of security not possible using existing methods.</p>
-							<p>Data security not only allows us to keep our credit card details safe, or our medical records secure, but also brings us  privacy. Privacy is misunderstood by many.</p>
-							<p>It’s not simply about protecting secrets or even hiding the things that we shouldn’t be doing. Privacy is simply protecting your ability to choose which personal thoughts, communications and actions you want to share with others. Without privacy, one's ability to communicate, explore, act or even think freely is restrained. We need privacy to enable creativity, and to allow new ideas and forms of expression to flourish.</p>
-							<p>In our quest to provide privacy, security and freedom to everyone, we are creating an Open Source decentralised data network called the SAFE Network - and everyone’s welcome. Join us at <a href="https://safenetwork.tech">safenetwork.tech</a> </p>
+							<h3>{TXT.what.title}</h3>
+							<p>{TXT.what.para1}</p>
+							<p>{TXT.what.para2}</p>
+							<p>{TXT.what.para3}</p>
+							<p>{TXT.what.para4}</p>
+							<p>{TXT.what.para5.chunk1} <a href={TXT.what.para5.link.href}>{TXT.what.para5.link.name}</a>{TXT.what.para5.chunk2}</p>
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,63 @@
+.layout4060
+  width: 100%
+  display: table
+  .lay-40
+    display: table-cell
+    width: 40%
+    height: 100%
+    vertical-align: top
+  .lay-60
+    display: table-cell
+    width: 60%
+    height: 100%
+    vertical-align: top
+
+.maid
+  .intro
+    padding-bottom: 20px
+    .ticker
+      width: 80%
+      text-align: center
+      vertical-align: top
+      margin: 40px
+      min-height: 200px
+      .coinmarketcap-currency-widget
+       width: 100%
+       margin: 60px auto
+  .xchg
+    padding-bottom: 20px
+    display: table
+    width: 100%
+    p
+      padding-bottom: 20px
+    .xchg-b
+      @extend .list-content
+      text-align: center
+      margin-bottom: 40px
+      .xchg-i
+        display: inline-block
+        width: 25%
+        margin: 5px
+        padding-top: 92px
+        vertical-align: top
+        min-height: 92px
+        max-height: 70px
+        background-repeat: no-repeat
+        background-position: top
+        background-size: contain
+        &.poloniex
+          background-image: url($url-exchange-poloniex)
+        &.hitbtc
+          background-image: url($url-exchange-hitbtc)
+        &.bitker
+          background-image: url($url-exchange-bitker)
+    .steps
+      margin-top: 20px
+      p
+        padding-top: 0px
+      .steplist
+        margin-left: 40px
+        margin-top: 12px
+  .wallet
+    background-color: $colr-white
+    padding-bottom: 120px

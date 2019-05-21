@@ -38,6 +38,9 @@ export default class Header extends React.Component {
                   selected: this.props.page === CONST.nav.CAREER
                 })} to="/careers">Careers</Link>
                 <Link className={Classnames({
+                  selected: this.props.page === CONST.nav.maid
+                })} to="/maid">MaidSafeCoin</Link>
+                <Link className={Classnames({
                   selected: this.props.page === CONST.nav.CONTACT
                 })} to="/contact">Contact</Link>
               </nav>

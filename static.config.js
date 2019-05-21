@@ -29,6 +29,10 @@ export default {
         component: 'src/containers/cookies',
       },
       {
+        path: '/maid',
+        component: 'src/containers/maid',
+      },
+      {
         path: '/privacy',
         component: 'src/containers/privacy',
       },

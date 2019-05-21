@@ -12,6 +12,10 @@ export default {
       title: `Contact Us | MaidSafe`,
       desc: `Contact the MaidSafe team at their Scottish HQ`
     },
+    maid: {
+      title: `MaidSafeCoin | MaidSafe`,
+      desc: `MaidSafeCoin (MAID) is the decentralized currency for the SAFE Network`
+    },
     career: {
       title: `Join the Team | MaidSafe`,
       desc: `Interested in joining our diverse and growing team, either in Ayr or remotely?`
@@ -40,6 +44,7 @@ export default {
   nav: {
     CAREER: 'careers',
     CONTACT: 'contact',
-    ABOUT: 'about'
+    ABOUT: 'about',
+    MAID: 'maid'
   }
 }
