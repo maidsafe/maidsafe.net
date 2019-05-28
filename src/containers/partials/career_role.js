@@ -25,7 +25,7 @@ export default class CareerRole extends React.Component {
                 self.onClickRole(id);
               }} href={`#${id}`}>{title}</a></h3>
               <div className='tbl-cnt'>
-                <p className="p desc">{desc}</p>
+              {typeof desc === 'string' ? <p className="p desc">{desc}</p> : desc.map((d, i) => (<p key={`desc-${i}`} className="p desc">{d}</p>))}
                 {details && details.length > 0 ? details.map((detail, i) => (
                   <div key={`career-detail-${i}`}>
                     <h4 className="sub-title">{detail.head}</h4>
