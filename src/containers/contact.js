@@ -75,7 +75,7 @@ class Contact extends React.Component {
         <div className="content-3">
           <h3 className="title">Business and Press Enquiries</h3>
           <p className="p">
-            Anyone seeking further information about business partnerships, or press interviews should email Nick at: <a
+            Anyone seeking further information about business partnerships, or press interviews should email the marketing team at: <a
               href="mailto:pr@maidsafe.net">pr@maidsafe.net</a>.
   </p>
         </div>
