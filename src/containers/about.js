@@ -36,6 +36,16 @@ class About extends React.Component {
 			'Ravi': '/_temp/img/team/ravi.jpg',
 			'Dug': '/_temp/img/team/dug.jpg',
 			'Jon': '/_temp/img/team/jon.jpg',
+			'Jean': '/_temp/img/team/jean_philippe_dufraigne.jpg',
+			'Chris': '/_temp/img/team/chris_o_neil.jpg',
+			'Manav': '/_temp/img/team/manav_chhabria.jpg',
+			'Vignesh': '/_temp/img/team/vignesh.jpg',
+			'Siddique': '/_temp/img/team/siddique.jpg',
+			'Lindsey': '/_temp/img/team/lindsey.jpg',
+			'Ceilidh': '/_temp/img/team/ceilidh.jpg',
+			'Yogesh': '/_temp/img/team/yogesh.png',
+			'Calum': '/_temp/img/team/calum.jpg',
+			'Vinitha': '/_temp/img/team/vinitha.jpg'	
 		};
 		this.state = {
 			teamItems: []
