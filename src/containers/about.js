@@ -36,7 +36,7 @@ class About extends React.Component {
 			'Ravi': '/_temp/img/team/ravi.jpg',
 			'Dug': '/_temp/img/team/dug.jpg',
 			'Jon': '/_temp/img/team/jon.jpg',
-			'Jean': '/_temp/img/team/jean_philippe_dufraigne.jpg',
+			'Jean-Philippe': '/_temp/img/team/jean_philippe_dufraigne.jpg',
 			'Chris': '/_temp/img/team/chris_o_neil.jpg',
 			'Manav': '/_temp/img/team/manav_chhabria.jpg',
 			'Vignesh': '/_temp/img/team/vignesh.jpg',
