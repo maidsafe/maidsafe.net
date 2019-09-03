@@ -121,26 +121,34 @@ class About extends React.Component {
 							<p>Data security not only allows us to keep our credit card details safe, or our medical records secure, but also brings us  privacy. Privacy is misunderstood by many.</p>
 							<p>It’s not simply about protecting secrets or even hiding the things that we shouldn’t be doing. Privacy is simply protecting your ability to choose which personal thoughts, communications and actions you want to share with others. Without privacy, one's ability to communicate, explore, act or even think freely is restrained. We need privacy to enable creativity, and to allow new ideas and forms of expression to flourish.</p>
 							<p>In our quest to provide privacy, security and freedom to everyone, we are creating an Open Source decentralised data network called the SAFE Network - and everyone’s welcome. Join us at <a href="https://safenetwork.tech">safenetwork.tech</a> </p>
+						</div>
+					</div>
+					<div className="post-3-cont">
+						<div className="post-3-cont-i">
 							<h3>Executive Directors</h3>
-							<p>David Irvine</p>
+							<h4>David Irvine</h4>
 							<p>Founder David has over 23 years’ experience in IT and 15 years running companies. He designed one of the World’s largest private networks (Saudi Aramco, over $300M).</p>
 							<p>Involved in start up businesses since 1995, he has presented technology lectures at Google (Seattle) and British Computer Society (Christmas Lecture) amongst others.</p>
 							<p>A published author on papers in the fields of complex networking, distributed computing and cryptography related technologies, he is also the author of 30 patent applications in the field of computer networking.</p>
-							<p>Dug Campbell</p>
+							<h4>Dug Campbell</h4>
 							<p>Dug worked as a lawyer advising technology startups and investors for over a decade before earning an MBA and becoming an independent digital strategy consultant.</p>
 							<p>He has worked across Product Management and Marketing functions with tech companies such as Skyscanner (fastest growing travel company in the world at the time) and a range of fintech startups.</p>
 							<p>An early cryptocurrency advocate and keen speaker, he established the first Bitcoin and Ethereum meetups, hackathons and conferences in Scotland and gave an early TEDx talk on Bitcoin back in January 2014.</p>
-							<p>Nadia Burborough</p>
+							<h4>Nadia Burborough</h4>
 							<p>Nadia is an experienced project manager and senior change leader, with over 12 years’ experience in business improvement and people-development roles. Her background and training comes from best practice research and qualifications in psychology, change management, project management, leadership development, lean thinking and quality assurance</p>
 							<p>She worked in the healthcare sector for over 13 years, moving to education and local government before joining the team at MaidSafe. Her project management experience covers the full IT stack (from front end applications, to backend network infrastructure) and project outcomes range from upgrading critical clinical infrastructure in hospitals, business improvement and efficiency to heading the People & Capability team of a new company to achieve commercial viability.</p>
-							<p>Non-Executive Directors</p>
-							<p>David Allan</p>
+						</div>
+					</div>
+					<div className="post-3-cont">
+						<div className="post-3-cont-i">
+							<h3>Non-Executive Directors</h3>
+							<h4>David Allan</h4>
 							<p>David is a qualified corporate lawyer with 35 years of experience in mergers & acquisitions and equity funding. Over and above this he has also been a director in several tech start-ups.</p>
-							<p>Andy Laverty</p>
+							<h4>Andy Laverty</h4>
 							<p>Andy is a Qualified Chartered Accountant who has held positions such as Interim former Chief Financial Officer with Sun Microsystems and Group Chief Financial Officer of FNZ, a wealth management Software as a Service.</p>
-							<p>David Cosh</p>
+							<h4>David Cosh</h4>
 							<p>David has 40 years experience of working at Director Level, having grown a drinks business to £40m and employing 350 people.</p>
-							<p>Fraser Hutchison</p>
+							<h4>Fraser Hutchison</h4>
 							<p>Fraser has 26 years service as an Operational Pilot in the Royal Navy. He was also a Senior Manager with the AA and was the owner and operator of a family business.</p>
 						</div>
 					</div>
