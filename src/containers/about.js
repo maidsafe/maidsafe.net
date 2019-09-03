@@ -15,7 +15,6 @@ class About extends React.Component {
 			'Gabriel': '/_temp/img/team/gabriel.jpg',
 			'Josh': '/_temp/img/team/Josh.jpeg',
 			'Marcin': '/_temp/img/team/Marcin.jpg',
-			'Nick': '/_temp/img/team/nick.jpg',
 			'Nikita': '/_temp/img/team/Nikita.jpg',
 			'Qi': '/_temp/img/team/qi.jpg',
 			'Shankar': '/_temp/img/team/Shankar.jpg',
