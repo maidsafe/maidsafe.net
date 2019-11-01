@@ -25,10 +25,8 @@ class About extends React.Component {
 			'Stephen': '/_temp/img/team/stephen.jpg',
 			'Sarah': '/_temp/img/team/sarah_pentland.jpg',
 			'Jim': '/_temp/img/team/jim_collinson.JPG',
-			'Nadia': '/_temp/img/team/nadia_burborough.png',
 			'Lionel': '/_temp/img/team/lionel.jpeg',
 			'Ravi': '/_temp/img/team/ravi.jpg',
-			'Dug': '/_temp/img/team/dug.jpg',
 			'Jon': '/_temp/img/team/jon.jpg',
 			'Jean-Philippe': '/_temp/img/team/jean_philippe_dufraigne.jpg',
 			'Chris': '/_temp/img/team/chris_o_neil.jpg',
@@ -39,7 +37,7 @@ class About extends React.Component {
 			'Ceilidh': '/_temp/img/team/ceilidh.jpg',
 			'Yogesh': '/_temp/img/team/yogesh.png',
 			'Calum': '/_temp/img/team/calum.jpg',
-			'Vinitha': '/_temp/img/team/vinitha.jpg'	
+			'Vinitha': '/_temp/img/team/vinitha.jpg'
 		};
 		this.state = {
 			teamItems: []
@@ -129,13 +127,6 @@ class About extends React.Component {
 							<p>Founder David has over 23 years’ experience in IT and 15 years running companies. He designed one of the World’s largest private networks (Saudi Aramco, over $300M).</p>
 							<p>Involved in start up businesses since 1995, he has presented technology lectures at Google (Seattle) and British Computer Society (Christmas Lecture) amongst others.</p>
 							<p>A published author on papers in the fields of complex networking, distributed computing and cryptography related technologies, he is also the author of 30 patent applications in the field of computer networking.</p>
-							<h4>Dug Campbell</h4>
-							<p>Dug worked as a lawyer advising technology startups and investors for over a decade before earning an MBA and becoming an independent digital strategy consultant.</p>
-							<p>He has worked across Product Management and Marketing functions with tech companies such as Skyscanner (fastest growing travel company in the world at the time) and a range of fintech startups.</p>
-							<p>An early cryptocurrency advocate and keen speaker, he established the first Bitcoin and Ethereum meetups, hackathons and conferences in Scotland and gave an early TEDx talk on Bitcoin back in January 2014.</p>
-							<h4>Nadia Burborough</h4>
-							<p>Nadia is an experienced project manager and senior change leader, with over 12 years’ experience in business improvement and people-development roles. Her background and training comes from best practice research and qualifications in psychology, change management, project management, leadership development, lean thinking and quality assurance</p>
-							<p>She worked in the healthcare sector for over 13 years, moving to education and local government before joining the team at MaidSafe. Her project management experience covers the full IT stack (from front end applications, to backend network infrastructure) and project outcomes range from upgrading critical clinical infrastructure in hospitals, business improvement and efficiency to heading the People & Capability team of a new company to achieve commercial viability.</p>
 						</div>
 					</div>
 					<div className="post-3-cont">
