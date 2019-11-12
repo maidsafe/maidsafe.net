@@ -23,7 +23,6 @@ class About extends React.Component {
 			'Srini': '/_temp/img/team/Srini.jpg',
 			'Victoria': '/_temp/img/team/Victoria.jpg',
 			'Stephen': '/_temp/img/team/stephen.jpg',
-			'Sarah': '/_temp/img/team/sarah_pentland.jpg',
 			'Jim': '/_temp/img/team/jim_collinson.JPG',
 			'Lionel': '/_temp/img/team/lionel.jpeg',
 			'Ravi': '/_temp/img/team/ravi.jpg',
@@ -31,10 +30,7 @@ class About extends React.Component {
 			'Jean-Philippe': '/_temp/img/team/jean_philippe_dufraigne.jpg',
 			'Chris': '/_temp/img/team/chris_o_neil.jpg',
 			'Manav': '/_temp/img/team/manav_chhabria.jpg',
-			'Vignesh': '/_temp/img/team/vignesh.jpg',
 			'Siddique': '/_temp/img/team/siddique.jpg',
-			'Lindsey': '/_temp/img/team/lindsey.jpg',
-			'Ceilidh': '/_temp/img/team/ceilidh.jpg',
 			'Yogesh': '/_temp/img/team/yogesh.png',
 			'Calum': '/_temp/img/team/calum.jpg',
 			'Vinitha': '/_temp/img/team/vinitha.jpg'
