@@ -109,7 +109,7 @@ class Contact extends React.Component {
             Tel: <a href="tel:+44 (0) 1292317311">+44 (0) 1292317311</a><br />
             Email: <a href="mailto:outreach@maidsafe.net">outreach@maidsafe.net</a><br />
             Company Registered in Scotland<br />
-            No. SC297540
+            No. SC297540 
   </p>
         </div>
       </div>
