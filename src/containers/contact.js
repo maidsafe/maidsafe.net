@@ -65,7 +65,7 @@ class Contact extends React.Component {
         <div className="content-3">
           <h3 className="title">Community Support</h3>
           <p className="p">
-            If you are seeking support with SAFE Network testnets, or have questions about where and how to acquire MaidSafeCoin, you can browse and raise a support thread on the community forum: <a href="https://safenetforum.org/c/support" target="_blank">https://safenetforum.org/c/support</a>.
+            If you are seeking support with SAFE Network testnets, or have questions about where and how to acquire MaidSafeCoin, you can browse and raise a support thread on the community forum in the <a href="https://safenetforum.org/c/support" target="_blank">Support</a> category.
   </p>
         </div>
         <div className="content-3">
@@ -78,7 +78,7 @@ class Contact extends React.Component {
         <div className="content-3">
           <h3 className="title">Events</h3>
           <p className="p">
-            See <a href="https://safenetforum.org/t/safe-network-upcoming-events/29029">this forum post</a> for a list of all the upcoming events that either the MaidSafe team are attending or the community are running. If you would like to get involved in hosting an event, please post on the community forum: <a href="https://safenetforum.org/c/community/events" target="_blank">https://safenetforum.org/c/community/events</a>.
+            See <a href="https://safenetforum.org/t/safe-network-upcoming-events/29029">this forum post</a> for a list of all the upcoming events that either the MaidSafe team are attending or the community are running. If you would like to get involved in hosting an event, please post on the community forum in the <a href="https://safenetforum.org/c/community/events" target="_blank">Community/Events</a> category.
   </p>
         </div>
         {/* <div id="Location" className="location map">
