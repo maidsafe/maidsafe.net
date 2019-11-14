@@ -10,7 +10,6 @@ class About extends React.Component {
 		this.teams = {
 			'Adam': '/_temp/img/team/adam.JPG',
 			'Bartlomiej': '/_temp/img/team/Bartlomiej.JPG',
-			'Calum': '/_temp/img/team/calum.jpg',
 			'Chris': '/_temp/img/team/chris_o_neil.jpg',
 			'David': '/_temp/img/team/david.jpg',
 			'Edward': '/_temp/img/team/Edward.jpg',
