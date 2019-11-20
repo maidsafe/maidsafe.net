@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-static';
+import { Link } from 'react-router-dom';
 //
 import CONST from '../../constants';
 import LicenseButton from '../../../public/_temp/img/license_button.png';

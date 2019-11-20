@@ -17,16 +17,17 @@
     "react-dom": "^16.12.0",
     "react-google-maps": "^9.4.5",
     "react-router": "^5.1.2",
-    "react-static": "^5.9.7"
+    "react-router-dom": "^5.1.2",
+    "react-static": "^7.2.3",
+    "react-static-plugin-react-router": "^7.2.3",
+    "react-static-plugin-sass": "^7.2.2"
   },
   "devDependencies": {
     "babel-plugin-transform-remove-strict-mode": "^0.0.2",
-    "compression-webpack-plugin": "^1.1.11",
-    "eslint-config-react-tools": "1.x.x",
+    "compression-webpack-plugin": "^3.0.0",
+    "eslint-config-react-tools": "^1.1.7",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-react-parser": "^0.10.0",
-    "node-sass": "^4.13.0",
-    "sass-loader": "^6.0.6",
     "serve": "^11.2.0"
   }
 }
