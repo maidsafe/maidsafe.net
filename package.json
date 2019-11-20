@@ -14,7 +14,7 @@
     "babel-polyfill": "^6.26.0",
     "classnames": "^2.2.6",
     "react": "^16.12.0",
-    "react-dom": "^16.2.1",
+    "react-dom": "^16.12.0",
     "react-google-maps": "^9.4.5",
     "react-router": "^5.1.2",
     "react-static": "^5.9.7"
