@@ -10,42 +10,43 @@ export default {
     return [
       {
         path: '/',
-        component: 'src/containers/home',
+        template: 'src/containers/home',
       },
       {
         path: '/about_us',
-        component: 'src/containers/about',
+        template: 'src/containers/about',
       },
       {
         path: '/careers',
-        component: 'src/containers/careers',
+        template: 'src/containers/careers',
       },
       {
         path: '/contact',
-        component: 'src/containers/contact',
+        template: 'src/containers/contact',
       },
       {
         path: '/cookies',
-        component: 'src/containers/cookies',
+        template: 'src/containers/cookies',
       },
       {
         path: '/privacy',
-        component: 'src/containers/privacy',
+        template: 'src/containers/privacy',
       },
       {
         path: '/disclaimer',
-        component: 'src/containers/disclaimer',
+        template: 'src/containers/disclaimer',
       },
       {
         path: '/credits',
-        component: 'src/containers/credits',
+        template: 'src/containers/credits',
       },
       {
         path: '404',
-        component: 'src/containers/404',
+        template: 'src/containers/404',
       },
     ]
   },
+  plugins: ['react-static-plugin-react-router', 'react-static-plugin-sass'],
   webpack: (config, { defaultLoaders, stage }) => {
     let loaders = []
 

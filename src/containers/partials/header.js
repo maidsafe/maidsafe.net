@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-static';
+import { Link } from 'react-router-dom';
 import Classnames from 'classnames';
 //
 import CONST from '../../constants';

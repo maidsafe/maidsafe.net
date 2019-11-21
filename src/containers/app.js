@@ -1,16 +1,17 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
+import { Root, Routes } from 'react-static'
 import { hot } from 'react-hot-loader'
 //
-import Routes from 'react-static-routes'
 import '../sass/main.sass';
 
 const App = () => (
-  <Router>
+  <Root>
     <div className="root-b">
-      <Routes />
+      <React.Suspense fallback={<span>Loading...</span>}>
+        <Routes />
+      </React.Suspense>
     </div>
-  </Router>
+  </Root>
 )
 
 export default hot(module)(App)
