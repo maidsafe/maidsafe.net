@@ -41,7 +41,7 @@ class SafeNet extends React.Component {
         <div className="hm-safenet-b base">
           <div className="hm-safenet-med"><img src={SafeNetworkLogo} alt="SafeNetwork logo" /></div>
           <p className="hm-safenet-p typo-bold-para-2">
-            We will do so by building the SAFE Network, the world’s first autonomous and decentralised data network. Be part of creating this new Internet, for the people by the people; visit <a href="https://safenetwork.tech">safenetwork.tech</a> to join us today.<a href="//safenetwork.tech"><span className="arrow-red sm"></span></a>
+            We will do so by building the SAFE Network, the world’s first autonomous and decentralised data network. Be part of creating this new Internet, for the people by the people; visit <a href="https://safenetwork.tech">safenetwork.tech</a> to join us today.<a href="https://safenetwork.tech"><span className="arrow-red sm"></span></a>
           </p>
         </div>
       </div>

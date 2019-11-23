@@ -1,5 +1,6 @@
 import React from 'react';
 import { withSiteData } from 'react-static'
+import { Link } from 'react-router-dom';
 
 import CONST from '../constants';
 import Base from './partials/base_wrapper';
@@ -95,7 +96,7 @@ class About extends React.Component {
   </p>
 							<div className="ques">
 								<span>Interested in joining our diverse and growing team, either in Ayr or remotely?</span>
-								<a href="/careers" className="al-btn invert">VIEW OPEN POSITIONS</a>
+								<Link to="/careers" className="al-btn invert">VIEW OPEN POSITIONS</Link>
 							</div>
 						</div>
 					</div>
