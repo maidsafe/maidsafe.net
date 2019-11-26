@@ -1,4 +1,3 @@
 {
-  "extends": "react-static/.babelrc",
-  "plugins": ["transform-remove-strict-mode"]
+  "presets": ["react-static/babel-preset.js"]
 }

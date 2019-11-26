@@ -1,6 +1,6 @@
 import React from 'react';
 import { withSiteData } from 'react-static'
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
+// import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 // import OpenLayers from '../OpenLayers';
 //
 import CONST from '../constants';
@@ -31,16 +31,16 @@ class Contact extends React.Component {
   // }
 
   render() {
-    const myLatLng = { lat: 55.4810467, lng: -4.6065731 };
+    // const myLatLng = { lat: 55.4810467, lng: -4.6065731 };
 
-    const MyMapComponent = withScriptjs(withGoogleMap((props) =>
-      <GoogleMap
-        defaultZoom={18}
-        defaultCenter={myLatLng}
-      >
-        {props.isMarkerShown && <Marker position={myLatLng} />}
-      </GoogleMap>
-    ));
+    // const MyMapComponent = withScriptjs(withGoogleMap((props) =>
+    //   <GoogleMap
+    //     defaultZoom={18}
+    //     defaultCenter={myLatLng}
+    //   >
+    //     {props.isMarkerShown && <Marker position={myLatLng} />}
+    //   </GoogleMap>
+    // ));
 
     return (
       <div className="contact">
