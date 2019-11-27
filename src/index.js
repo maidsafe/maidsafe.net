@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import "babel-polyfill";
 
 // Your top level component
 import App from './containers/app'
