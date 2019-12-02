@@ -10,7 +10,6 @@ class About extends React.Component {
 		super();
 		this.teams = {
 			'Adam': '/_temp/img/team/adam.JPG',
-			'Bartlomiej': '/_temp/img/team/Bartlomiej.JPG',
 			'David': '/_temp/img/team/david.jpg',
 			'Edward': '/_temp/img/team/Edward.jpg',
 			'Francis': '/_temp/img/team/francis-brunelle.jpg',
@@ -20,18 +19,14 @@ class About extends React.Component {
 			'Jon': '/_temp/img/team/jon.jpg',
 			'Josh': '/_temp/img/team/Josh.jpeg',
 			'Lionel': '/_temp/img/team/lionel.jpeg',
-			'Manav': '/_temp/img/team/manav_chhabria.jpg',
 			'Marcin': '/_temp/img/team/Marcin.jpg',
 			'Nikita': '/_temp/img/team/Nikita.jpg',
 			'Qi': '/_temp/img/team/qi.jpg',
 			'Ravi': '/_temp/img/team/ravi.jpg',
 			'Sharon': '/_temp/img/team/Sharon.jpg',
-			'Siddique': '/_temp/img/team/siddique.jpg',
 			'Spandan': '/_temp/img/team/spandan.jpg',
-			'Srini': '/_temp/img/team/Srini.jpg',
 			'Stephen': '/_temp/img/team/stephen.jpg',
 			'Victoria': '/_temp/img/team/Victoria.jpg',
-			'Vinitha': '/_temp/img/team/vinitha.jpg',
 			'Yogesh': '/_temp/img/team/yogesh.jpg'
 		};
 		this.state = {
