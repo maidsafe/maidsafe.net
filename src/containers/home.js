@@ -64,7 +64,7 @@ class Home extends React.Component {
   componentDidMount() {
     var hash = window.location.hash.substr(1);
     if (hash.toLowerCase() === "safeprimer") {
-      window.location = "https://safenetworkprimer.com";
+      window.location = "https://primer.safenetwork.org";
     }
   }
 }
