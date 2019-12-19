@@ -61,12 +61,12 @@ class Disclaimer extends React.Component {
         </div>
 
         <div className="content-3">
-          <h3>7. Our details.</h3>
+          <h3>7. Our registered office address.</h3>
           <p>MaidSafe.net Limited<br />
-            6 Forbes Drive<br />
-            Ayr<br />
+            163 Bath Street<br />
+            Glasgow<br />
             Scotland<br />
-            KA8 9FG<br /><br />
+            G2 4SQ<br /><br />
           </p>
           <p>Tel: <a href="tel:+44 (0) 1292317311">+44 (0) 1292317311</a></p>
           <p>Email: <a href="mailto:info@maidsafe.net">info@maidsafe.net</a></p>
