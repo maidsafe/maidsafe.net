@@ -364,6 +364,12 @@ header.invert .nav-dropdown.open>a .icn {
 .app-footer-btns-b .app-footer-btns.community:hover {
 	background-position: 0 -60px
 }
+.app-footer-btns-b .app-footer-btns.twitter {
+	background-position: -244px 1px
+}
+.app-footer-btns-b .app-footer-btns.twitter:hover {
+	background-position: -244px -60px
+}
 .app-footer-btns-b .app-footer-btns.riot {
 	background-position: -61px 1px
 }
@@ -382,23 +388,17 @@ header.invert .nav-dropdown.open>a .icn {
 .app-footer-btns-b .app-footer-btns.reddit:hover {
 	background-position: -183px -60px
 }
-.app-footer-btns-b .app-footer-btns.twitter {
-	background-position: -244px 1px
-}
-.app-footer-btns-b .app-footer-btns.twitter:hover {
-	background-position: -244px -60px
-}
-.app-footer-btns-b .app-footer-btns.meetup {
-	background-position: -305px 1px
-}
-.app-footer-btns-b .app-footer-btns.meetup:hover {
-	background-position: -305px -60px
-}
 .app-footer-btns-b .app-footer-btns.telegram {
 	background-position: -366px 1px
 }
 .app-footer-btns-b .app-footer-btns.telegram:hover {
 	background-position: -366px -60px
+}
+.app-footer-btns-b .app-footer-btns.discord {
+	background-position: -305px 1px
+}
+.app-footer-btns-b .app-footer-btns.discord:hover {
+	background-position: -305px -60px
 }
 .app-footer .spliter {
 	width: 100%;
