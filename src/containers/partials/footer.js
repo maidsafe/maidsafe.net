@@ -23,8 +23,14 @@ export default class Footer extends React.Component {
               <div className="app-footer-btns community">
                 <a href={CONST.footer.community.forum} target="_blank" />
               </div>
-              <div className="app-footer-btns riot">
-                <a href={CONST.footer.community.riot} target="_blank" />
+              <div className="app-footer-btns twitter">
+                <a href={CONST.footer.community.twitter} target="_blank" />
+              </div>
+              <div className="app-footer-btns facebook">
+                <a href={CONST.footer.community.facebook} target="_blank" />
+              </div>
+              <div className="app-footer-btns medium">
+                <a href={CONST.footer.community.medium} target="_blank" />
               </div>
               <div className="app-footer-btns youtube">
                 <a href={CONST.footer.community.youTube} target="_blank" />
@@ -32,20 +38,14 @@ export default class Footer extends React.Component {
               <div className="app-footer-btns reddit">
                 <a href={CONST.footer.community.reddit} target="_blank" />
               </div>
-              <div className="app-footer-btns twitter">
-                <a href={CONST.footer.community.twitter} target="_blank" />
-              </div>
-              <div className="app-footer-btns meetup">
-                <a href={CONST.footer.community.meetup} target="_blank" />
+              <div className="app-footer-btns riot">
+                <a href={CONST.footer.community.riot} target="_blank" />
               </div>
               <div className="app-footer-btns telegram">
                 <a href={CONST.footer.community.telegram} target="_blank" />
               </div>
-              <div className="app-footer-btns facebook">
-                <a href={CONST.footer.community.facebook} target="_blank" />
-              </div>
-              <div className="app-footer-btns medium">
-                <a href={CONST.footer.community.medium} target="_blank" />
+              <div className="app-footer-btns discord">
+                <a href={CONST.footer.community.discord} target="_blank" />
               </div>
             </div>
           </div>

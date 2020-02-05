@@ -29,14 +29,14 @@ export default {
   footer: {
     community: {
       forum: 'https://safenetforum.org/',
-      riot: 'https://riot.im/app/#/room/#safenetwork:matrix.org',
-      youTube: 'https://www.youtube.com/channel/UChDck5R_C9i6XTrS66tbwOw',
-      reddit: 'https://www.reddit.com/r/safenetwork/',
       twitter: 'https://twitter.com/maidsafe',
-      meetup: 'https://safenetforum.org/t/safe-network-upcoming-events/29029',
-      telegram: 'https://t.me/safenetwork',
       facebook: 'https://www.facebook.com/GetMaidSafe/',
       medium: 'https://medium.com/safenetwork',
+      youTube: 'https://www.youtube.com/channel/UChDck5R_C9i6XTrS66tbwOw',
+      reddit: 'https://www.reddit.com/r/safenetwork/',
+      riot: 'https://riot.im/app/#/room/#safenetwork:matrix.org',
+      telegram: 'https://t.me/safenetwork',
+      discord: 'https://discord.gg/0ak6ESm4oAR3oXik'
     },
     legal: {
       cookies: '/cookies',
