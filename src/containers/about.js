@@ -101,7 +101,9 @@ class About extends React.Component {
 						</div>
 					</div>
 				</div>
-				<iframe className="page-banner safe-pod home-like company-page" src="https://www.google.com/maps/d/embed?mid=1jzIS5AfmX1Iq5zR3g9blpxWmbPGcbZh7" width="100%"></iframe>
+				<a href="https://www.google.com/maps/d/u/0/viewer?mid=1jzIS5AfmX1Iq5zR3g9blpxWmbPGcbZh7&ll=20.820185474070783%2C1.0278842999999824&z=3" target="_blank">
+					<div className="page-banner safe-pod home-like company-page"></div>
+				</a>
 				<div id="what-drives-us" className="post-3">
 					<div className="post-3-cont">
 						<div className="post-3-cont-i">
