@@ -20,7 +20,7 @@
 
 [[redirects]]
   from = "company.html"
-  to = "/about"
+  to = "/about_us"
 
 [[redirects]]
   from = "index.html"
@@ -37,10 +37,6 @@
 [[redirects]]
   from = "terms_and_conditions.html"
   to = "/cookies"
-
-[[redirects]]
-  from = "disclaimer.html"
-  to = "/disclaimer"
 
 [[redirects]]
   from = "disclaimer.html"
