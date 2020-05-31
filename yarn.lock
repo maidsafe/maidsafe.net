@@ -7367,10 +7367,10 @@ react-side-effect@^1.1.0:
   dependencies:
     shallowequal "^1.0.1"
 
-react-static-plugin-react-router@^7.2.3:
-  version "7.2.3"
-  resolved "https://registry.yarnpkg.com/react-static-plugin-react-router/-/react-static-plugin-react-router-7.2.3.tgz#9f12b10b245565f187b7e1795e14b9e982aa26ba"
-  integrity sha512-zJwwR6VXqRG1ijSw3VgroEwSNpJfUhdqnCwUM0VbA4p4N7XAazNl33oVA5qGAPGFZDyxZCdWCgLD4R6ElzfHpA==
+react-static-plugin-react-router@^7.4.0:
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-react-router/-/react-static-plugin-react-router-7.4.0.tgz#f23ad9ae841cd1da34951ccbbffc22af732f841a"
+  integrity sha512-4Uef2qL8LwU/MXZ3QtVmLAV7Z+CA8gqO5H/XaPkYb86WoTiY1YETI8E1+mMWnCPfPZZGzItiONLWGbaHMp9Aww==
 
 react-static-plugin-sass@^7.2.2:
   version "7.2.2"
