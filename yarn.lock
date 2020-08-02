@@ -7418,10 +7418,10 @@ react-static-plugin-sass@^7.3.0:
     sass-loader "^7.2.0"
     semver "^6.3.0"
 
-react-static@^7.4.0:
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/react-static/-/react-static-7.4.0.tgz#d18bfb526d2a92950b2c0c5d0cdb56fa3e4d70b4"
-  integrity sha512-MUWjysYgdaH7rnIh8Tkjgt0us7AV65W2OsndQSH7y0jeAigBt43PyeyzY9h7umhD8AKiWBW+4jC1tZVpXJqX5w==
+react-static@^7.4.2:
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/react-static/-/react-static-7.4.2.tgz#4433dc724c85a074eb7f7412a2d6d55a1e062207"
+  integrity sha512-RSrA2dRb3xue4r1fbvG1CA8QLt0kENz2B57NXGVXdC0NPkX3iXUYa8YVPKQV5yHo04Vidcgzki598gtQIK6Omw==
   dependencies:
     "@babel/cli" "^7.5.5"
     "@babel/core" "^7.5.5"
