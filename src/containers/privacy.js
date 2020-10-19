@@ -123,7 +123,7 @@ class JobApplicant extends React.Component {
       {
         head: 'GDPR',
         para: [
-          `In line with the recent changes and the implementation of the General Data Protection Regulations in the EEA you have the right to know what information we hold on you as well as the right to be forgotten. If you would like to know any more about this or anything else in relation to your data please contact us by email at <a href="mailto:gdpr@maidsafe.net">gdpr@maidsafe.net</a>, by telephone on 01292 317311 or by post at 6 Forbes Drive, Heathfield Industrial Estate, Ayr, South Ayrshire, Scotland, KA8 9FG.`,
+          `In line with the recent changes and the implementation of the General Data Protection Regulations in the EEA you have the right to know what information we hold on you as well as the right to be forgotten. If you would like to know any more about this or anything else in relation to your data please contact us by email at <a href="mailto:gdpr@maidsafe.net">gdpr@maidsafe.net</a>, by telephone on 01292 317311 or by post at 163 Bath Street, Glasgow, Scotland, G2 4SQ.`,
         ]
       },
       {

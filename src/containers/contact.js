@@ -100,18 +100,18 @@ class Contact extends React.Component {
           <img src={MapLocationSmall} alt="Maidsafe Map" />
         </div> */}
         <div className="content-3">
-          <h3 className="title">Postal Address</h3>
+          <h3 className="title">Registered Address</h3>
           <p className="p">
             MaidSafe.net Limited<br />
-            6 Forbes Drive<br />
-            Ayr<br />
+            163 Bath Street<br />
+            Glasgow<br />
             Scotland<br />
-            KA8 9FG<br />
+            G2 4SQ<br />
           </p>
           <ul className="list">
             <li>
               <a
-                href="https://www.google.com/maps/place/maidsafe.net+limited/@55.4810467,-4.6087618,519m/data=!3m2!1e3!4b1!4m5!3m4!1s0x4889d19859546c0f:0x8d053fd88e589089!8m2!3d55.4810467!4d-4.6065731?hl=en"
+                href="https://www.google.com/maps/place/163+Bath+St,+Glasgow+G2+4SQ/@55.86427,-4.2637013,820m/data=!3m2!1e3!4b1!4m5!3m4!1s0x488844273ccfbc6d:0x10ecd080a822f389!8m2!3d55.864267!4d-4.2615126?hl=en"
                 target="_blank">Locate us on Google Maps</a></li>
           </ul>
           <p className="p">
