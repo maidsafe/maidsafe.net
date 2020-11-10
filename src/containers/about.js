@@ -23,7 +23,6 @@ class About extends React.Component {
 			'Edward': '/_temp/img/team/Edward.jpg',
 			'Francis': '/_temp/img/team/francis-brunelle.jpg',
 			'Gabriel': '/_temp/img/team/gabriel.jpg',
-			'Jean-Philippe': '/_temp/img/team/jean_philippe_dufraigne.jpg',
 			'Jim': '/_temp/img/team/jim_collinson.JPG',
 			'Josh': '/_temp/img/team/Josh.jpeg',
 			'Lionel': '/_temp/img/team/lionel.jpeg',
