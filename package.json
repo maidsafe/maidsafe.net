@@ -5,9 +5,7 @@
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",
-    "serve": "serve dist -l 3000",
-    "run-mocha": "./node_modules/.bin/mocha --require @babel/register",
-    "test": "yarn build && yarn run-mocha"
+    "serve": "serve dist -l 3000"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -17,10 +15,5 @@
     "react-static": "^7.4.2",
     "react-static-plugin-react-router": "^7.4.2",
     "react-static-plugin-sass": "^7.3.0"
-  },
-  "devDependencies": {
-    "broken-link-checker": "^0.7.8",
-    "mocha": "^8.2.1",
-    "should": "^13.2.3"
   }
 }
