@@ -36,7 +36,7 @@ export default {
       reddit: 'https://www.reddit.com/r/safenetwork/',
       riot: 'https://riot.im/app/#/room/#safenetwork:matrix.org',
       telegram: 'https://t.me/safenetwork',
-      discord: 'https://discord.gg/0ak6ESm4oAR3oXik'
+      discord: 'https://discord.com/invite/0ak6ESm4oAR3oXik'
     },
     legal: {
       cookies: '/cookies',
