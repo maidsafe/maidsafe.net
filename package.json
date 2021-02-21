@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "core-js": "^3.8.3",
+    "core-js": "^3.9.0",
     "html-react-parser": "^1.2.4",
     "react-router-dom": "^5.2.0",
     "react-static": "^7.4.2",
