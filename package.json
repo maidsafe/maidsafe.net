@@ -8,7 +8,7 @@
     "serve": "serve dist -l 3000"
   },
   "dependencies": {
-    "classnames": "^2.2.6",
+    "classnames": "^2.3.1",
     "core-js": "^3.8.3",
     "html-react-parser": "^1.2.4",
     "react-router-dom": "^5.2.0",
