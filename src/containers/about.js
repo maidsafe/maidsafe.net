@@ -18,9 +18,11 @@ class About extends React.Component {
 	constructor() {
 		super();
 		this.teams = {
+			'Andrew': '/_temp/img/team/andrew.jpg',
 			'David': '/_temp/img/team/david.jpg',
 			'Edward': '/_temp/img/team/Edward.jpg',
 			'Gabriel': '/_temp/img/team/gabriel.jpg',
+			'Heather': '/_temp/img/team/heather-burns.jpg',
 			'Jim': '/_temp/img/team/jim_collinson.JPG',
 			'Josh': '/_temp/img/team/Josh.jpeg',
 			'Qi': '/_temp/img/team/qi.jpg',
