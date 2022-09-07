@@ -22,12 +22,10 @@ class About extends React.Component {
 			'David': '/_temp/img/team/david.jpg',
 			'Edward': '/_temp/img/team/Edward.jpg',
 			'Gabriel': '/_temp/img/team/gabriel.jpg',
-			'Heather': '/_temp/img/team/heather-burns.jpg',
 			'Jim': '/_temp/img/team/jim_collinson.JPG',
 			'Josh': '/_temp/img/team/Josh.jpeg',
 			'Qi': '/_temp/img/team/qi.jpg',
 			'Stephen': '/_temp/img/team/stephen.jpg',
-			'Yogesh': '/_temp/img/team/yogesh.jpg'
 		};
 		this.state = {
 			teamItems: []
@@ -127,8 +125,6 @@ class About extends React.Component {
 							<p>Andy is a Qualified Chartered Accountant who has held positions such as Interim former Chief Financial Officer with Sun Microsystems and Group Chief Financial Officer of FNZ, a wealth management Software as a Service.</p>
 							<h4>David Cosh</h4>
 							<p>David has 40 years experience of working at Director Level, having grown a drinks business to £40m and employing 350 people.</p>
-							<h4>Fraser Hutchison</h4>
-							<p>Fraser has 26 years service as an Operational Pilot in the Royal Navy. He was also a Senior Manager with the AA and was the owner and operator of a family business.</p>
 						</div>
 					</div>
 				</div>
