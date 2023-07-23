@@ -10,7 +10,7 @@
   "dependencies": {
     "classnames": "^2.3.1",
     "core-js": "^3.13.1",
-    "html-react-parser": "^1.2.6",
+    "html-react-parser": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-static": "^7.4.2",
     "react-static-plugin-react-router": "^7.5.3",
