@@ -11,44 +11,38 @@ export default {
   meta: {
     home: {
       title: `Providing Privacy, Security and Freedom | MaidSafe`,
-      desc: `MaidSafe developed the SAFE Network to provide privacy and security to everyone`
+      desc: `MaidSafe developed the SAFE Network to provide privacy and security to everyone`,
     },
     about: {
       title: `About Us | MaidSafe`,
-      desc: `Learn more about MaidSafe and their mission to provide privacy and security for everyone`
+      desc: `Learn more about MaidSafe and their mission to provide privacy and security for everyone`,
     },
     contact: {
       title: `Contact Us | MaidSafe`,
-      desc: `Contact the MaidSafe team at their Scottish HQ`
+      desc: `Contact the MaidSafe team at their Scottish HQ`,
     },
     career: {
       title: `Join the Team | MaidSafe`,
-      desc: `Interested in joining our diverse and growing team, either in Ayr or remotely?`
+      desc: `Interested in joining our diverse and growing team, either in Ayr or remotely?`,
     },
   },
   footer: {
     community: {
-      forum: 'https://safenetforum.org/',
-      twitter: 'https://twitter.com/maidsafe',
-      facebook: 'https://www.facebook.com/GetMaidSafe/',
-      medium: 'https://medium.com/safenetwork',
-      youTube: 'https://www.youtube.com/channel/UChDck5R_C9i6XTrS66tbwOw',
-      reddit: 'https://www.reddit.com/r/safenetwork/',
-      riot: 'https://riot.im/app/#/room/#safenetwork:matrix.org',
-      telegram: 'https://t.me/safenetwork',
-      discord: 'https://discord.com/invite/0ak6ESm4oAR3oXik'
+      forum: "https://safenetforum.org/",
+      twitter: "https://twitter.com/maidsafe",
+      discord: "https://discord.com/invite/DkVRc7MZsp",
     },
     legal: {
-      cookies: '/cookies',
-      disclaimer: '/disclaimer',
-      privacy: '/privacy',
-      credits: '/credits'
+      cookies: "/cookies",
+      disclaimer: "/disclaimer",
+      privacy: "/privacy",
+      credits: "/credits",
     },
-    creative_commons: 'https://creativecommons.org/licenses/by-sa/4.0/'
+    creative_commons: "https://creativecommons.org/licenses/by-sa/4.0/",
   },
   nav: {
-    CAREER: 'careers',
-    CONTACT: 'contact',
-    ABOUT: 'about'
-  }
-}
+    CAREER: "careers",
+    CONTACT: "contact",
+    ABOUT: "about",
+  },
+};
