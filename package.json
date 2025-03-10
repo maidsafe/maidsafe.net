@@ -14,6 +14,6 @@
     "react-router-dom": "^5.2.0",
     "react-static": "^7.4.2",
     "react-static-plugin-react-router": "^7.5.3",
-    "react-static-plugin-sass": "^7.3.0"
+    "react-static-plugin-sass": "^7.6.2"
   }
 }
